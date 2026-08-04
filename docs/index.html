@@ -95,21 +95,19 @@ header::before {
   gap: 12px 18px; padding: 10px 0; flex-wrap: nowrap;
   min-height: 44px;
 }
-.üst-sol { display: flex; align-items: center; gap: 10px; min-width: 0; flex: 1 1 auto; }
+.üst-sol { display: flex; align-items: flex-start; gap: 10px; min-width: 0; flex: 1 1 auto; }
 .üst-sağ {
   display: flex; align-items: center; justify-content: flex-end;
   gap: 8px; flex-wrap: wrap; flex: 0 1 auto;
 }
-.marka {
-  font-family: var(--font-d); font-weight: 700;
-  font-size: clamp(1.35rem, 2.8vw, 1.85rem); line-height: 1.05;
-  letter-spacing: 0.01em; color: #fff;
-  display: flex; align-items: center; gap: 10px;
-  text-shadow: 2px 2px 0 rgba(0,0,0,0.35);
-  white-space: nowrap;
+.marka-blok {
+  display: grid;
+  grid-template-columns: 18px 1fr;
+  column-gap: 10px; row-gap: 2px;
+  align-items: center; min-width: 0;
 }
-.marka::before {
-  content: ""; width: 18px; height: 18px; flex-shrink: 0;
+.marka-blok::before {
+  content: ""; width: 18px; height: 18px; grid-row: 1; grid-column: 1;
   background:
     linear-gradient(var(--accent-2), var(--accent-2)) 0 0 / 5px 5px no-repeat,
     linear-gradient(#ffe08a, #ffe08a) 5px 0 / 8px 5px no-repeat,
@@ -121,10 +119,22 @@ header::before {
   animation: bob 0.8s steps(2) infinite;
 }
 @keyframes bob { 50% { transform: translateY(2px); } }
+.marka {
+  grid-column: 2; grid-row: 1;
+  font-family: var(--font-d); font-weight: 700;
+  font-size: clamp(1.35rem, 2.8vw, 1.85rem); line-height: 1.05;
+  letter-spacing: 0.01em; color: #fff;
+  text-shadow: 2px 2px 0 rgba(0,0,0,0.35);
+  white-space: nowrap;
+}
 .marka-alt {
-  color: rgba(232,255,246,0.78); font-weight: 500; font-size: 12px;
-  font-family: var(--font-b); letter-spacing: 0; white-space: nowrap;
-  flex: 0 1 auto; min-width: 0;
+  grid-column: 2; grid-row: 2;
+  font-family: var(--font-d); font-weight: 600;
+  font-size: clamp(0.72rem, 1.55vw, 0.92rem); line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: rgba(232,255,246,0.82);
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.28);
+  min-width: 0;
 }
 .üst .bağlar { display: flex; gap: 5px; flex-wrap: nowrap; }
 .düğme {
@@ -297,7 +307,7 @@ footer p { margin: 0 0 6px; max-width: 72ch; }
   .üst-sol { flex: 1 1 100%; }
   .üst-sağ { flex: 1 1 100%; justify-content: flex-start; }
   .marka { font-size: 1.25rem; white-space: normal; }
-  .marka-alt { display: inline; max-width: none; white-space: normal; line-height: 1.25; }
+  .marka-alt { white-space: normal; }
   .üst .bağlar .bağ:not(.ana) { display: inline-block; }
   .giriş { padding: 4px 0 10px; }
   .giriş h1 { font-size: 1.05rem; max-width: none; }
@@ -305,7 +315,7 @@ footer p { margin: 0 0 6px; max-width: 72ch; }
   .kart { box-shadow: 3px 3px 0 var(--shadow); }
 }
 @media (prefers-reduced-motion: reduce) {
-  .kart, .marka::before, header::before { animation: none; }
+  .kart, .marka-blok::before, header::before { animation: none; }
   .bağ, .kart { transition: none; }
 }
 </style>
@@ -315,10 +325,12 @@ footer p { margin: 0 0 6px; max-width: 72ch; }
 <header>
   <div class="wrap üst">
     <div class="üst-sol">
-      <div class="marka">Game Education Atlas</div>
+      <div class="marka-blok">
+        <div class="marka">Game Education Atlas</div>
+        <div class="marka-alt" data-t="marka"></div>
+      </div>
     </div>
     <div class="üst-sağ">
-      <span class="marka-alt" data-t="marka"></span>
       <div class="bağlar">
         <a class="bağ ana" id="bag-pdf" href="https://github.com/gusanmaz/game-education-atlas/raw/main/catalogue/oyun-programlari.pdf" data-t="pdf"></a>
         <a class="bağ" id="bag-md" href="https://github.com/gusanmaz/game-education-atlas/blob/main/catalogue/OYUN-PROGRAMLARI.md" data-t="md"></a>
