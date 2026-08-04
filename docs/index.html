@@ -255,6 +255,11 @@ button.bağ { appearance: none; -webkit-appearance: none; }
   font-family: var(--font-d); font-size: 13px; font-weight: 600;
   color: var(--text-2); min-width: 7ch; text-align: center;
 }
+.sayfa-no {
+  font-family: var(--font-d); font-size: 14px; font-weight: 700;
+  color: var(--text-1); min-width: 5.5ch; text-align: center;
+  padding: 0 4px;
+}
 .kart {
   border: var(--px) solid var(--line); border-radius: 0;
   padding: 11px 12px; margin: 10px 0;
@@ -390,6 +395,11 @@ footer p:last-child { margin-bottom: 0; }
     max-height: 0; opacity: 0; margin-top: 0; pointer-events: none;
   }
   .süzgeç.gizle-filtre .sayaç { display: none; }
+  .sayfa-nav {
+    flex-wrap: nowrap; gap: 4px; padding: 10px 0 36px;
+  }
+  .sayfa-nav .düğme { font-size: 15px; padding: 6px 12px; }
+  .sayfa-nav .sayfa-bilgi { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
   .kart, .marka-blok::before, header::before { animation: none; }
@@ -715,19 +725,27 @@ function çiz() {
   }
   nav.hidden = false;
   const t = T();
-  const maxBtn = 7;
-  let from = Math.max(1, durum.sayfa - 3);
-  let to = Math.min(toplamSayfa, from + maxBtn - 1);
-  from = Math.max(1, to - maxBtn + 1);
-  let sayfalar = "";
-  for (let i = from; i <= to; i++) {
-    sayfalar += `<button type="button" class="düğme${i === durum.sayfa ? " açık" : ""}" data-sayfa="${i}">${i}</button>`;
+  const mobil = matchMedia("(max-width: 720px)").matches;
+  if (mobil) {
+    nav.innerHTML =
+      `<button type="button" class="düğme" data-sayfa="${durum.sayfa - 1}" ${durum.sayfa <= 1 ? "disabled" : ""} aria-label="${kaç(t.onceki)}">‹</button>` +
+      `<span class="sayfa-no">${durum.sayfa} / ${toplamSayfa}</span>` +
+      `<button type="button" class="düğme" data-sayfa="${durum.sayfa + 1}" ${durum.sayfa >= toplamSayfa ? "disabled" : ""} aria-label="${kaç(t.sonraki)}">›</button>`;
+  } else {
+    const maxBtn = 7;
+    let from = Math.max(1, durum.sayfa - 3);
+    let to = Math.min(toplamSayfa, from + maxBtn - 1);
+    from = Math.max(1, to - maxBtn + 1);
+    let sayfalar = "";
+    for (let i = from; i <= to; i++) {
+      sayfalar += `<button type="button" class="düğme${i === durum.sayfa ? " açık" : ""}" data-sayfa="${i}">${i}</button>`;
+    }
+    nav.innerHTML =
+      `<button type="button" class="düğme" data-sayfa="${durum.sayfa - 1}" ${durum.sayfa <= 1 ? "disabled" : ""}>${kaç(t.onceki)}</button>` +
+      sayfalar +
+      `<button type="button" class="düğme" data-sayfa="${durum.sayfa + 1}" ${durum.sayfa >= toplamSayfa ? "disabled" : ""}>${kaç(t.sonraki)}</button>` +
+      `<span class="sayfa-bilgi">${kaç(t.sayfaAralik(a, b, sonuç.length))}</span>`;
   }
-  nav.innerHTML =
-    `<button type="button" class="düğme" data-sayfa="${durum.sayfa - 1}" ${durum.sayfa <= 1 ? "disabled" : ""}>${kaç(t.onceki)}</button>` +
-    sayfalar +
-    `<button type="button" class="düğme" data-sayfa="${durum.sayfa + 1}" ${durum.sayfa >= toplamSayfa ? "disabled" : ""}>${kaç(t.sonraki)}</button>` +
-    `<span class="sayfa-bilgi">${kaç(t.sayfaAralik(a, b, sonuç.length))}</span>`;
 }
 
 function dilUygula() {
