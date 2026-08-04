@@ -317,34 +317,47 @@ details p { font-size: 13px; margin: 4px 0 0; }
 .sayfa-bağ { margin: 7px 0 0; font-size: 15px; font-weight: 700; font-family: var(--font-d); }
 .boş { text-align: center; padding: 40px 0; color: var(--text-2); font-family: var(--font-d); font-size: 15px; }
 
-.rehber {
-  padding: 10px 0 4px;
-  background: color-mix(in srgb, var(--surface-0) 88%, var(--surface-2));
-  border-bottom: var(--px) solid var(--line);
+.popup-örtü {
+  position: fixed; inset: 0; z-index: 40;
+  display: flex; align-items: center; justify-content: center;
+  padding: 16px;
+  background: rgba(6, 16, 24, 0.72);
+  backdrop-filter: blur(2px);
 }
-.rehber details {
-  background: var(--surface-1); border: var(--px) solid var(--line);
-  box-shadow: 3px 3px 0 var(--shadow); padding: 10px 14px 12px;
+.popup {
+  width: min(560px, 100%); max-height: min(80vh, 720px);
+  overflow: auto; background: var(--surface-1); color: var(--text-1);
+  border: var(--px) solid var(--line); box-shadow: 6px 6px 0 var(--shadow);
+  padding: 14px 16px 16px;
 }
-.rehber summary {
-  cursor: pointer; font-family: var(--font-d); font-weight: 700; font-size: 16px;
-  list-style: none; color: var(--text-1);
+.popup-üst {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 10px; margin-bottom: 10px;
+  border-bottom: 2px dashed var(--line-soft); padding-bottom: 8px;
 }
-.rehber summary::-webkit-details-marker { display: none; }
-.rehber summary::before { content: "+ "; color: var(--accent-2); }
-.rehber details[open] summary::before { content: "− "; }
-.rehber .rehber-gövde {
-  margin-top: 10px; font-size: 13px; line-height: 1.5; color: var(--text-2); max-width: 72ch;
+.popup-üst h2 {
+  margin: 0; font-family: var(--font-d); font-size: 17px; font-weight: 700;
+  line-height: 1.25; color: var(--text-1);
 }
-.rehber .rehber-gövde p { margin: 0 0 10px; }
-.rehber .rehber-gövde a { color: var(--accent); font-weight: 600; }
-.rehber-meta {
+.popup-kapat {
+  font-family: var(--font-d); font-size: 14px; font-weight: 700;
+  padding: 4px 10px; border: 2px solid var(--line); background: var(--surface-2);
+  color: var(--text-1); cursor: pointer; box-shadow: 2px 2px 0 var(--shadow);
+}
+.popup-kapat:hover { background: var(--accent-2); color: #1b2430; }
+.popup-gövde {
+  font-size: 13px; line-height: 1.5; color: var(--text-2);
+}
+.popup-gövde p { margin: 0 0 10px; }
+.popup-gövde a { color: var(--accent); font-weight: 600; }
+.popup-meta {
   margin-top: 12px; padding-top: 10px;
   border-top: 2px dashed var(--line-soft);
   font-family: var(--font-d); font-size: 13px; line-height: 1.45; color: var(--text-2);
 }
-.rehber-meta p { margin: 0 0 8px; max-width: 72ch; }
-.rehber-meta p:last-child { margin-bottom: 0; }
+.popup-meta p { margin: 0 0 8px; }
+.popup-meta p:last-child { margin-bottom: 0; }
+body.popup-açık { overflow: hidden; }
 
 footer {
   border-top: var(--px) solid var(--line); background: var(--surface-1);
@@ -397,7 +410,7 @@ footer p:last-child { margin-bottom: 0; }
         </div>
         <button class="düğme" id="tema" title="Light / dark" aria-label="Toggle light and dark theme">◐</button>
         <a class="bağ" href="https://github.com/gusanmaz/game-education-atlas/blob/main/CONTRIBUTING.md"><svg class="px-ico" viewBox="0 0 18 18" aria-hidden="true"><rect width="18" height="18" fill="#6f42c1"/><rect x="3" y="3" width="2" height="10" fill="#ffe08a"/><rect x="13" y="3" width="2" height="6" fill="#ffe08a"/><rect x="5" y="7" width="8" height="2" fill="#ffe08a"/><rect x="11" y="9" width="2" height="4" fill="#ffe08a"/><rect x="10" y="12" width="4" height="2" fill="#3dffe0"/></svg><span data-t="katki"></span></a>
-        <a class="bağ" id="bag-about" href="#rehber"><svg class="px-ico" viewBox="0 0 18 18" aria-hidden="true"><rect width="18" height="18" fill="#ffe08a"/><rect x="8" y="3" width="2" height="2" fill="#1b2430"/><rect x="8" y="7" width="2" height="6" fill="#1b2430"/><rect x="8" y="14" width="2" height="2" fill="#1b2430"/></svg><span data-t="about"></span></a>
+        <button type="button" class="bağ" id="bag-about"><svg class="px-ico" viewBox="0 0 18 18" aria-hidden="true"><rect width="18" height="18" fill="#ffe08a"/><rect x="8" y="3" width="2" height="2" fill="#1b2430"/><rect x="8" y="7" width="2" height="6" fill="#1b2430"/><rect x="8" y="14" width="2" height="2" fill="#1b2430"/></svg><span data-t="rehberBaslik"></span></button>
       </div>
     </div>
   </div>
@@ -409,24 +422,25 @@ footer p:last-child { margin-bottom: 0; }
   </section>
 </header>
 
-<section class="rehber" aria-label="About this catalogue">
-  <div class="wrap">
-    <details id="rehber">
-      <summary data-t="rehberBaslik"></summary>
-      <div class="rehber-gövde">
-        <p data-t="rehber0"></p>
-        <p data-t="rehber1"></p>
-        <p data-t="rehber2"></p>
-        <p data-t="rehber3"></p>
-        <div class="rehber-meta">
-          <p data-t="altbilgi1"></p>
-          <p data-t="altbilgi2"></p>
-          <p data-t="altbilgi3"></p>
-        </div>
+<div class="popup-örtü" id="about-popup" hidden>
+  <div class="popup" role="dialog" aria-modal="true" aria-labelledby="about-baslik">
+    <div class="popup-üst">
+      <h2 id="about-baslik" data-t="rehberBaslik"></h2>
+      <button type="button" class="popup-kapat" id="about-kapat" data-t="kapat"></button>
+    </div>
+    <div class="popup-gövde">
+      <p data-t="rehber0"></p>
+      <p data-t="rehber1"></p>
+      <p data-t="rehber2"></p>
+      <p data-t="rehber3"></p>
+      <div class="popup-meta">
+        <p data-t="altbilgi1"></p>
+        <p data-t="altbilgi2"></p>
+        <p data-t="altbilgi3"></p>
       </div>
-    </details>
+    </div>
   </div>
-</section>
+</div>
 
 <section class="süzgeç">
   <div class="wrap">
@@ -459,7 +473,7 @@ const METIN = {
     marka: "higher-education game programmes",
     baslik: "Where game development is taught, and by whom",
     ozet: "",
-    pdf: "PDF", md: "Markdown", repo: "GitHub", katki: "Contribute", about: "About",
+    pdf: "PDF", md: "Markdown", repo: "GitHub", katki: "Contribute", kapat: "Close",
     ara: "Search institution, city, course, professor, lab…",
     ulke: "Country", sinir: "Filter",
     hepsi: "All countries", sinirHepsi: "No filter",
@@ -489,7 +503,7 @@ const METIN = {
     marka: "yükseköğretimde oyun programları",
     baslik: "Oyun geliştirme nerede, kimler tarafından öğretiliyor",
     ozet: "",
-    pdf: "PDF", md: "Markdown", repo: "GitHub", katki: "Katkı ver", about: "Hakkında",
+    pdf: "PDF", md: "Markdown", repo: "GitHub", katki: "Katkı ver", kapat: "Kapat",
     ara: "Kurum, şehir, ders, hoca, laboratuvar ara…",
     ulke: "Ülke", sinir: "Süzgeç",
     hepsi: "Tüm ülkeler", sinirHepsi: "Süzgeç yok",
@@ -756,12 +770,27 @@ document.addEventListener("click", e => {
   }
 });
 
-$("#bag-about").addEventListener("click", e => {
-  e.preventDefault();
-  const d = $("#rehber");
-  if (!d) return;
-  d.open = true;
-  d.scrollIntoView({ behavior: "smooth", block: "start" });
+function aboutAç() {
+  const örtü = $("#about-popup");
+  if (!örtü) return;
+  örtü.hidden = false;
+  document.body.classList.add("popup-açık");
+  $("#about-kapat")?.focus();
+}
+function aboutKapat() {
+  const örtü = $("#about-popup");
+  if (!örtü) return;
+  örtü.hidden = true;
+  document.body.classList.remove("popup-açık");
+  $("#bag-about")?.focus();
+}
+$("#bag-about").addEventListener("click", aboutAç);
+$("#about-kapat").addEventListener("click", aboutKapat);
+$("#about-popup").addEventListener("click", e => {
+  if (e.target === $("#about-popup")) aboutKapat();
+});
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape" && !$("#about-popup").hidden) aboutKapat();
 });
 
 $("#tema").addEventListener("click", () => {
