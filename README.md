@@ -4,8 +4,8 @@
 *48 ülkede 249 yükseköğretim oyun programı — her kayıt kurumun kendi sitesinden doğrulandı.*
 
 🌐 **[Browse the atlas / Katalogu gez](https://gusanmaz.github.io/game-education-atlas/)** ·
-📄 **[PDF](catalogue/oyun-programlari.pdf)** ·
-📝 **[Markdown](catalogue/OYUN-PROGRAMLARI.md)** ·
+📄 **[PDF TR](catalogue/oyun-programlari.pdf)** · **[PDF EN](catalogue/game-programmes.pdf)** ·
+📝 **[Markdown TR](catalogue/OYUN-PROGRAMLARI.md)** · **[Markdown EN](catalogue/GAME-PROGRAMMES.md)** ·
 🤝 **[Contribute / Katkı ver](CONTRIBUTING.md)**
 
 ---

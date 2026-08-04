@@ -295,8 +295,8 @@ footer p { margin: 0 0 6px; max-width: 70ch; }
       <h1 data-t="baslik"></h1>
       <p data-t="ozet"></p>
       <div class="bağlar">
-        <a class="bağ ana" href="https://github.com/gusanmaz/game-education-atlas/raw/main/catalogue/oyun-programlari.pdf" data-t="pdf"></a>
-        <a class="bağ" href="https://github.com/gusanmaz/game-education-atlas/blob/main/catalogue/OYUN-PROGRAMLARI.md" data-t="md"></a>
+        <a class="bağ ana" id="bag-pdf" href="https://github.com/gusanmaz/game-education-atlas/raw/main/catalogue/oyun-programlari.pdf" data-t="pdf"></a>
+        <a class="bağ" id="bag-md" href="https://github.com/gusanmaz/game-education-atlas/blob/main/catalogue/OYUN-PROGRAMLARI.md" data-t="md"></a>
         <a class="bağ" href="https://github.com/gusanmaz/game-education-atlas" data-t="repo"></a>
         <a class="bağ" href="https://github.com/gusanmaz/game-education-atlas/blob/main/CONTRIBUTING.md" data-t="katki"></a>
       </div>
@@ -447,8 +447,23 @@ function çipler() {
     `</select>`;
 }
 
+function alan(p, trKey, enKey) {
+  if (dil === "en") return p[enKey] || p[trKey] || "";
+  return p[trKey] || "";
+}
+
 function kart(p) {
   const t = T();
+  const sehir = alan(p, "sehir", "sehirEN");
+  const program = alan(p, "program", "programEN");
+  const derece = alan(p, "derece", "dereceEN");
+  const egitimDili = alan(p, "dil", "dilEN");
+  const ucret = alan(p, "ucret", "ucretEN");
+  const myo = alan(p, "myo", "myoEN");
+  const not = alan(p, "not", "notEN");
+  const hocaNot = alan(p, "hocaNot", "hocaNotEN");
+  const dersList = dil === "en" ? (p.derslerEN || p.dersler || []) : (p.dersler || []);
+
   const rozet = [];
   if (p.odak === "Yuksek" || p.odak === "Orta") {
     const [tr, en] = p.odak === "Yuksek" ? ["oyun bölümü", "game programme"]
@@ -459,24 +474,29 @@ function kart(p) {
   if (p.ingilizce) rozet.push(`<span class="rozet dil">${kaç(t.ingilizce)}</span>`);
 
   const meta = [];
-  if (p.derece) meta.push(`<span><b>${kaç(t.kDerece)}</b>${kaç(p.derece)}</span>`);
+  if (derece) meta.push(`<span><b>${kaç(t.kDerece)}</b>${kaç(derece)}</span>`);
   if (p.sure) meta.push(`<span><b>${kaç(t.kSure)}</b>${p.sure} ${kaç(t.yil)}</span>`);
   if (p.ects) meta.push(`<span><b>${kaç(t.kEcts)}</b>${p.ects}${p.ectsNot ? ` <em>${kaç(t.bologna)}</em>` : ""}</span>`);
-  if (p.dil) meta.push(`<span><b>${kaç(t.kDil)}</b>${kaç(p.dil)}</span>`);
-  if (p.ucret) meta.push(`<span><b>${kaç(t.kUcret)}</b>${kaç(p.ucret)}</span>`);
-  if (p.myo) meta.push(`<span><b>${kaç(t.kMyo)}</b>${kaç(p.myo)}</span>`);
+  if (egitimDili) meta.push(`<span><b>${kaç(t.kDil)}</b>${kaç(egitimDili)}</span>`);
+  if (ucret) meta.push(`<span><b>${kaç(t.kUcret)}</b>${kaç(ucret)}</span>`);
+  if (myo) meta.push(`<span><b>${kaç(t.kMyo)}</b>${kaç(myo)}</span>`);
 
   const katla = (baslik, içerik) =>
     içerik ? `<details><summary>${kaç(baslik)}</summary>${içerik}</details>` : "";
 
-  const dersler = p.dersler.length
-    ? `<ul>${p.dersler.map(d => `<li>${kaç(d)}</li>`).join("")}</ul>` : "";
+  const dersler = dersList.length
+    ? `<ul>${dersList.map(d => `<li>${kaç(d)}</li>`).join("")}</ul>` : "";
   const lab = p.lab.length
-    ? `<ul>${p.lab.map(l => `<li>${l.url ? `<a href="${kaç(l.url)}" target="_blank" rel="noopener">${kaç(l.ad)}</a>` : kaç(l.ad)}</li>`).join("")}</ul>` : "";
+    ? `<ul>${p.lab.map(l => {
+        const ad = dil === "en" ? (l.adEN || l.ad) : l.ad;
+        return `<li>${l.url ? `<a href="${kaç(l.url)}" target="_blank" rel="noopener">${kaç(ad)}</a>` : kaç(ad)}</li>`;
+      }).join("")}</ul>` : "";
   const hoca = p.hoca.length
     ? `<ul>${p.hoca.map(h => {
         const ad = h.url ? `<a href="${kaç(h.url)}" target="_blank" rel="noopener">${kaç(h.ad)}</a>` : kaç(h.ad);
-        const ek = [h.unvan, h.alan].filter(Boolean).map(kaç).join(" — ");
+        const unvan = dil === "en" ? (h.unvanEN || h.unvan) : h.unvan;
+        const alanH = dil === "en" ? (h.alanEN || h.alan) : h.alan;
+        const ek = [unvan, alanH].filter(Boolean).map(kaç).join(" — ");
         return `<li class="kişi"><b>${ad}</b>${ek ? ` <em>— ${ek}</em>` : ""}</li>`;
       }).join("")}</ul>` : "";
 
@@ -488,16 +508,16 @@ function kart(p) {
   return `<article class="${sınıflar.join(" ")}">
     <div class="kart-üst">
       <h2>${kaç(p.kurum)}</h2>
-      <div class="yer">${kaç(p.sehir)}${p.sehir ? " · " : ""}${bayrak(p.ulke)}${kaç(ulkeAdi(p))}</div>
+      <div class="yer">${kaç(sehir)}${sehir ? " · " : ""}${bayrak(p.ulke)}${kaç(ulkeAdi(p))}</div>
     </div>
     ${rozet.length ? `<div class="rozetler">${rozet.join("")}</div>` : ""}
-    ${p.program ? `<div class="prog">${kaç(p.program)}</div>` : ""}
+    ${program ? `<div class="prog">${kaç(program)}</div>` : ""}
     ${meta.length ? `<div class="meta">${meta.join("")}</div>` : ""}
     ${katla(t.dersler, dersler)}
     ${katla(t.lab, lab)}
     ${katla(t.hoca, hoca)}
-    ${!p.hoca.length && p.hocaNot ? `<details><summary>${kaç(t.kadro)}</summary><p>${kaç(p.hocaNot)}</p></details>` : ""}
-    ${p["not"] ? `<p class="açıklama">${kaç(p["not"])}</p>` : ""}
+    ${!p.hoca.length && hocaNot ? `<details><summary>${kaç(t.kadro)}</summary><p>${kaç(hocaNot)}</p></details>` : ""}
+    ${not ? `<p class="açıklama">${kaç(not)}</p>` : ""}
     ${p.url ? `<p class="sayfa-bağ"><a href="${kaç(p.url)}" target="_blank" rel="noopener">${kaç(t.sayfa)} →</a></p>` : ""}
     ${p.kaynaklar.length ? `<p class="kaynak">${kaç(t.kaynak)}: ${p.kaynaklar.map(k => `<a href="${kaç(k)}" target="_blank" rel="noopener">${kaç(k)}</a>`).join(" · ")}</p>` : ""}
   </article>`;
@@ -516,8 +536,8 @@ function dilUygula() {
   document.documentElement.lang = dil;
   document.documentElement.dataset.lang = dil;
   const ulkeN = new Set(P.map(p => p.ulke)).size;
-  METIN.en.ozet = `A catalogue of higher-education programmes in game development, game design and game art — ${P.length} programmes across ${ulkeN} countries. Every record was verified from the institution's own website; the sources are listed under each entry. Programme details are written in Turkish.`;
-  METIN.tr.ozet = `Oyun geliştirme, oyun tasarımı ve oyun sanatı alanında yükseköğretim programları kataloğu — ${ulkeN} ülkede ${P.length} program. Her kayıt kurumun kendi sitesinden doğrulandı; kaynaklar her kaydın altında listeleniyor.`;
+  METIN.en.ozet = `A catalogue of higher-education programmes in game development, game design and game art — ${P.length} programmes across ${ulkeN} countries. Every record was verified from the institution's own website; sources are listed under each entry. Switch language anytime — UI and programme details are available in English and Turkish.`;
+  METIN.tr.ozet = `Oyun geliştirme, oyun tasarımı ve oyun sanatı alanında yükseköğretim programları kataloğu — ${ulkeN} ülkede ${P.length} program. Her kayıt kurumun kendi sitesinden doğrulandı; kaynaklar her kaydın altında. Dil değiştirince arayüz ve program ayrıntıları İngilizce / Türkçe görünür.`;
   document.querySelectorAll("[data-t]").forEach(e => {
     const v = T()[e.dataset.t];
     if (typeof v === "string") e.textContent = v;
@@ -528,6 +548,13 @@ function dilUygula() {
   document.title = dil === "tr"
     ? `Oyun Eğitimi Atlası — ${ulkeN} ülkede ${P.length} yükseköğretim oyun programı`
     : `Game Education Atlas — ${P.length} higher-education game programmes across ${ulkeN} countries`;
+  const pdf = $("#bag-pdf"), md = $("#bag-md");
+  if (pdf) pdf.href = dil === "en"
+    ? "https://github.com/gusanmaz/game-education-atlas/raw/main/catalogue/game-programmes.pdf"
+    : "https://github.com/gusanmaz/game-education-atlas/raw/main/catalogue/oyun-programlari.pdf";
+  if (md) md.href = dil === "en"
+    ? "https://github.com/gusanmaz/game-education-atlas/blob/main/catalogue/GAME-PROGRAMMES.md"
+    : "https://github.com/gusanmaz/game-education-atlas/blob/main/catalogue/OYUN-PROGRAMLARI.md";
   çipler(); çiz();
 }
 

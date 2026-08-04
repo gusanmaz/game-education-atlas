@@ -18,19 +18,19 @@ Toplam **249 program** · **48 ülke**. Ülke adına tıklayınca ilgili bölüm
 | --- | --- | --- |
 | [ABD](#abd) · **32** | [Almanya](#almanya) · **18** | [Avustralya](#avustralya) · **5** |
 | [Avusturya](#avusturya) · **3** | [Azerbaycan](#azerbaycan) · **3** | [BAE](#bae) · **4** |
-| [Bahreyn](#bahreyn) · **1** | [Belcika](#belcika) · **4** | [Birlesik Krallik](#birlesik-krallik) · **7** |
-| [Cek Cumhuriyeti](#cek-cumhuriyeti) · **4** | [Cin](#cin) · **8** | [Danimarka](#danimarka) · **5** |
+| [Bahreyn](#bahreyn) · **1** | [Belçika](#belcika) · **4** | [Birleşik Krallık](#birlesik-krallik) · **7** |
+| [Çek Cumhuriyeti](#cek-cumhuriyeti) · **4** | [Çin](#cin) · **8** | [Danimarka](#danimarka) · **5** |
 | [Ermenistan](#ermenistan) · **1** | [Estonya](#estonya) · **2** | [Finlandiya](#finlandiya) · **10** |
-| [Fransa](#fransa) · **6** | [Guney Kore](#guney-kore) · **3** | [Hirvatistan](#hirvatistan) · **1** |
-| [Hollanda](#hollanda) · **9** | [Hong Kong](#hong-kong) · **4** | [Irlanda](#irlanda) · **3** |
-| [Ispanya](#ispanya) · **9** | [Israil](#israil) · **1** | [Isvec](#isvec) · **9** |
-| [Isvicre](#isvicre) · **2** | [Italya](#italya) · **8** | [Izlanda](#izlanda) · **2** |
+| [Fransa](#fransa) · **6** | [Güney Kore](#guney-kore) · **3** | [Hırvatistan](#hirvatistan) · **1** |
+| [Hollanda](#hollanda) · **9** | [Hong Kong](#hong-kong) · **4** | [İrlanda](#irlanda) · **3** |
+| [İspanya](#ispanya) · **9** | [İsrail](#israil) · **1** | [İsveç](#isvec) · **9** |
+| [İsviçre](#isvicre) · **2** | [İtalya](#italya) · **8** | [İzlanda](#izlanda) · **2** |
 | [Japonya](#japonya) · **13** | [Kanada](#kanada) · **8** | [Katar](#katar) · **3** |
 | [Letonya](#letonya) · **2** | [Litvanya](#litvanya) · **4** | [Macaristan](#macaristan) · **1** |
-| [Malta](#malta) · **1** | [Norvec](#norvec) · **4** | [Polonya](#polonya) · **5** |
+| [Malta](#malta) · **1** | [Norveç](#norvec) · **4** | [Polonya](#polonya) · **5** |
 | [Portekiz](#portekiz) · **4** | [Romanya](#romanya) · **2** | [Rusya](#rusya) · **9** |
 | [Singapur](#singapur) · **4** | [Slovenya](#slovenya) · **1** | [Suudi Arabistan](#suudi-arabistan) · **3** |
-| [Tayvan](#tayvan) · **1** | [Turkiye](#turkiye) · **10** | [Ukrayna](#ukrayna) · **5** |
+| [Tayvan](#tayvan) · **1** | [Türkiye](#turkiye) · **10** | [Ukrayna](#ukrayna) · **5** |
 | [Umman](#umman) · **2** | [Yeni Zelanda](#yeni-zelanda) · **2** | [Yunanistan](#yunanistan) · **1** |
 
 - [Kısa döngü / ön lisans kurumları](#kısa-dongu-on-lisans-duzeyindeki-kurumlar)
