@@ -1,7 +1,7 @@
 # Game Education Atlas · Oyun Eğitimi Atlası
 
-**254 higher-education game programmes across 48 countries — every record verified from the institution's own website.**
-*48 ülkede 254 yükseköğretim oyun programı — her kayıt kurumun kendi sitesinden doğrulandı.*
+**264 higher-education game programmes across 50 countries — every record verified from the institution's own website.**
+*50 ülkede 264 yükseköğretim oyun programı — her kayıt kurumun kendi sitesinden doğrulandı.*
 
 🌐 **[Browse the atlas / Katalogu gez](https://gusanmaz.github.io/game-education-atlas/)** ·
 📄 **[PDF TR](catalogue/oyun-programlari.pdf)** · **[PDF EN](catalogue/game-programmes.pdf)** ·
@@ -26,7 +26,8 @@ candidates, never as the source of a claim. Where a fact could not be verified, 
 rather than guessing. Where an institution does not publish its teaching staff, the record explains
 that instead of leaving a blank.
 
-**Scope.** Europe · United Kingdom · Türkiye · United States · Canada · Australia · New Zealand ·
+**Scope.** Europe (incl. South Cyprus / Republic of Cyprus and Northern Cyprus, listed separately) ·
+United Kingdom · Türkiye · United States · Canada · Australia · New Zealand ·
 Japan · China · South Korea · Singapore · Hong Kong · Taiwan · Israel · Gulf states (UAE, Saudi
 Arabia, Qatar, Bahrain, Oman) · Russia · Ukraine · Caucasus (Azerbaijan, Armenia). The Türkiye
 section is complete — it is generated directly from the Turkish Higher Education Council's 2026
