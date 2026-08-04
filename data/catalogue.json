@@ -7968,6 +7968,707 @@
         "https://www.erasmushogeschool.be/en/programmes/multimedia-and-creative-technology",
         "https://www.erasmushogeschool.be/en/programmes/multimedia-and-communication-technology-multec"
       ]
+    },
+    {
+      "kurum": "Osaka Electro-Communication University (OECU)",
+      "sehir": "Osaka (Shijonawate / Neyagawa)",
+      "ulke": "Japonya",
+      "oyun_odagi": "Yuksek",
+      "program": "Department of Digital Games — Digital Games / Games and Media / Games for Social Design",
+      "derece": "Bachelor",
+      "sure_yil": 4,
+      "dil": "Japonca",
+      "ucret": "Ozel universite — osakac.ac.jp den teyit edilmeli",
+      "dersler": [
+        "Oyun programlama",
+        "Oyun tasarimi",
+        "Medya ve oyun",
+        "Toplumsal tasarim icin oyunlar"
+      ],
+      "notlar": "Japonyanin en erken adanmis universite oyun bolumlerinden (2003). Endustri ogretim uyeleri; TGS/BitSummit katilimi; JIAMS uretim tesisleri.",
+      "url": "https://www.osakac.ac.jp/en/faculty/isa/",
+      "kaynaklar": [
+        "https://www.osakac.ac.jp/en/faculty/isa/",
+        "https://www.osakac.ac.jp/special/game/"
+      ],
+      "kurum_id": 1204,
+      "kayit_id": "1204-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Japan Electronics College (Nihon Denshi Senmon Gakko)",
+      "sehir": "Tokyo (Shinjuku)",
+      "ulke": "Japonya",
+      "oyun_odagi": "Yuksek",
+      "program": "Game Production Department — Game Production / Game Planning / Advanced Game Production",
+      "derece": "Senmon gakko diplomasi (2-4 yil; 4 yilda koudo senmon-shi)",
+      "sure_yil": 3,
+      "dil": "Japonca",
+      "ucret": "Ozel senmon gakko — jec.ac.jp den teyit edilmeli",
+      "dersler": [
+        "Oyun uretimi",
+        "Oyun planlama",
+        "Ileri oyun uretimi arastirmasi"
+      ],
+      "notlar": "Japonyanin ilk adanmis oyun-uretim bolumunu kurdugu iddiasini tasiyan senmon gakko. Uzun TGS sergileyicisi; Nintendo/Capcom istihdam rotasi.",
+      "url": "https://www.jec.ac.jp/course/game/ci/",
+      "kaynaklar": [
+        "https://www.jec.ac.jp/course/game/ci/",
+        "https://www.jec.ac.jp/course/game/cz/"
+      ],
+      "myo_duzeyi": "Senmon gakko diplomasi",
+      "kurum_id": 1205,
+      "kayit_id": "1205-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "International Professional University of Technology (IPUT)",
+      "sehir": "Tokyo / Osaka / Nagoya",
+      "ulke": "Japonya",
+      "oyun_odagi": "Yuksek",
+      "program": "Department of Digital Entertainment — Game Production Course",
+      "derece": "Bachelor (Professional) — dijital eglence lisans (senmonshoku)",
+      "sure_yil": 4,
+      "dil": "Japonca",
+      "ucret": "Ozel profesyonel universite — iput.ac.jp den teyit edilmeli",
+      "dersler": [
+        "Oyun uretimi",
+        "AI ve IP",
+        "Uzun sureli sektor staji"
+      ],
+      "notlar": "MEXT profesyonel universite modeli; zorunlu cok haftalik sirket stajlari; uretimle birlikte AI/IP/is egitimi.",
+      "url": "https://www.iput.ac.jp/faculty/enta_game/",
+      "kaynaklar": [
+        "https://www.iput.ac.jp/faculty/enta_game/",
+        "https://www.iput.ac.jp/tokyo/english/"
+      ],
+      "kurum_id": 1206,
+      "kayit_id": "1206-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Shobi University",
+      "sehir": "Kawagoe (Saitama)",
+      "ulke": "Japonya",
+      "oyun_odagi": "Yuksek",
+      "program": "Department of Information Expression — Game Creation Course",
+      "derece": "Bachelor",
+      "sure_yil": 4,
+      "dil": "Japonca",
+      "ucret": "Ozel universite — shobi-u.ac.jp den teyit edilmeli",
+      "dersler": [
+        "Oyun planlama",
+        "Karakter tasarimi",
+        "Oyun sesi",
+        "AR/VR"
+      ],
+      "notlar": "Information Expression bolumu icinde adanmis Game Creation Course; planlama, karakter, ses ve AR/VR.",
+      "url": "https://www.shobi-u.ac.jp/en/dept/info/",
+      "kaynaklar": [
+        "https://www.shobi-u.ac.jp/en/dept/info/",
+        "https://www.shobi-u.ac.jp/gamecreation/"
+      ],
+      "kurum_id": 1207,
+      "kayit_id": "1207-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Takarazuka University — School of Media Arts Tokyo",
+      "sehir": "Tokyo (Shinjuku)",
+      "ulke": "Japonya",
+      "oyun_odagi": "Yuksek",
+      "program": "Game field (ゲーム分野) within Media Arts Department",
+      "derece": "Bachelor",
+      "sure_yil": 4,
+      "dil": "Japonca",
+      "ucret": "Ozel universite — takara-univ.ac.jp den teyit edilmeli",
+      "dersler": [
+        "Oyun planlama",
+        "CG",
+        "Programlama",
+        "Ses",
+        "Gamification / UX"
+      ],
+      "notlar": "Tokyo Media Arts Fakultesi icinde isimli oyun alani; dort yillik planlama/CG/programlama/ses hatti.",
+      "url": "https://www.takara-univ.ac.jp/tokyo/academics/area/game/",
+      "kaynaklar": [
+        "https://www.takara-univ.ac.jp/tokyo/academics/area/game/"
+      ],
+      "kurum_id": 1208,
+      "kayit_id": "1208-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Osaka Institute of Technology (OIT)",
+      "sehir": "Hirakata (Osaka)",
+      "ulke": "Japonya",
+      "oyun_odagi": "Yuksek",
+      "program": "Faculty of Information Science — Game Science Course (ゲームサイエンスコース)",
+      "derece": "Bachelor",
+      "sure_yil": 4,
+      "dil": "Japonca",
+      "ucret": "Ozel universite — oit.ac.jp den teyit edilmeli",
+      "dersler": [
+        "Oyun bilimi",
+        "Oyun laboratuvari",
+        "DX Field"
+      ],
+      "notlar": "Nisan 2026'da baslayan yeni kurs (kontenjan 100). Capcom IP is birligi; Information Science fakultesi icinde oyun bilim hatti.",
+      "url": "https://www.oit.ac.jp/academic/is/game-science/",
+      "kaynaklar": [
+        "https://www.oit.ac.jp/academic/is/game-science/"
+      ],
+      "kurum_id": 1209,
+      "kayit_id": "1209-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Osaka Amusement Media College (AMG Osaka)",
+      "sehir": "Osaka (Yodogawa)",
+      "ulke": "Japonya",
+      "oyun_odagi": "Yuksek",
+      "program": "Game Department (2 yil) / Game Comprehensive Department (4 yil, 2027'den)",
+      "derece": "Senmon gakko diplomasi",
+      "sure_yil": 2,
+      "dil": "Japonca",
+      "ucret": "Ozel senmon gakko — amg.ac.jp den teyit edilmeli",
+      "dersler": [
+        "Oyun uretimi",
+        "Ileri oyun egitimi"
+      ],
+      "notlar": "Prefektur onayli senmon gakko (AMG Tokyo'nun kardesi). 2 yillik Game Department; 2027'den itibaren 4 yillik Game Comprehensive hatti.",
+      "url": "https://www.amg.ac.jp/game-sogo/",
+      "kaynaklar": [
+        "https://www.amg.ac.jp/game-sogo/",
+        "https://www.amg.ac.jp/game-advanced-4year/"
+      ],
+      "myo_duzeyi": "Senmon gakko diplomasi",
+      "kurum_id": 1210,
+      "kayit_id": "1210-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Communication University of China (CUC) — School of Animation and Digital Arts",
+      "sehir": "Beijing",
+      "ulke": "Cin",
+      "oyun_odagi": "Yuksek",
+      "program": "Digital Media Technology (Game Design Technology) / Animation (Game Art) / Game Art Design (游戏艺术设计)",
+      "derece": "Bachelor (+ Interactive Media and Game Design master's)",
+      "sure_yil": 4,
+      "dil": "Cince (uluslararasi ogrenciler icin tipik olarak HSK gerekir)",
+      "ucret": "Devlet universitesi — cuc.edu.cn / icuc.cuc.edu.cn den teyit edilmeli",
+      "dersler": [
+        "Oyun tasarim teknolojisi",
+        "Oyun sanati",
+        "Dijital eglence",
+        "Motorlar / CG / HCI / VR"
+      ],
+      "notlar": "Cinin en derin oyun/espor akademi kumesi. MoE 2025 ilk parti Game Art Design ana dali onayli. Lisanslar Cince; Ingilizce tam lisans nadir.",
+      "url": "https://animation.cuc.edu.cn/_upload/tpl/02/54/596/template596/programmes.html",
+      "kaynaklar": [
+        "https://animation.cuc.edu.cn/_upload/tpl/02/54/596/template596/programmes.html",
+        "https://animation.cuc.edu.cn/_upload/tpl/02/7a/634/template634/programmes-2/undergraduate/digital-media-technology-game-design-technology-direction.html",
+        "https://zhaosheng.cuc.edu.cn/2025/1021/c5842a261285/pagem.htm"
+      ],
+      "kurum_id": 1211,
+      "kayit_id": "1211-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Beijing Film Academy (BFA) — School of Digital Media",
+      "sehir": "Beijing",
+      "ulke": "Cin",
+      "oyun_odagi": "Yuksek",
+      "program": "Digital Media Art (interactive / virtual entertainment) + MoE-approved Game Art Design",
+      "derece": "Bachelor",
+      "sure_yil": 4,
+      "dil": "Cince",
+      "ucret": "Devlet sanat akademisi — bfa.edu.cn den teyit edilmeli",
+      "dersler": [
+        "Etkilesimli medya",
+        "Sanal eglence",
+        "Oyun motorlari",
+        "Dijital medya sanati"
+      ],
+      "notlar": "Ulusal birinci sinif Digital Media Art programi; Game Art Design MoE ilk parti onayinda. Adanmis Game Art Design sayfasi henuz ince — Digital Media Art ana yayin hattı.",
+      "url": "https://zs.bfa.edu.cn/tgpdf/bfa2024yslzsjz.pdf",
+      "kaynaklar": [
+        "https://zs.bfa.edu.cn/tgpdf/bfa2024yslzsjz.pdf",
+        "https://zs.bfa.edu.cn/tgpdf/bfa2026yslzsjz.pdf"
+      ],
+      "kurum_id": 1212,
+      "kayit_id": "1212-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "China Academy of Art (CAA) — School of Animation and Games",
+      "sehir": "Hangzhou",
+      "ulke": "Cin",
+      "oyun_odagi": "Yuksek",
+      "program": "Game Art Design / Interactive Media & Games",
+      "derece": "Bachelor",
+      "sure_yil": 4,
+      "dil": "Cince",
+      "ucret": "Devlet sanat akademisi — caa.edu.cn den teyit edilmeli",
+      "dersler": [
+        "Oyun sanati",
+        "Etkilesimli medya",
+        "Animasyon ve oyun"
+      ],
+      "notlar": "Cinin onde gelen sanat akademilerinden. Interactive Media & Games yaklasik 2005'ten; Game Art Design yeni MoE onayli. NetEase/Tencent/Epic baglantilari.",
+      "url": "https://www.caa.edu.cn/xy/jxjg/dhyyxxy.htm",
+      "kaynaklar": [
+        "https://www.caa.edu.cn/xy/jxjg/dhyyxxy.htm",
+        "https://www.caa.edu.cn/info/1718/1824412.htm"
+      ],
+      "kurum_id": 1213,
+      "kayit_id": "1213-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Zhejiang University (ZJU) — College of Computer Science and Technology",
+      "sehir": "Hangzhou",
+      "ulke": "Cin",
+      "oyun_odagi": "Orta",
+      "program": "Digital Media Technology (computer game programming / CG / VR track)",
+      "derece": "Bachelor (Engineering)",
+      "sure_yil": 4,
+      "dil": "Cince (bazi CS dersleri Ingilizce kaynakli)",
+      "ucret": "Devlet universitesi — zju.edu.cn den teyit edilmeli",
+      "dersler": [
+        "Bilgisayar oyun programlama",
+        "Bilgisayar grafikleri",
+        "Animasyon",
+        "VR / dijital eglence"
+      ],
+      "notlar": "C9 duzeyinde guclu muhendislik/teknoloji hatti. Ayri 'Game Design' BA degil; Digital Media Technology icinde oyun programlama ve dijital eglence.",
+      "url": "https://ugrs.zju.edu.cn/_upload/article/files/eb/cc/f1b24e16485e903a9b4e68955c12/21abcc33-d1e0-47fe-bc67-cd76dc9d2d7e.pdf",
+      "kaynaklar": [
+        "https://ugrs.zju.edu.cn/_upload/article/files/eb/cc/f1b24e16485e903a9b4e68955c12/21abcc33-d1e0-47fe-bc67-cd76dc9d2d7e.pdf"
+      ],
+      "kurum_id": 1214,
+      "kayit_id": "1214-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Tsinghua University Shenzhen International Graduate School (SIGS)",
+      "sehir": "Shenzhen",
+      "ulke": "Cin",
+      "oyun_odagi": "Yuksek",
+      "program": "Electronic Information — Interactive Media Design and Technology (IMDT)",
+      "derece": "Master (professional)",
+      "sure_yil": 2,
+      "dil": "Cince + Ingilizce yeterlilik beklenir",
+      "ucret": "Devlet yuksek lisans — sigs.tsinghua.edu.cn den teyit edilmeli",
+      "dersler": [
+        "Etkilesimli medya",
+        "Oyun tasarimi / produksiyon",
+        "Endustri mentorlugu"
+      ],
+      "notlar": "Tsinghua Shenzhen + Tencent Games ortakligi; oyun tasarimci/produktor hedefli profesyonel yuksek lisans; cift okul-endustri mentor modeli.",
+      "url": "https://www.sigs.tsinghua.edu.cn/2020/0922/c1053a20868/page.htm",
+      "kaynaklar": [
+        "https://www.sigs.tsinghua.edu.cn/2020/0922/c1053a20868/page.htm"
+      ],
+      "kurum_id": 1215,
+      "kayit_id": "1215-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Beijing Normal–Hong Kong Baptist University (BNBU)",
+      "sehir": "Zhuhai",
+      "ulke": "Cin",
+      "oyun_odagi": "Yuksek",
+      "program": "Bachelor of Creative Arts (Hons) in Game Design",
+      "derece": "Bachelor (Hons)",
+      "sure_yil": 4,
+      "dil": "Ingilizce",
+      "ucret": "Sino-yabanci universite — scc.bnbu.edu.cn / admissions den teyit edilmeli",
+      "dersler": [
+        "Oyun tasarimi",
+        "Yaratici sanatlar",
+        "HKBU derece yolu"
+      ],
+      "notlar": "Anakara Cinde dogrulanmis nadir TAMAMEN INGILIZCE oyun tasarimi lisansi. Eski ad UIC; HKBU derece yolu.",
+      "url": "https://scc.bnbu.edu.cn/gd_en/index.htm",
+      "kaynaklar": [
+        "https://scc.bnbu.edu.cn/gd_en/index.htm",
+        "https://scc.bnbu.edu.cn/gd/index.htm"
+      ],
+      "kurum_id": 1216,
+      "kayit_id": "1216-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Shandong University of Art & Design (SDADA)",
+      "sehir": "Jinan",
+      "ulke": "Cin",
+      "oyun_odagi": "Yuksek",
+      "program": "Game Art Design (游戏艺术设计)",
+      "derece": "Bachelor (BA Art)",
+      "sure_yil": 4,
+      "dil": "Cince",
+      "ucret": "Devlet sanat universitesi — sdada.edu.cn den teyit edilmeli",
+      "dersler": [
+        "Oyun sanati",
+        "Dijital medya sanati"
+      ],
+      "notlar": "MoE ilk parti Game Art Design ev sahibi; Digital Media Art (Game Art Design direction) uzerinden evrildi.",
+      "url": "https://zs.sdada.edu.cn/zyjd1/szysycmxy/yxyssj.htm",
+      "kaynaklar": [
+        "https://zs.sdada.edu.cn/zyjd1/szysycmxy/yxyssj.htm",
+        "https://www.sdada.edu.cn/info/1013/100483.htm"
+      ],
+      "kurum_id": 1217,
+      "kayit_id": "1217-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Jilin Animation Institute (JAI) — School of Game",
+      "sehir": "Changchun",
+      "ulke": "Cin",
+      "oyun_odagi": "Yuksek",
+      "program": "School of Game — Digital Media Art / Software Engineering / game cluster",
+      "derece": "Bachelor",
+      "sure_yil": 4,
+      "dil": "Cince",
+      "ucret": "Ozel uygulamali universite — jlai.edu.cn den teyit edilmeli",
+      "dersler": [
+        "Dijital medya sanati",
+        "Oyun yazilimi",
+        "Yeni medya teknolojisi"
+      ],
+      "notlar": "Cinin buyuk uygulamali oyun-yetistirme tabanlarindan; School of Game 2009'dan beri. Ozel/uygulamali universite.",
+      "url": "https://www.jlai.edu.cn/jgsz/jxdwei/yxxy.htm",
+      "kaynaklar": [
+        "https://www.jlai.edu.cn/jgsz/jxdwei/yxxy.htm",
+        "https://yx.jlai.edu.cn/"
+      ],
+      "kurum_id": 1218,
+      "kayit_id": "1218-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "SAE University College Dubai",
+      "sehir": "Dubai",
+      "ulke": "BAE",
+      "oyun_odagi": "Yuksek",
+      "program": "Bachelor of Games Development (Games Design / Games Programming)",
+      "derece": "Bachelor",
+      "sure_yil": 3,
+      "dil": "Ingilizce",
+      "ucret": "Ozel — dubai.sae.edu den teyit edilmeli",
+      "dersler": [
+        "Oyun tasarimi",
+        "Oyun programlama",
+        "Oyun uretimi"
+      ],
+      "notlar": "Avustralya lisans yolu; tasarim ve programlama uzmanliklari; KHDA/MOHESR lisansli kampus.",
+      "url": "https://dubai.sae.edu/courses/games/bachelor-of-games-development/",
+      "kaynaklar": [
+        "https://dubai.sae.edu/courses/games/bachelor-of-games-development/"
+      ],
+      "kurum_id": 1219,
+      "kayit_id": "1219-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "American University in Dubai (AUD)",
+      "sehir": "Dubai",
+      "ulke": "BAE",
+      "oyun_odagi": "Yuksek",
+      "program": "Bachelor of Science in Game Design and Development",
+      "derece": "Bachelor of Science",
+      "sure_yil": 4,
+      "dil": "Ingilizce",
+      "ucret": "Ozel universite — aud.edu den teyit edilmeli",
+      "dersler": [
+        "Oyun tasarimi",
+        "Oyun gelistirme",
+        "Design ve Development konsantrasyonlari"
+      ],
+      "notlar": "Adanmis BS; mufredat USC School of Cinematic Arts ile kurulmus. Mohammed Bin Rashid School for Communication bunyesinde.",
+      "url": "https://www.aud.edu/aud-school/mohammed-bin-rashid-school-for-communication/programs/bachelor-of-science-in-game-design-and-development/",
+      "kaynaklar": [
+        "https://www.aud.edu/aud-school/mohammed-bin-rashid-school-for-communication/programs/bachelor-of-science-in-game-design-and-development/"
+      ],
+      "kurum_id": 1220,
+      "kayit_id": "1220-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Abu Dhabi University",
+      "sehir": "Abu Dhabi",
+      "ulke": "BAE",
+      "oyun_odagi": "Yuksek",
+      "program": "Bachelor of Arts in Video Game Design",
+      "derece": "Bachelor of Arts",
+      "sure_yil": 4,
+      "dil": "Ingilizce",
+      "ucret": "Ozel universite — adu.ac.ae den teyit edilmeli",
+      "dersler": [
+        "Oyun tasarimi",
+        "Unity / Unreal / Adobe",
+        "Yaratici uretim"
+      ],
+      "notlar": "Yaratici oyun-tasarimi BA; Rubika (Fransa) baglantisi; yaklasik 121 kredi / 4 yil. Ayrica BS IT icinde Game Development concentration yayinlaniyor.",
+      "url": "https://www.adu.ac.ae/study/colleges/college-of-arts-education-and-social-sciences/ProgramDetail/bachelor-of-arts-in-video-game-design",
+      "kaynaklar": [
+        "https://www.adu.ac.ae/study/colleges/college-of-arts-education-and-social-sciences/ProgramDetail/bachelor-of-arts-in-video-game-design",
+        "https://cdn.adu.ac.ae/images-container/docs/default-source/handbooks/ug-handbook.pdf"
+      ],
+      "kurum_id": 1221,
+      "kayit_id": "1221-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Heriot-Watt University Dubai",
+      "sehir": "Dubai",
+      "ulke": "BAE",
+      "oyun_odagi": "Yuksek",
+      "program": "BSc (Hons) Computer Systems (Computer Games Programming)",
+      "derece": "Bachelor (Hons)",
+      "sure_yil": 4,
+      "dil": "Ingilizce",
+      "ucret": "UK kampus ucreti — hw.ac.uk/dubai den teyit edilmeli",
+      "dersler": [
+        "Bilgisayar sistemleri",
+        "Oyun programlama",
+        "4. yil oyun uzmanligi"
+      ],
+      "notlar": "UK derecesi Dubai'de veriliyor; 1-3. yillar Computer Systems ortak, 4. yil games-programming specialism.",
+      "url": "https://www.hw.ac.uk/dubai/study/undergraduate/computer-systems-games-programming",
+      "kaynaklar": [
+        "https://www.hw.ac.uk/dubai/study/undergraduate/computer-systems-games-programming"
+      ],
+      "kurum_id": 1222,
+      "kayit_id": "1222-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Dar Al-Hekma University",
+      "sehir": "Jeddah",
+      "ulke": "Suudi Arabistan",
+      "oyun_odagi": "Yuksek",
+      "program": "Bachelor of Science in Computer Science — Game Development Track",
+      "derece": "Bachelor of Science (track)",
+      "sure_yil": 4,
+      "dil": "Ingilizce",
+      "ucret": "Ozel universite — dah.edu.sa den teyit edilmeli",
+      "dersler": [
+        "Computer Games Design & Development",
+        "Mobile & Casual Games",
+        "Educational & Serious Game Design"
+      ],
+      "notlar": "Acik CS game-development track; ciddi/egitsel oyun tasarimi da kapsaniyor.",
+      "url": "https://www.dah.edu.sa/en/academics/hsec/programs/Pages/Game-Development-Bachelor-Track.aspx",
+      "kaynaklar": [
+        "https://www.dah.edu.sa/en/academics/hsec/programs/Pages/Game-Development-Bachelor-Track.aspx"
+      ],
+      "kurum_id": 1223,
+      "kayit_id": "1223-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Effat University",
+      "sehir": "Jeddah",
+      "ulke": "Suudi Arabistan",
+      "oyun_odagi": "Yuksek",
+      "program": "Bachelor of Science in Computer Science — Game Development Concentration",
+      "derece": "Bachelor of Science (concentration)",
+      "sure_yil": 4,
+      "dil": "Ingilizce",
+      "ucret": "Ozel universite — effatuniversity.edu.sa den teyit edilmeli",
+      "dersler": [
+        "Oyun tasarimi/gelistirme",
+        "Oyun motorlari",
+        "Oyun icin programlama",
+        "Ileri oyun gelistirme"
+      ],
+      "notlar": "Isimli GD concentration; College of Engineering CS programi icinde.",
+      "url": "https://www.effatuniversity.edu.sa/English/Academics/Undergraduate/CoE/Pages/cs.aspx",
+      "kaynaklar": [
+        "https://www.effatuniversity.edu.sa/English/Academics/Undergraduate/CoE/Pages/cs.aspx"
+      ],
+      "kurum_id": 1224,
+      "kayit_id": "1224-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Saudi Electronic University (SEU)",
+      "sehir": "Riyadh (cok kampuslu / blended)",
+      "ulke": "Suudi Arabistan",
+      "oyun_odagi": "Yuksek",
+      "program": "Bachelor of Science in Computer Science — Game Development Track",
+      "derece": "Bachelor of Science (track)",
+      "sure_yil": 4,
+      "dil": "Ingilizce (CS majorda Ingilizce dil sarti)",
+      "ucret": "Devlet elektronik universite — seu.edu.sa den teyit edilmeli",
+      "dersler": [
+        "Game Architecture & Design",
+        "2D/3D Game Programming",
+        "Game AI"
+      ],
+      "notlar": "Blended/cok kampuslu devlet universitesi; CS yapisi icinde yayinlanmis oyun track secmeli dersleri.",
+      "url": "https://seu.edu.sa/en/programs/bachelor-of-computer-science/structure/",
+      "kaynaklar": [
+        "https://seu.edu.sa/en/programs/bachelor-of-computer-science/structure/"
+      ],
+      "kurum_id": 1225,
+      "kayit_id": "1225-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "VCUarts Qatar (Virginia Commonwealth University School of the Arts in Qatar)",
+      "sehir": "Doha (Education City)",
+      "ulke": "Katar",
+      "oyun_odagi": "Yuksek",
+      "program": "BFA in Kinetic Imaging — Concentration in Interaction and Game Design",
+      "derece": "Bachelor of Fine Arts",
+      "sure_yil": 4,
+      "dil": "Ingilizce",
+      "ucret": "Education City / VCUarts Qatar — qatar.vcu.edu den teyit edilmeli",
+      "dersler": [
+        "Etkilesim ve oyun tasarimi",
+        "Sanal etkilesimli dunyalar",
+        "Emergent systems"
+      ],
+      "notlar": "Sanat/tasarim agirlikli oyun ve etkilesim konsantrasyonu; VCU ABD derecesi Katar kampusunda.",
+      "url": "https://qatar.vcu.edu/academics/undergraduate-programs/kinetic-imaging/",
+      "kaynaklar": [
+        "https://qatar.vcu.edu/academics/undergraduate-programs/kinetic-imaging/",
+        "https://bulletin.vcu.edu/undergraduate/arts/school-arts-qatar/kinetic-imaging-bfa-conc-interaction-game-design/"
+      ],
+      "kurum_id": 1226,
+      "kayit_id": "1226-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "City University Qatar (Ulster University programmes)",
+      "sehir": "Doha",
+      "ulke": "Katar",
+      "oyun_odagi": "Yuksek",
+      "program": "BSc (Hons) Game Design and Development",
+      "derece": "Bachelor (Hons)",
+      "sure_yil": 3,
+      "dil": "Ingilizce",
+      "ucret": "Ozel — cuq-ulster.edu.qa den teyit edilmeli",
+      "dersler": [
+        "Oyun tasarimi",
+        "Oyun gelistirme",
+        "Motorlar",
+        "Opsiyonel placement yili"
+      ],
+      "notlar": "Adanmis UK Hons oyun derecesi; Ulster University programi Katar'da.",
+      "url": "https://cuq-ulster.edu.qa/programmes/undergraduate-degrees/bsc-hons-game-design-and-development/",
+      "kaynaklar": [
+        "https://cuq-ulster.edu.qa/programmes/undergraduate-degrees/bsc-hons-game-design-and-development/"
+      ],
+      "kurum_id": 1227,
+      "kayit_id": "1227-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Lusail University",
+      "sehir": "Lusail",
+      "ulke": "Katar",
+      "oyun_odagi": "Yuksek",
+      "program": "Bachelor of Science in Information Technology — Digital Game Design and Development",
+      "derece": "Bachelor of Science (major)",
+      "sure_yil": 4,
+      "dil": "Ingilizce",
+      "ucret": "Ozel universite — lu.edu.qa den teyit edilmeli",
+      "dersler": [
+        "Oyun tasarimi/gelistirme",
+        "Programlama",
+        "Grafikler",
+        "Oyun AI",
+        "UX"
+      ],
+      "notlar": "IT fakultesi icinde isimli Digital Game Design and Development major; 120 kredi.",
+      "url": "https://lu.edu.qa/coitm3.php",
+      "kaynaklar": [
+        "https://lu.edu.qa/coitm3.php",
+        "https://lu.edu.qa/coit.php"
+      ],
+      "kurum_id": 1228,
+      "kayit_id": "1228-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Euro University of Bahrain",
+      "sehir": "Manama",
+      "ulke": "Bahreyn",
+      "oyun_odagi": "Yuksek",
+      "program": "BSc in Computer Science (Games Development)",
+      "derece": "Bachelor of Science",
+      "sure_yil": 3,
+      "dil": "Ingilizce",
+      "ucret": "Ozel — eub.edu.bh den teyit edilmeli",
+      "dersler": [
+        "Unity",
+        "Unreal",
+        "C#",
+        "Son sinif Games Development modulu"
+      ],
+      "notlar": "University of London / Goldsmiths akademik yonlendirmesi; CS icinde games development hatti.",
+      "url": "https://eub.edu.bh/programme/bsc-in-computer-science-games-development/",
+      "kaynaklar": [
+        "https://eub.edu.bh/programme/bsc-in-computer-science-games-development/"
+      ],
+      "kurum_id": 1229,
+      "kayit_id": "1229-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Modern College of Business and Science (MCBS)",
+      "sehir": "Muscat",
+      "ulke": "Umman",
+      "oyun_odagi": "Yuksek",
+      "program": "BS Game Development and Animation",
+      "derece": "Bachelor of Science",
+      "sure_yil": 4,
+      "dil": "Ingilizce",
+      "ucret": "Ozel kolej — mcbs.edu.om den teyit edilmeli",
+      "dersler": [
+        "Oyun tasarimi/programlama",
+        "Animasyon",
+        "VR/AR",
+        "Oyun AI"
+      ],
+      "notlar": "Bagimsiz BS Game Development and Animation; Umman'da net adanmis oyun lisansi.",
+      "url": "https://www.mcbs.edu.om/academics/undegraduate-programs/bs-game-development-and-animation/",
+      "kaynaklar": [
+        "https://www.mcbs.edu.om/academics/undegraduate-programs/bs-game-development-and-animation/"
+      ],
+      "kurum_id": 1230,
+      "kayit_id": "1230-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "University of Technology and Applied Sciences (UTAS)",
+      "sehir": "Muscat",
+      "ulke": "Umman",
+      "oyun_odagi": "Orta",
+      "program": "Bachelor of Arts in Design — Major: Multimedia Design (Game Design I & II)",
+      "derece": "Bachelor of Arts",
+      "sure_yil": 4,
+      "dil": "Ingilizce",
+      "ucret": "Devlet uygulamali universite — utas.edu.om den teyit edilmeli",
+      "dersler": [
+        "Game Design I",
+        "Game Design II",
+        "Multimedia tasarim",
+        "Unity / Unreal"
+      ],
+      "notlar": "Baslik 'Game Design' degil ama mufredatta Game Design I/II (Unity/Unreal) yayinlaniyor; oyun-sanati kariyer ciktilari listeleniyor.",
+      "url": "https://www.utas.edu.om/cci/programs/design/multimedia-design",
+      "kaynaklar": [
+        "https://www.utas.edu.om/cci/programs/design/multimedia-design"
+      ],
+      "kurum_id": 1231,
+      "kayit_id": "1231-1",
+      "durum": "dogrulandi"
     }
   ]
 }

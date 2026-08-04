@@ -1,12 +1,12 @@
 # Oyun geliştirme programları — uluslararası katalog
 
-**203 program · 38 ülke** · detayı tamamlanan: 203/203
+**231 program · 44 ülke** · detayı tamamlanan: 231/231
 
-Alan doluluğu: derece %100 · dil %100 · ücret %100 · dersler %100 · araştırma labı %43 · öğretim üyesi ismen %48 (+ %18 kurum isim yayınlamıyor, gerekçesi kayıtta)
+Alan doluluğu: derece %100 · dil %100 · ücret %100 · dersler %100 · araştırma labı %38 · öğretim üyesi ismen %42 (+ %16 kurum isim yayınlamıyor, gerekçesi kayıtta)
 
 Dünya genelinde oyun geliştirme, oyun tasarımı ve oyun sanatı eğitimi veren yükseköğretim kurumlarının kataloğu. Her kayıt kurumun **kendi resmî sitesinden** teyit edilmiştir; kaynak bağlantıları kayıtların altında yer alır.
 
-Kapsam: Avrupa · Birleşik Krallık · Türkiye · ABD · Kanada · Avustralya · Yeni Zelanda · Japonya · Güney Kore · Singapur · Hong Kong · Tayvan · İsrail. Türkiye bölümü YÖK kılavuzunun tamamını kapsar; diğer ülkelerde kurumlar tek tek doğrulanarak eklenir.
+Kapsam: Avrupa · Birleşik Krallık · Türkiye · ABD · Kanada · Avustralya · Yeni Zelanda · Japonya · Çin · Güney Kore · Singapur · Hong Kong · Tayvan · İsrail · Körfez ülkeleri (BAE, Suudi Arabistan, Katar, Bahreyn, Umman). Türkiye bölümü YÖK kılavuzunun tamamını kapsar; diğer ülkelerde kurumlar tek tek doğrulanarak eklenir.
 
 **Alanların okunuşu.** *(Bologna normundan)* etiketli ECTS değerleri kurumun sayfasından değil, Avrupa Yükseköğretim Alanı'nın tam zamanlı yılda 60 ECTS kuralından türetilmiştir. *(tek bir değer geçerli değil)* ders düzeyi, değişim programı ya da çok kademeli yapıları gösterir. ECTS yalnızca Bologna ülkelerinde basılır; Fransız RNCP unvanları, İsveç YH diploması, Alman Fachschule gibi niteliklerde ECTS tanımlı olmadığı için ayrıca belirtilir.
 
@@ -16,9 +16,12 @@ Kapsam: Avrupa · Birleşik Krallık · Türkiye · ABD · Kanada · Avustralya 
 - [Almanya](#almanya) (18)
 - [Avustralya](#avustralya) (5)
 - [Avusturya](#avusturya) (3)
+- [BAE](#bae) (4)
+- [Bahreyn](#bahreyn) (1)
 - [Belcika](#belcika) (4)
 - [Birlesik Krallik](#birlesik-krallik) (7)
 - [Cek Cumhuriyeti](#cek-cumhuriyeti) (4)
+- [Cin](#cin) (8)
 - [Danimarka](#danimarka) (5)
 - [Estonya](#estonya) (2)
 - [Finlandiya](#finlandiya) (10)
@@ -34,8 +37,9 @@ Kapsam: Avrupa · Birleşik Krallık · Türkiye · ABD · Kanada · Avustralya 
 - [Isvicre](#isvicre) (2)
 - [Italya](#italya) (8)
 - [Izlanda](#izlanda) (2)
-- [Japonya](#japonya) (6)
+- [Japonya](#japonya) (13)
 - [Kanada](#kanada) (8)
+- [Katar](#katar) (3)
 - [Letonya](#letonya) (2)
 - [Litvanya](#litvanya) (4)
 - [Macaristan](#macaristan) (1)
@@ -46,14 +50,16 @@ Kapsam: Avrupa · Birleşik Krallık · Türkiye · ABD · Kanada · Avustralya 
 - [Romanya](#romanya) (2)
 - [Singapur](#singapur) (4)
 - [Slovenya](#slovenya) (1)
+- [Suudi Arabistan](#suudi-arabistan) (3)
 - [Tayvan](#tayvan) (1)
 - [Turkiye](#turkiye) (10)
+- [Umman](#umman) (2)
 - [Yeni Zelanda](#yeni-zelanda) (2)
 - [Yunanistan](#yunanistan) (1)
 
 ## Kısa döngü / ön lisans düzeyindeki kurumlar
 
-Katalogdaki **29 kurum**, oyun eğitimini lisans değil **kısa döngü yükseköğretim** düzeyinde veriyor (EQF 5 ve dengi: ön lisans, associate degree, CTeSP, YH, polytechnic diploma, senmon gakkō vb.). Bu düzey uluslararası listelerde sıkça eksik kalır; burada ayrı işaretlenmiştir.
+Katalogdaki **31 kurum**, oyun eğitimini lisans değil **kısa döngü yükseköğretim** düzeyinde veriyor (EQF 5 ve dengi: ön lisans, associate degree, CTeSP, YH, polytechnic diploma, senmon gakkō vb.). Bu düzey uluslararası listelerde sıkça eksik kalır; burada ayrı işaretlenmiştir.
 
 | Kurum | Ülke | Derece |
 | --- | --- | --- |
@@ -72,7 +78,9 @@ Katalogdaki **29 kurum**, oyun eğitimini lisans değil **kısa döngü yüksek�
 | Futuregames | Isvec | YH (Yrkeshogskola) diplomasi |
 | Reykjavik Academy of Digital Entertainment (RADE) — Taekniskolinn | Izlanda | Iki yillik universite duzeyi diploma + lisansa yukseltme hatti |
 | HAL College of Technology & Design (HAL Tokyo / Osaka / Nagoya) | Japonya | Diploma (2 yil, junior college duzeyi) |
+| Japan Electronics College (Nihon Denshi Senmon Gakko) | Japonya | Senmon gakko diplomasi |
 | Nihon Kogakuin Creators College | Japonya | Senmon gakko diplomasi |
+| Osaka Amusement Media College (AMG Osaka) | Japonya | Senmon gakko diplomasi |
 | Algonquin College | Kanada | Ontario College Advanced Diploma |
 | Centennial College | Kanada | Ontario College Advanced Diploma |
 | Vancouver Film School (VFS) | Kanada | VFS Diploma (1 yil yogun) |
@@ -1579,6 +1587,107 @@ Katalogdaki **29 kurum**, oyun eğitimini lisans değil **kısa döngü yüksek�
 
 ---
 
+## BAE
+
+### Abu Dhabi University — Abu Dhabi
+
+**Bachelor of Arts in Video Game Design**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor of Arts
+- **Süre:** 4 yıl
+- **Eğitim dili:** Ingilizce
+- **Ücret:** Ozel universite — adu.ac.ae den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun tasarimi
+  - Unity / Unreal / Adobe
+  - Yaratici uretim
+
+> Yaratici oyun-tasarimi BA; Rubika (Fransa) baglantisi; yaklasik 121 kredi / 4 yil. Ayrica BS IT icinde Game Development concentration yayinlaniyor.
+
+[Program sayfası](https://www.adu.ac.ae/study/colleges/college-of-arts-education-and-social-sciences/ProgramDetail/bachelor-of-arts-in-video-game-design)
+
+**Doğrulama kaynakları:** <https://cdn.adu.ac.ae/images-container/docs/default-source/handbooks/ug-handbook.pdf>
+
+### American University in Dubai (AUD) — Dubai
+
+**Bachelor of Science in Game Design and Development**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor of Science
+- **Süre:** 4 yıl
+- **Eğitim dili:** Ingilizce
+- **Ücret:** Ozel universite — aud.edu den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun tasarimi
+  - Oyun gelistirme
+  - Design ve Development konsantrasyonlari
+
+> Adanmis BS; mufredat USC School of Cinematic Arts ile kurulmus. Mohammed Bin Rashid School for Communication bunyesinde.
+
+[Program sayfası](https://www.aud.edu/aud-school/mohammed-bin-rashid-school-for-communication/programs/bachelor-of-science-in-game-design-and-development/)
+
+### Heriot-Watt University Dubai — Dubai
+
+**BSc (Hons) Computer Systems (Computer Games Programming)**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor (Hons)
+- **Süre:** 4 yıl
+- **Eğitim dili:** Ingilizce
+- **Ücret:** UK kampus ucreti — hw.ac.uk/dubai den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Bilgisayar sistemleri
+  - Oyun programlama
+  - 4. yil oyun uzmanligi
+
+> UK derecesi Dubai'de veriliyor; 1-3. yillar Computer Systems ortak, 4. yil games-programming specialism.
+
+[Program sayfası](https://www.hw.ac.uk/dubai/study/undergraduate/computer-systems-games-programming)
+
+### SAE University College Dubai — Dubai
+
+**Bachelor of Games Development (Games Design / Games Programming)**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor
+- **Süre:** 3 yıl
+- **Eğitim dili:** Ingilizce
+- **Ücret:** Ozel — dubai.sae.edu den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun tasarimi
+  - Oyun programlama
+  - Oyun uretimi
+
+> Avustralya lisans yolu; tasarim ve programlama uzmanliklari; KHDA/MOHESR lisansli kampus.
+
+[Program sayfası](https://dubai.sae.edu/courses/games/bachelor-of-games-development/)
+
+---
+
+## Bahreyn
+
+### Euro University of Bahrain — Manama
+
+**BSc in Computer Science (Games Development)**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor of Science
+- **Süre:** 3 yıl
+- **Eğitim dili:** Ingilizce
+- **Ücret:** Ozel — eub.edu.bh den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Unity
+  - Unreal
+  - C#
+  - Son sinif Games Development modulu
+
+> University of London / Goldsmiths akademik yonlendirmesi; CS icinde games development hatti.
+
+[Program sayfası](https://eub.edu.bh/programme/bsc-in-computer-science-games-development/)
+
+---
+
 ## Belcika
 
 > **Öğrenim ücreti (ülke kuralı):** Devlet destekli kurumlarda AB/AEA vatandaşları için yıllık harç Avrupa ölçeğinde düşüktür; AB dışı öğrenciler daha yüksek ücret öder. Değişim öğrencileri ücret ödemez.
@@ -2013,6 +2122,168 @@ Katalogdaki **29 kurum**, oyun eğitimini lisans değil **kısa döngü yüksek�
 > No dedicated game programme; animation and interactive arts studio present. English-taught programme offer is limited. Stronger Czech game options include Charles University MFF, BUT Game Media Studio and Masaryk Visual Informatics.
 
 [Program sayfası](https://www.international.zcu.cz/en/Full_Time_Student/study_in_english.html)
+
+---
+
+## Cin
+
+### Beijing Film Academy (BFA) — School of Digital Media — Beijing
+
+**Digital Media Art (interactive / virtual entertainment) + MoE-approved Game Art Design**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor
+- **Süre:** 4 yıl
+- **Eğitim dili:** Cince
+- **Ücret:** Devlet sanat akademisi — bfa.edu.cn den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Etkilesimli medya
+  - Sanal eglence
+  - Oyun motorlari
+  - Dijital medya sanati
+
+> Ulusal birinci sinif Digital Media Art programi; Game Art Design MoE ilk parti onayinda. Adanmis Game Art Design sayfasi henuz ince — Digital Media Art ana yayin hattı.
+
+[Program sayfası](https://zs.bfa.edu.cn/tgpdf/bfa2024yslzsjz.pdf)
+
+**Doğrulama kaynakları:** <https://zs.bfa.edu.cn/tgpdf/bfa2026yslzsjz.pdf>
+
+### Beijing Normal–Hong Kong Baptist University (BNBU) — Zhuhai
+
+**Bachelor of Creative Arts (Hons) in Game Design**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor (Hons)
+- **Süre:** 4 yıl
+- **Eğitim dili:** Ingilizce
+- **Ücret:** Sino-yabanci universite — scc.bnbu.edu.cn / admissions den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun tasarimi
+  - Yaratici sanatlar
+  - HKBU derece yolu
+
+> Anakara Cinde dogrulanmis nadir TAMAMEN INGILIZCE oyun tasarimi lisansi. Eski ad UIC; HKBU derece yolu.
+
+[Program sayfası](https://scc.bnbu.edu.cn/gd_en/index.htm)
+
+**Doğrulama kaynakları:** <https://scc.bnbu.edu.cn/gd/index.htm>
+
+### China Academy of Art (CAA) — School of Animation and Games — Hangzhou
+
+**Game Art Design / Interactive Media & Games**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor
+- **Süre:** 4 yıl
+- **Eğitim dili:** Cince
+- **Ücret:** Devlet sanat akademisi — caa.edu.cn den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun sanati
+  - Etkilesimli medya
+  - Animasyon ve oyun
+
+> Cinin onde gelen sanat akademilerinden. Interactive Media & Games yaklasik 2005'ten; Game Art Design yeni MoE onayli. NetEase/Tencent/Epic baglantilari.
+
+[Program sayfası](https://www.caa.edu.cn/xy/jxjg/dhyyxxy.htm)
+
+**Doğrulama kaynakları:** <https://www.caa.edu.cn/info/1718/1824412.htm>
+
+### Communication University of China (CUC) — School of Animation and Digital Arts — Beijing
+
+**Digital Media Technology (Game Design Technology) / Animation (Game Art) / Game Art Design (游戏艺术设计)**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor (+ Interactive Media and Game Design master's)
+- **Süre:** 4 yıl
+- **Eğitim dili:** Cince (uluslararasi ogrenciler icin tipik olarak HSK gerekir)
+- **Ücret:** Devlet universitesi — cuc.edu.cn / icuc.cuc.edu.cn den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun tasarim teknolojisi
+  - Oyun sanati
+  - Dijital eglence
+  - Motorlar / CG / HCI / VR
+
+> Cinin en derin oyun/espor akademi kumesi. MoE 2025 ilk parti Game Art Design ana dali onayli. Lisanslar Cince; Ingilizce tam lisans nadir.
+
+[Program sayfası](https://animation.cuc.edu.cn/_upload/tpl/02/54/596/template596/programmes.html)
+
+**Doğrulama kaynakları:** <https://animation.cuc.edu.cn/_upload/tpl/02/7a/634/template634/programmes-2/undergraduate/digital-media-technology-game-design-technology-direction.html> · <https://zhaosheng.cuc.edu.cn/2025/1021/c5842a261285/pagem.htm>
+
+### Jilin Animation Institute (JAI) — School of Game — Changchun
+
+**School of Game — Digital Media Art / Software Engineering / game cluster**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor
+- **Süre:** 4 yıl
+- **Eğitim dili:** Cince
+- **Ücret:** Ozel uygulamali universite — jlai.edu.cn den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Dijital medya sanati
+  - Oyun yazilimi
+  - Yeni medya teknolojisi
+
+> Cinin buyuk uygulamali oyun-yetistirme tabanlarindan; School of Game 2009'dan beri. Ozel/uygulamali universite.
+
+[Program sayfası](https://www.jlai.edu.cn/jgsz/jxdwei/yxxy.htm)
+
+**Doğrulama kaynakları:** <https://yx.jlai.edu.cn/>
+
+### Shandong University of Art & Design (SDADA) — Jinan
+
+**Game Art Design (游戏艺术设计)**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor (BA Art)
+- **Süre:** 4 yıl
+- **Eğitim dili:** Cince
+- **Ücret:** Devlet sanat universitesi — sdada.edu.cn den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun sanati
+  - Dijital medya sanati
+
+> MoE ilk parti Game Art Design ev sahibi; Digital Media Art (Game Art Design direction) uzerinden evrildi.
+
+[Program sayfası](https://zs.sdada.edu.cn/zyjd1/szysycmxy/yxyssj.htm)
+
+**Doğrulama kaynakları:** <https://www.sdada.edu.cn/info/1013/100483.htm>
+
+### Tsinghua University Shenzhen International Graduate School (SIGS) — Shenzhen
+
+**Electronic Information — Interactive Media Design and Technology (IMDT)**  ·  _oyun bölümü_
+
+- **Derece:** Master (professional)
+- **Süre:** 2 yıl
+- **Eğitim dili:** Cince + Ingilizce yeterlilik beklenir
+- **Ücret:** Devlet yuksek lisans — sigs.tsinghua.edu.cn den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Etkilesimli medya
+  - Oyun tasarimi / produksiyon
+  - Endustri mentorlugu
+
+> Tsinghua Shenzhen + Tencent Games ortakligi; oyun tasarimci/produktor hedefli profesyonel yuksek lisans; cift okul-endustri mentor modeli.
+
+[Program sayfası](https://www.sigs.tsinghua.edu.cn/2020/0922/c1053a20868/page.htm)
+
+### Zhejiang University (ZJU) — College of Computer Science and Technology — Hangzhou
+
+**Digital Media Technology (computer game programming / CG / VR track)**  ·  _oyun dersleri_
+
+- **Derece:** Bachelor (Engineering)
+- **Süre:** 4 yıl
+- **Eğitim dili:** Cince (bazi CS dersleri Ingilizce kaynakli)
+- **Ücret:** Devlet universitesi — zju.edu.cn den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Bilgisayar oyun programlama
+  - Bilgisayar grafikleri
+  - Animasyon
+  - VR / dijital eglence
+
+> C9 duzeyinde guclu muhendislik/teknoloji hatti. Ayri 'Game Design' BA degil; Digital Media Technology icinde oyun programlama ve dijital eglence.
+
+[Program sayfası](https://ugrs.zju.edu.cn/_upload/article/files/eb/cc/f1b24e16485e903a9b4e68955c12/21abcc33-d1e0-47fe-bc67-cd76dc9d2d7e.pdf)
 
 ---
 
@@ -3981,6 +4252,46 @@ Katalogdaki **29 kurum**, oyun eğitimini lisans değil **kısa döngü yüksek�
 
 **Doğrulama kaynakları:** <https://studyinjpn.com/en/school/index/5814/HAL%E6%9D%B1%E4%BA%AC>
 
+### International Professional University of Technology (IPUT) — Tokyo / Osaka / Nagoya
+
+**Department of Digital Entertainment — Game Production Course**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor (Professional) — dijital eglence lisans (senmonshoku)
+- **Süre:** 4 yıl
+- **Eğitim dili:** Japonca
+- **Ücret:** Ozel profesyonel universite — iput.ac.jp den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun uretimi
+  - AI ve IP
+  - Uzun sureli sektor staji
+
+> MEXT profesyonel universite modeli; zorunlu cok haftalik sirket stajlari; uretimle birlikte AI/IP/is egitimi.
+
+[Program sayfası](https://www.iput.ac.jp/faculty/enta_game/)
+
+**Doğrulama kaynakları:** <https://www.iput.ac.jp/tokyo/english/>
+
+### Japan Electronics College (Nihon Denshi Senmon Gakko) — Tokyo (Shinjuku)
+
+**Game Production Department — Game Production / Game Planning / Advanced Game Production**  ·  _oyun bölümü_
+
+- **Derece:** Senmon gakko diplomasi (2-4 yil; 4 yilda koudo senmon-shi)
+- **Süre:** 3 yıl
+- **Eğitim dili:** Japonca
+- **Ücret:** Ozel senmon gakko — jec.ac.jp den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun uretimi
+  - Oyun planlama
+  - Ileri oyun uretimi arastirmasi
+
+> Japonyanin ilk adanmis oyun-uretim bolumunu kurdugu iddiasini tasiyan senmon gakko. Uzun TGS sergileyicisi; Nintendo/Capcom istihdam rotasi.
+
+[Program sayfası](https://www.jec.ac.jp/course/game/ci/)
+
+**Doğrulama kaynakları:** <https://www.jec.ac.jp/course/game/cz/>
+
 ### Kyoto Seika University — Kyoto
 
 **Manga, animasyon ve dijital yaratim programlari (oyun ile ilgili dersler)**  ·  _oyun dersleri_
@@ -4019,6 +4330,64 @@ Katalogdaki **29 kurum**, oyun eğitimini lisans değil **kısa döngü yüksek�
 
 **Doğrulama kaynakları:** <http://ncie.neec.ac.jp/en/creators/>
 
+### Osaka Amusement Media College (AMG Osaka) — Osaka (Yodogawa)
+
+**Game Department (2 yil) / Game Comprehensive Department (4 yil, 2027'den)**  ·  _oyun bölümü_
+
+- **Derece:** Senmon gakko diplomasi
+- **Süre:** 2 yıl
+- **Eğitim dili:** Japonca
+- **Ücret:** Ozel senmon gakko — amg.ac.jp den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun uretimi
+  - Ileri oyun egitimi
+
+> Prefektur onayli senmon gakko (AMG Tokyo'nun kardesi). 2 yillik Game Department; 2027'den itibaren 4 yillik Game Comprehensive hatti.
+
+[Program sayfası](https://www.amg.ac.jp/game-sogo/)
+
+**Doğrulama kaynakları:** <https://www.amg.ac.jp/game-advanced-4year/>
+
+### Osaka Electro-Communication University (OECU) — Osaka (Shijonawate / Neyagawa)
+
+**Department of Digital Games — Digital Games / Games and Media / Games for Social Design**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor
+- **Süre:** 4 yıl
+- **Eğitim dili:** Japonca
+- **Ücret:** Ozel universite — osakac.ac.jp den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun programlama
+  - Oyun tasarimi
+  - Medya ve oyun
+  - Toplumsal tasarim icin oyunlar
+
+> Japonyanin en erken adanmis universite oyun bolumlerinden (2003). Endustri ogretim uyeleri; TGS/BitSummit katilimi; JIAMS uretim tesisleri.
+
+[Program sayfası](https://www.osakac.ac.jp/en/faculty/isa/)
+
+**Doğrulama kaynakları:** <https://www.osakac.ac.jp/special/game/>
+
+### Osaka Institute of Technology (OIT) — Hirakata (Osaka)
+
+**Faculty of Information Science — Game Science Course (ゲームサイエンスコース)**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor
+- **Süre:** 4 yıl
+- **Eğitim dili:** Japonca
+- **Ücret:** Ozel universite — oit.ac.jp den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun bilimi
+  - Oyun laboratuvari
+  - DX Field
+
+> Nisan 2026'da baslayan yeni kurs (kontenjan 100). Capcom IP is birligi; Information Science fakultesi icinde oyun bilim hatti.
+
+[Program sayfası](https://www.oit.ac.jp/academic/is/game-science/)
+
 ### Ritsumeikan University — Center for Game Studies — Kyoto
 
 **Oyun calismalari ve gelistirme mufredati (College of Image Arts and Sciences bunyesinde)**  ·  _oyun bölümü_
@@ -4042,6 +4411,47 @@ Katalogdaki **29 kurum**, oyun eğitimini lisans değil **kısa döngü yüksek�
 [Program sayfası](https://www.ritsumei.ac.jp/)
 
 **Doğrulama kaynakları:** <https://lalala-nihon.com/blog-articles/game-design-courses-in-japan>
+
+### Shobi University — Kawagoe (Saitama)
+
+**Department of Information Expression — Game Creation Course**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor
+- **Süre:** 4 yıl
+- **Eğitim dili:** Japonca
+- **Ücret:** Ozel universite — shobi-u.ac.jp den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun planlama
+  - Karakter tasarimi
+  - Oyun sesi
+  - AR/VR
+
+> Information Expression bolumu icinde adanmis Game Creation Course; planlama, karakter, ses ve AR/VR.
+
+[Program sayfası](https://www.shobi-u.ac.jp/en/dept/info/)
+
+**Doğrulama kaynakları:** <https://www.shobi-u.ac.jp/gamecreation/>
+
+### Takarazuka University — School of Media Arts Tokyo — Tokyo (Shinjuku)
+
+**Game field (ゲーム分野) within Media Arts Department**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor
+- **Süre:** 4 yıl
+- **Eğitim dili:** Japonca
+- **Ücret:** Ozel universite — takara-univ.ac.jp den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun planlama
+  - CG
+  - Programlama
+  - Ses
+  - Gamification / UX
+
+> Tokyo Media Arts Fakultesi icinde isimli oyun alani; dort yillik planlama/CG/programlama/ses hatti.
+
+[Program sayfası](https://www.takara-univ.ac.jp/tokyo/academics/area/game/)
 
 ### Tokyo Polytechnic University (Tokyo Kogei Daigaku) — Tokyo / Atsugi
 
@@ -4278,6 +4688,71 @@ Katalogdaki **29 kurum**, oyun eğitimini lisans değil **kısa döngü yüksek�
 [Program sayfası](https://vfs.edu/programs/game-design)
 
 **Doğrulama kaynakları:** <https://vfs.edu/news/2025/11/05/vfs-game-design-program-20th-anniversary>
+
+---
+
+## Katar
+
+### City University Qatar (Ulster University programmes) — Doha
+
+**BSc (Hons) Game Design and Development**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor (Hons)
+- **Süre:** 3 yıl
+- **Eğitim dili:** Ingilizce
+- **Ücret:** Ozel — cuq-ulster.edu.qa den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun tasarimi
+  - Oyun gelistirme
+  - Motorlar
+  - Opsiyonel placement yili
+
+> Adanmis UK Hons oyun derecesi; Ulster University programi Katar'da.
+
+[Program sayfası](https://cuq-ulster.edu.qa/programmes/undergraduate-degrees/bsc-hons-game-design-and-development/)
+
+### Lusail University — Lusail
+
+**Bachelor of Science in Information Technology — Digital Game Design and Development**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor of Science (major)
+- **Süre:** 4 yıl
+- **Eğitim dili:** Ingilizce
+- **Ücret:** Ozel universite — lu.edu.qa den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun tasarimi/gelistirme
+  - Programlama
+  - Grafikler
+  - Oyun AI
+  - UX
+
+> IT fakultesi icinde isimli Digital Game Design and Development major; 120 kredi.
+
+[Program sayfası](https://lu.edu.qa/coitm3.php)
+
+**Doğrulama kaynakları:** <https://lu.edu.qa/coit.php>
+
+### VCUarts Qatar (Virginia Commonwealth University School of the Arts in Qatar) — Doha (Education City)
+
+**BFA in Kinetic Imaging — Concentration in Interaction and Game Design**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor of Fine Arts
+- **Süre:** 4 yıl
+- **Eğitim dili:** Ingilizce
+- **Ücret:** Education City / VCUarts Qatar — qatar.vcu.edu den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Etkilesim ve oyun tasarimi
+  - Sanal etkilesimli dunyalar
+  - Emergent systems
+
+> Sanat/tasarim agirlikli oyun ve etkilesim konsantrasyonu; VCU ABD derecesi Katar kampusunda.
+
+[Program sayfası](https://qatar.vcu.edu/academics/undergraduate-programs/kinetic-imaging/)
+
+**Doğrulama kaynakları:** <https://bulletin.vcu.edu/undergraduate/arts/school-arts-qatar/kinetic-imaging-bfa-conc-interaction-game-design/>
 
 ---
 
@@ -5049,6 +5524,65 @@ Katalogdaki **29 kurum**, oyun eğitimini lisans değil **kısa döngü yüksek�
 
 ---
 
+## Suudi Arabistan
+
+### Dar Al-Hekma University — Jeddah
+
+**Bachelor of Science in Computer Science — Game Development Track**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor of Science (track)
+- **Süre:** 4 yıl
+- **Eğitim dili:** Ingilizce
+- **Ücret:** Ozel universite — dah.edu.sa den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Computer Games Design & Development
+  - Mobile & Casual Games
+  - Educational & Serious Game Design
+
+> Acik CS game-development track; ciddi/egitsel oyun tasarimi da kapsaniyor.
+
+[Program sayfası](https://www.dah.edu.sa/en/academics/hsec/programs/Pages/Game-Development-Bachelor-Track.aspx)
+
+### Effat University — Jeddah
+
+**Bachelor of Science in Computer Science — Game Development Concentration**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor of Science (concentration)
+- **Süre:** 4 yıl
+- **Eğitim dili:** Ingilizce
+- **Ücret:** Ozel universite — effatuniversity.edu.sa den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun tasarimi/gelistirme
+  - Oyun motorlari
+  - Oyun icin programlama
+  - Ileri oyun gelistirme
+
+> Isimli GD concentration; College of Engineering CS programi icinde.
+
+[Program sayfası](https://www.effatuniversity.edu.sa/English/Academics/Undergraduate/CoE/Pages/cs.aspx)
+
+### Saudi Electronic University (SEU) — Riyadh (cok kampuslu / blended)
+
+**Bachelor of Science in Computer Science — Game Development Track**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor of Science (track)
+- **Süre:** 4 yıl
+- **Eğitim dili:** Ingilizce (CS majorda Ingilizce dil sarti)
+- **Ücret:** Devlet elektronik universite — seu.edu.sa den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Game Architecture & Design
+  - 2D/3D Game Programming
+  - Game AI
+
+> Blended/cok kampuslu devlet universitesi; CS yapisi icinde yayinlanmis oyun track secmeli dersleri.
+
+[Program sayfası](https://seu.edu.sa/en/programs/bachelor-of-computer-science/structure/)
+
+---
+
 ## Tayvan
 
 > **Öğrenim ücreti (ülke kuralı):** Öğrenim ücretlidir ve uluslararası ölçekte düşüktür; devlet üniversiteleri özellerden ucuzdur.
@@ -5457,6 +5991,48 @@ Aşağıdaki iki tablo, YÖK Yükseköğretim Program Atlası'nın **2026 kılav
 | İstanbul Sağlık Ve Sosyal Bilimler Meslek Yüksekokulu | İstanbul | İstanbul Sağlık Ve Sosyal Bilimler Meslek Yüksekokulu | Oyun Geliştirme ve Programlama (Ücretli) (Bursa Yerleşkesi) | Türkçe | 42 | 190.000 TL · Ücretli | — | — |
 
 > Ücret sütunu vakıf üniversitelerinde yıllık öğrenim ücretini ya da burs oranını, devlet üniversitelerinde ücretsizliği gösterir. **Kadro** sütunu kılavuzda o programa bağlı gösterilen öğretim elemanı sayılarıdır (profesör / doçent / dr. öğretim üyesi / araştırma görevlisi) ve programın büyüklüğü hakkında fikir verir. Başarı sırası son yerleşen adayın YKS sırasıdır; boş hücreler o yıl yerleşme olmadığını ya da verinin kılavuzda bulunmadığını gösterir.
+
+---
+
+## Umman
+
+### Modern College of Business and Science (MCBS) — Muscat
+
+**BS Game Development and Animation**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor of Science
+- **Süre:** 4 yıl
+- **Eğitim dili:** Ingilizce
+- **Ücret:** Ozel kolej — mcbs.edu.om den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun tasarimi/programlama
+  - Animasyon
+  - VR/AR
+  - Oyun AI
+
+> Bagimsiz BS Game Development and Animation; Umman'da net adanmis oyun lisansi.
+
+[Program sayfası](https://www.mcbs.edu.om/academics/undegraduate-programs/bs-game-development-and-animation/)
+
+### University of Technology and Applied Sciences (UTAS) — Muscat
+
+**Bachelor of Arts in Design — Major: Multimedia Design (Game Design I & II)**  ·  _oyun dersleri_
+
+- **Derece:** Bachelor of Arts
+- **Süre:** 4 yıl
+- **Eğitim dili:** Ingilizce
+- **Ücret:** Devlet uygulamali universite — utas.edu.om den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Game Design I
+  - Game Design II
+  - Multimedia tasarim
+  - Unity / Unreal
+
+> Baslik 'Game Design' degil ama mufredatta Game Design I/II (Unity/Unreal) yayinlaniyor; oyun-sanati kariyer ciktilari listeleniyor.
+
+[Program sayfası](https://www.utas.edu.om/cci/programs/design/multimedia-design)
 
 ---
 

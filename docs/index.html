@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Game Education Atlas — higher-education game programmes worldwide</title>
-<meta name="description" content="203 higher-education game development, game design and game art programmes across 38 countries. Every record verified from the institution's own website.">
+<meta name="description" content="Higher-education game development, game design and game art programmes worldwide. Every record verified from the institution's own website.">
 <style>
 :root {
   --surface-0: #ffffff;
@@ -98,7 +98,7 @@ header { border-bottom: 1px solid var(--line); background: var(--surface-1); }
 }
 .ara:focus { outline: 2px solid var(--accent); outline-offset: -1px; border-color: var(--accent); }
 .satır { display: flex; gap: 7px; flex-wrap: wrap; margin-top: 11px; align-items: center; }
-.etiket { font-size: 12px; color: var(--text-3); margin-right: 2px; }
+.etiket { font-size: 12px; color: var(--text-3); margin-right: 2px; flex-shrink: 0; }
 .çip {
   font: inherit; font-size: 13px; padding: 4px 10px; border-radius: 999px;
   border: 1px solid var(--line); background: var(--surface-1); color: var(--text-2);
@@ -108,6 +108,16 @@ header { border-bottom: 1px solid var(--line); background: var(--surface-1); }
 .çip[aria-pressed="true"] { background: var(--accent-bg); border-color: var(--accent); color: var(--accent); font-weight: 600; }
 .çip i { font-style: normal; color: var(--text-3); font-size: 11.5px; margin-left: 4px; }
 .çip[aria-pressed="true"] i { color: var(--accent); }
+.ulke-sec {
+  font: inherit; font-size: 13.5px; padding: 7px 32px 7px 11px; border-radius: 8px;
+  border: 1px solid var(--line); background: var(--surface-1); color: var(--text-1);
+  min-width: min(100%, 280px); max-width: 100%;
+  appearance: none; -webkit-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path fill='%2386857f' d='M1 1l5 5 5-5'/></svg>");
+  background-repeat: no-repeat; background-position: right 11px center;
+  cursor: pointer;
+}
+.ulke-sec:focus { outline: 2px solid var(--accent); outline-offset: -1px; border-color: var(--accent); }
 .sayaç { font-size: 13px; color: var(--text-2); padding: 9px 0 2px; }
 
 /* ---------- cards ---------- */
@@ -143,10 +153,34 @@ footer { border-top: 1px solid var(--line); background: var(--surface-1);
          padding: 26px 0 40px; color: var(--text-2); font-size: 14px; }
 footer p { margin: 0 0 9px; max-width: 70ch; }
 [hidden] { display: none !important; }
-@media (max-width: 620px) {
-  .giriş h1 { font-size: 24px; }
-  dl { grid-template-columns: 1fr; gap: 0 0; }
+@media (max-width: 720px) {
+  .wrap { padding: 0 14px; }
+  .üst { gap: 8px; padding: 12px 0; }
+  .marka { font-size: 14.5px; width: 100%; margin: 0 0 2px; }
+  .giriş { padding: 22px 0 18px; }
+  .giriş h1 { font-size: 22px; }
+  .giriş .bağlar { gap: 8px; }
+  .bağ { padding: 8px 12px; font-size: 13.5px; }
+  .künye { grid-template-columns: repeat(2, 1fr); }
+  .kutu { padding: 12px 14px; }
+  .kutu b { font-size: 22px; }
+  .süzgeç { padding: 12px 0 8px; }
+  .satır { gap: 6px; margin-top: 9px; }
+  .satır#ulkeler { flex-direction: column; align-items: stretch; }
+  .satır#ulkeler .etiket { margin-bottom: 2px; }
+  .ulke-sec { min-width: 0; width: 100%; }
+  .satır#sinirlar { overflow-x: auto; flex-wrap: nowrap; -webkit-overflow-scrolling: touch;
+                    padding-bottom: 2px; scrollbar-width: none; }
+  .satır#sinirlar::-webkit-scrollbar { display: none; }
+  .kart { padding: 14px 14px; margin: 10px 0; }
+  .kart h2 { font-size: 16px; }
+  dl { grid-template-columns: 1fr; gap: 0; }
   dt { margin-top: 6px; }
+  footer { padding: 20px 0 32px; }
+}
+@media (max-width: 380px) {
+  .künye { grid-template-columns: 1fr 1fr; }
+  .giriş h1 { font-size: 20px; }
 }
 </style>
 </head>
@@ -204,11 +238,11 @@ const METIN = {
   en: {
     marka: "· higher-education game programmes",
     baslik: "Where game development is taught, and by whom",
-    ozet: "A catalogue of higher-education programmes in game development, game design and game art — 203 programmes across 38 countries. Every record was verified from the institution's own website; the sources are listed under each entry. Programme details are written in Turkish.",
-    pdf: "PDF (142 pages)", md: "Markdown", repo: "GitHub", katki: "Contribute",
+    ozet: "", // filled dynamically
+    pdf: "PDF", md: "Markdown", repo: "GitHub", katki: "Contribute",
     ara: "Search institution, city, course, professor, lab…",
     ulke: "Country", sinir: "Filter",
-    hepsi: "All", oyunBolum: "Dedicated game programme", ingilizce: "Taught in English",
+    hepsi: "All countries", oyunBolum: "Dedicated game programme", ingilizce: "Taught in English",
     myoSeviye: "Short-cycle / associate level", hocaVar: "Named faculty listed",
     labVar: "Research lab listed",
     sonuc: n => `${n} programme${n === 1 ? "" : "s"}`,
@@ -225,11 +259,11 @@ const METIN = {
   tr: {
     marka: "· yükseköğretimde oyun programları",
     baslik: "Oyun geliştirme nerede, kimler tarafından öğretiliyor",
-    ozet: "Oyun geliştirme, oyun tasarımı ve oyun sanatı alanında yükseköğretim programları kataloğu — 38 ülkede 203 program. Her kayıt kurumun kendi sitesinden doğrulandı; kaynaklar her kaydın altında listeleniyor.",
-    pdf: "PDF (142 sayfa)", md: "Markdown", repo: "GitHub", katki: "Katkı ver",
+    ozet: "", // filled dynamically
+    pdf: "PDF", md: "Markdown", repo: "GitHub", katki: "Katkı ver",
     ara: "Kurum, şehir, ders, hoca, laboratuvar ara…",
     ulke: "Ülke", sinir: "Süzgeç",
-    hepsi: "Tümü", oyunBolum: "Ayrı oyun bölümü", ingilizce: "İngilizce eğitim",
+    hepsi: "Tüm ülkeler", oyunBolum: "Ayrı oyun bölümü", ingilizce: "İngilizce eğitim",
     myoSeviye: "MYO / ön lisans düzeyi", hocaVar: "Öğretim üyesi ismen var",
     labVar: "Araştırma laboratuvarı var",
     sonuc: n => `${n} program`,
@@ -286,21 +320,28 @@ function künyeÇiz() {
     `<div class="kutu"><b>${n}</b><span>${kaç(e)}</span></div>`).join("");
 }
 
-/* ---------- filter chips ---------- */
+/* ---------- filters (country dropdown + chip toggles) ---------- */
 function çipler() {
   const sayım = {};
   P.forEach(p => { sayım[p.ulke] = (sayım[p.ulke] || 0) + 1; });
-  const sıra = Object.keys(sayım).sort((a, b) =>
-    sayım[b] - sayım[a] || a.localeCompare(b));
+  const sıra = Object.keys(sayım).sort((a, b) => {
+    const aTr = dil === "tr" ? (P.find(p => p.ulke === a) || {}).ulkeTR || a
+                             : (P.find(p => p.ulke === a) || {}).ulkeEN || a;
+    const bTr = dil === "tr" ? (P.find(p => p.ulke === b) || {}).ulkeTR || b
+                             : (P.find(p => p.ulke === b) || {}).ulkeEN || b;
+    return aTr.localeCompare(bTr, dil === "tr" ? "tr" : "en");
+  });
   const ad = k => dil === "tr" ? (P.find(p => p.ulke === k) || {}).ulkeTR
                                : (P.find(p => p.ulke === k) || {}).ulkeEN;
 
   $("#ulkeler").innerHTML =
-    `<span class="etiket">${kaç(T().ulke)}</span>` +
-    `<button class="çip" data-ulke="" aria-pressed="${!durum.ulke}">${kaç(T().hepsi)}<i>${P.length}</i></button>` +
+    `<label class="etiket" for="ulke-sec">${kaç(T().ulke)}</label>` +
+    `<select class="ulke-sec" id="ulke-sec" aria-label="${kaç(T().ulke)}">` +
+    `<option value="">${kaç(T().hepsi)} (${P.length})</option>` +
     sıra.map(k =>
-      `<button class="çip" data-ulke="${kaç(k)}" aria-pressed="${durum.ulke === k}">` +
-      `${kaç(ad(k))}<i>${sayım[k]}</i></button>`).join("");
+      `<option value="${kaç(k)}"${durum.ulke === k ? " selected" : ""}>` +
+      `${kaç(ad(k))} (${sayım[k]})</option>`).join("") +
+    `</select>`;
 
   const anahtar = [["oyun", T().oyunBolum], ["ingilizce", T().ingilizce],
                    ["myo", T().myoSeviye], ["hoca", T().hocaVar], ["lab", T().labVar]];
@@ -371,6 +412,9 @@ function çiz() {
 function dilUygula() {
   document.documentElement.lang = dil;
   document.documentElement.dataset.lang = dil;
+  const ulkeN = new Set(P.map(p => p.ulke)).size;
+  METIN.en.ozet = `A catalogue of higher-education programmes in game development, game design and game art — ${P.length} programmes across ${ulkeN} countries. Every record was verified from the institution's own website; the sources are listed under each entry. Programme details are written in Turkish.`;
+  METIN.tr.ozet = `Oyun geliştirme, oyun tasarımı ve oyun sanatı alanında yükseköğretim programları kataloğu — ${ulkeN} ülkede ${P.length} program. Her kayıt kurumun kendi sitesinden doğrulandı; kaynaklar her kaydın altında listeleniyor.`;
   document.querySelectorAll("[data-t]").forEach(e => {
     const v = T()[e.dataset.t];
     if (typeof v === "string") e.textContent = v;
@@ -378,15 +422,23 @@ function dilUygula() {
   $("#ara").placeholder = T().ara;
   document.querySelectorAll(".dil button").forEach(b =>
     b.classList.toggle("açık", b.dataset.dil === dil));
+  document.title = dil === "tr"
+    ? `Oyun Eğitimi Atlası — ${ulkeN} ülkede ${P.length} yükseköğretim oyun programı`
+    : `Game Education Atlas — ${P.length} higher-education game programmes across ${ulkeN} countries`;
   künyeÇiz(); çipler(); çiz();
 }
 
 /* ---------- events ---------- */
 $("#ara").addEventListener("input", e => { durum.q = e.target.value; çiz(); });
 
+document.addEventListener("change", e => {
+  if (e.target && e.target.id === "ulke-sec") {
+    durum.ulke = e.target.value || "";
+    çiz();
+  }
+});
+
 document.addEventListener("click", e => {
-  const ulke = e.target.closest("[data-ulke]");
-  if (ulke) { durum.ulke = ulke.dataset.ulke; çipler(); çiz(); return; }
   const bayrak = e.target.closest("[data-bayrak]");
   if (bayrak) { durum[bayrak.dataset.bayrak] = !durum[bayrak.dataset.bayrak]; çipler(); çiz(); return; }
   const d = e.target.closest("[data-dil]");

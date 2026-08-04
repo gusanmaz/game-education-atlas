@@ -1,7 +1,7 @@
 # Game Education Atlas · Oyun Eğitimi Atlası
 
-**203 higher-education game programmes across 38 countries — every record verified from the institution's own website.**
-*38 ülkede 203 yükseköğretim oyun programı — her kayıt kurumun kendi sitesinden doğrulandı.*
+**231 higher-education game programmes across 44 countries — every record verified from the institution's own website.**
+*44 ülkede 231 yükseköğretim oyun programı — her kayıt kurumun kendi sitesinden doğrulandı.*
 
 🌐 **[Browse the atlas / Katalogu gez](https://gusanmaz.github.io/game-education-atlas/)** ·
 📄 **[PDF](catalogue/oyun-programlari.pdf)** ·
@@ -27,16 +27,16 @@ rather than guessing. Where an institution does not publish its teaching staff, 
 that instead of leaving a blank.
 
 **Scope.** Europe · United Kingdom · Türkiye · United States · Canada · Australia · New Zealand ·
-Japan · South Korea · Singapore · Hong Kong · Taiwan · Israel. The Türkiye section is complete —
-it is generated directly from the Turkish Higher Education Council's 2026 admission guide and
-covers **every** programme with "game" in its name. Other countries are added institution by
-institution as each is verified.
+Japan · China · South Korea · Singapore · Hong Kong · Taiwan · Israel · Gulf states (UAE, Saudi
+Arabia, Qatar, Bahrain, Oman). The Türkiye section is complete — it is generated directly from the
+Turkish Higher Education Council's 2026 admission guide and covers **every** programme with "game"
+in its name. Other countries are added institution by institution as each is verified.
 
 **A note on level.** The catalogue pays particular attention to **short-cycle higher education**
 (EQF level 5 and its equivalents: Portuguese CTeSP, Danish AP, Swedish YH, US Associate of Applied
 Science, Ontario College Advanced Diploma, Japanese senmon gakkō, Singaporean polytechnic diploma,
 Turkish ön lisans). These programmes are chronically under-represented in international listings,
-and 29 of them are marked here.
+and short-cycle entries are marked here.
 
 **Language.** The interface is English/Turkish. **Programme descriptions are written in Turkish**;
 English translations are very welcome as contributions.
@@ -76,7 +76,7 @@ adında "oyun" geçen **bütün** programları kapsar.
 | Path | Contents |
 |---|---|
 | `catalogue/OYUN-PROGRAMLARI.md` | The full catalogue, grouped by country (Turkish) |
-| `catalogue/oyun-programlari.pdf` | Same catalogue as a 142-page PDF |
+| `catalogue/oyun-programlari.pdf` | Same catalogue as a printable PDF |
 | `data/catalogue.json` | The underlying structured data — one record per programme |
 | `data/turkiye-yok-2026.json` | Türkiye: 2026 YÖK guide snapshot, all game programmes |
 | `docs/` | The website published at GitHub Pages |
