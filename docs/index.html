@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Game Education Atlas — higher-education game programmes worldwide</title>
+<meta name="description" content="203 higher-education game development, game design and game art programmes across 38 countries. Every record verified from the institution's own website.">
+<style>
+:root {
+  --surface-0: #ffffff;
+  --surface-1: #fcfcfb;
+  --surface-2: #f4f4f2;
+  --line:      #e2e2dd;
+  --line-soft: #eeeeea;
+  --text-1:    #0b0b0b;
+  --text-2:    #52514e;
+  --text-3:    #86857f;
+  --accent:    #2a78d6;
+  --accent-bg: #eaf1fb;
+  --good:      #0ca30c;
+  --radius:    10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --surface-0: #121211;
+    --surface-1: #1a1a19;
+    --surface-2: #232321;
+    --line:      #34342f;
+    --line-soft: #26261f;
+    --text-1:    #ffffff;
+    --text-2:    #c3c2b7;
+    --text-3:    #8d8c83;
+    --accent:    #3987e5;
+    --accent-bg: #17253a;
+  }
+}
+:root[data-theme="dark"] {
+  --surface-0: #121211; --surface-1: #1a1a19; --surface-2: #232321;
+  --line: #34342f; --line-soft: #26261f;
+  --text-1: #ffffff; --text-2: #c3c2b7; --text-3: #8d8c83;
+  --accent: #3987e5; --accent-bg: #17253a;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; background: var(--surface-0); color: var(--text-1);
+  font: 15px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent); }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+
+/* ---------- header ---------- */
+header { border-bottom: 1px solid var(--line); background: var(--surface-1); }
+.üst { display: flex; align-items: center; gap: 14px; padding: 14px 0; flex-wrap: wrap; }
+.marka { font-weight: 700; font-size: 16px; letter-spacing: -0.01em; margin-right: auto; }
+.marka span { color: var(--text-3); font-weight: 400; }
+.düğme {
+  font: inherit; font-size: 13px; padding: 5px 11px; border-radius: 7px;
+  border: 1px solid var(--line); background: var(--surface-0); color: var(--text-2);
+  cursor: pointer;
+}
+.düğme:hover { border-color: var(--text-3); color: var(--text-1); }
+.düğme.açık { background: var(--accent); border-color: var(--accent); color: #fff; }
+.dil { display: inline-flex; border: 1px solid var(--line); border-radius: 7px; overflow: hidden; }
+.dil button { border: 0; border-radius: 0; }
+.dil button + button { border-left: 1px solid var(--line); }
+
+/* ---------- hero ---------- */
+.giriş { padding: 34px 0 26px; border-bottom: 1px solid var(--line); background: var(--surface-1); }
+.giriş h1 { font-size: 30px; line-height: 1.22; margin: 0 0 10px; letter-spacing: -0.02em; }
+.giriş p { margin: 0; color: var(--text-2); max-width: 62ch; }
+.giriş .bağlar { margin-top: 16px; display: flex; gap: 10px; flex-wrap: wrap; }
+.bağ {
+  display: inline-block; padding: 7px 13px; border-radius: 8px; font-size: 14px;
+  text-decoration: none; border: 1px solid var(--line); color: var(--text-1);
+  background: var(--surface-0);
+}
+.bağ.ana { background: var(--accent); border-color: var(--accent); color: #fff; }
+.bağ:hover { border-color: var(--text-3); }
+.bağ.ana:hover { filter: brightness(1.08); }
+
+/* ---------- KPI ---------- */
+.künye { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px;
+         background: var(--line-soft); border-top: 1px solid var(--line);
+         border-bottom: 1px solid var(--line); }
+.kutu { background: var(--surface-0); padding: 15px 18px; }
+.kutu b { display: block; font-size: 26px; font-weight: 650; letter-spacing: -0.02em; }
+.kutu span { font-size: 12.5px; color: var(--text-2); }
+
+/* ---------- filters ---------- */
+.süzgeç { padding: 18px 0 10px; position: sticky; top: 0; z-index: 5;
+          background: var(--surface-0); border-bottom: 1px solid var(--line); }
+.ara {
+  width: 100%; font: inherit; padding: 10px 13px; border-radius: 9px;
+  border: 1px solid var(--line); background: var(--surface-1); color: var(--text-1);
+}
+.ara:focus { outline: 2px solid var(--accent); outline-offset: -1px; border-color: var(--accent); }
+.satır { display: flex; gap: 7px; flex-wrap: wrap; margin-top: 11px; align-items: center; }
+.etiket { font-size: 12px; color: var(--text-3); margin-right: 2px; }
+.çip {
+  font: inherit; font-size: 13px; padding: 4px 10px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--surface-1); color: var(--text-2);
+  cursor: pointer; white-space: nowrap;
+}
+.çip:hover { border-color: var(--text-3); }
+.çip[aria-pressed="true"] { background: var(--accent-bg); border-color: var(--accent); color: var(--accent); font-weight: 600; }
+.çip i { font-style: normal; color: var(--text-3); font-size: 11.5px; margin-left: 4px; }
+.çip[aria-pressed="true"] i { color: var(--accent); }
+.sayaç { font-size: 13px; color: var(--text-2); padding: 9px 0 2px; }
+
+/* ---------- cards ---------- */
+.liste { padding: 6px 0 60px; }
+.kart { border: 1px solid var(--line); border-radius: var(--radius); padding: 17px 19px;
+        margin: 12px 0; background: var(--surface-1); }
+.kart h2 { font-size: 17px; margin: 0 0 3px; letter-spacing: -0.01em; }
+.yer { color: var(--text-2); font-size: 13.5px; margin-bottom: 10px; }
+.rozetler { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 11px; }
+.rozet { font-size: 11.5px; padding: 2px 8px; border-radius: 999px;
+         border: 1px solid var(--line); color: var(--text-2); background: var(--surface-2); }
+.rozet.oyun { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
+.rozet.myo { border-color: var(--good); color: var(--good); background: transparent; }
+.prog { font-weight: 600; margin-bottom: 9px; }
+dl { display: grid; grid-template-columns: max-content 1fr; gap: 3px 14px; margin: 0 0 10px; font-size: 14px; }
+dt { color: var(--text-3); }
+dd { margin: 0; }
+details { margin-top: 9px; border-top: 1px solid var(--line-soft); padding-top: 8px; }
+summary { cursor: pointer; font-size: 13.5px; color: var(--text-2); }
+summary:hover { color: var(--text-1); }
+details ul { margin: 8px 0 0; padding-left: 19px; font-size: 14px; }
+details li { margin: 3px 0; }
+.kişi b { font-weight: 600; }
+.kişi em { font-style: normal; color: var(--text-2); }
+.açıklama { margin: 10px 0 0; padding: 9px 12px; background: var(--surface-2);
+            border-radius: 8px; font-size: 13.5px; color: var(--text-2); }
+.kaynak { margin-top: 10px; font-size: 12.5px; color: var(--text-3); word-break: break-all; }
+.kaynak a { color: var(--text-3); }
+.kaynak a:hover { color: var(--accent); }
+.boş { text-align: center; padding: 50px 0; color: var(--text-2); }
+
+footer { border-top: 1px solid var(--line); background: var(--surface-1);
+         padding: 26px 0 40px; color: var(--text-2); font-size: 14px; }
+footer p { margin: 0 0 9px; max-width: 70ch; }
+[hidden] { display: none !important; }
+@media (max-width: 620px) {
+  .giriş h1 { font-size: 24px; }
+  dl { grid-template-columns: 1fr; gap: 0 0; }
+  dt { margin-top: 6px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap üst">
+    <div class="marka">Game Education Atlas <span data-t="marka"></span></div>
+    <div class="dil" role="group" aria-label="Language">
+      <button class="düğme" data-dil="en">EN</button>
+      <button class="düğme" data-dil="tr">TR</button>
+    </div>
+    <button class="düğme" id="tema" title="Light / dark">◐</button>
+  </div>
+</header>
+
+<section class="giriş">
+  <div class="wrap">
+    <h1 data-t="baslik"></h1>
+    <p data-t="ozet"></p>
+    <div class="bağlar">
+      <a class="bağ ana" href="https://github.com/gusanmaz/game-education-atlas/raw/main/catalogue/oyun-programlari.pdf" data-t="pdf"></a>
+      <a class="bağ" href="https://github.com/gusanmaz/game-education-atlas/blob/main/catalogue/OYUN-PROGRAMLARI.md" data-t="md"></a>
+      <a class="bağ" href="https://github.com/gusanmaz/game-education-atlas" data-t="repo"></a>
+      <a class="bağ" href="https://github.com/gusanmaz/game-education-atlas/blob/main/CONTRIBUTING.md" data-t="katki"></a>
+    </div>
+  </div>
+</section>
+
+<div class="wrap"><div class="künye" id="kunye"></div></div>
+
+<section class="süzgeç">
+  <div class="wrap">
+    <input class="ara" id="ara" type="search" autocomplete="off">
+    <div class="satır" id="ulkeler"></div>
+    <div class="satır" id="sinirlar"></div>
+    <div class="sayaç" id="sayac"></div>
+  </div>
+</section>
+
+<main class="wrap liste" id="liste"></main>
+
+<footer>
+  <div class="wrap">
+    <p data-t="altbilgi1"></p>
+    <p data-t="altbilgi2"></p>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script>
+"use strict";
+
+const METIN = {
+  en: {
+    marka: "· higher-education game programmes",
+    baslik: "Where game development is taught, and by whom",
+    ozet: "A catalogue of higher-education programmes in game development, game design and game art — 203 programmes across 38 countries. Every record was verified from the institution's own website; the sources are listed under each entry. Programme details are written in Turkish.",
+    pdf: "PDF (142 pages)", md: "Markdown", repo: "GitHub", katki: "Contribute",
+    ara: "Search institution, city, course, professor, lab…",
+    ulke: "Country", sinir: "Filter",
+    hepsi: "All", oyunBolum: "Dedicated game programme", ingilizce: "Taught in English",
+    myoSeviye: "Short-cycle / associate level", hocaVar: "Named faculty listed",
+    labVar: "Research lab listed",
+    sonuc: n => `${n} programme${n === 1 ? "" : "s"}`,
+    bos: "No programme matches these filters.",
+    kDerece: "Degree", kSure: "Duration", kEcts: "ECTS", kDil: "Language", kUcret: "Tuition",
+    kMyo: "Level", yil: "yr",
+    dersler: "Courses / curriculum", lab: "Research labs & facilities", hoca: "Faculty",
+    kadro: "Faculty listing policy", sayfa: "Programme page", kaynak: "Verification sources",
+    bolgeNot: "note",
+    bologna: "(derived from the Bologna 60-ECTS year)",
+    altbilgi1: "Compiled by Güvenç Usanmaz.",
+    altbilgi2: "Content is licensed CC BY 4.0 — reuse it freely with attribution. Corrections and additions are welcome via pull request; see CONTRIBUTING.md."
+  },
+  tr: {
+    marka: "· yükseköğretimde oyun programları",
+    baslik: "Oyun geliştirme nerede, kimler tarafından öğretiliyor",
+    ozet: "Oyun geliştirme, oyun tasarımı ve oyun sanatı alanında yükseköğretim programları kataloğu — 38 ülkede 203 program. Her kayıt kurumun kendi sitesinden doğrulandı; kaynaklar her kaydın altında listeleniyor.",
+    pdf: "PDF (142 sayfa)", md: "Markdown", repo: "GitHub", katki: "Katkı ver",
+    ara: "Kurum, şehir, ders, hoca, laboratuvar ara…",
+    ulke: "Ülke", sinir: "Süzgeç",
+    hepsi: "Tümü", oyunBolum: "Ayrı oyun bölümü", ingilizce: "İngilizce eğitim",
+    myoSeviye: "MYO / ön lisans düzeyi", hocaVar: "Öğretim üyesi ismen var",
+    labVar: "Araştırma laboratuvarı var",
+    sonuc: n => `${n} program`,
+    bos: "Bu süzgeçlere uyan program yok.",
+    kDerece: "Derece", kSure: "Süre", kEcts: "AKTS", kDil: "Eğitim dili", kUcret: "Ücret",
+    kMyo: "Düzey", yil: "yıl",
+    dersler: "Dersler / müfredat", lab: "Araştırma laboratuvarları ve tesisler", hoca: "Öğretim üyeleri",
+    kadro: "Öğretim kadrosu politikası", sayfa: "Program sayfası", kaynak: "Doğrulama kaynakları",
+    bolgeNot: "not",
+    bologna: "(Bologna 60 AKTS/yıl normundan)",
+    altbilgi1: "Güvenç Usanmaz tarafından derlendi.",
+    altbilgi2: "İçerik CC BY 4.0 ile lisanslı — atıf vererek serbestçe kullanabilirsiniz. Düzeltme ve eklemeler pull request ile memnuniyetle karşılanır; CONTRIBUTING.md dosyasına bakın."
+  }
+};
+
+const P = window.ATLAS.programlar;
+let dil = (navigator.language || "en").toLowerCase().startsWith("tr") ? "tr" : "en";
+const durum = { q: "", ulke: "", oyun: false, ingilizce: false, myo: false, hoca: false, lab: false };
+
+const $ = s => document.querySelector(s);
+const kaç = e => String(e == null ? "" : e).replace(/[&<>"']/g, c =>
+  ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const T = () => METIN[dil];
+const ulkeAdi = p => (dil === "tr" ? p.ulkeTR : p.ulkeEN);
+
+/* ---------- filtering ---------- */
+function süz() {
+  // Arama dizini aksansiz tutuluyor; sorguyu da ayni bicime indir
+  // (̀-ͯ = birlesik aksan isaretleri)
+  const q = durum.q.trim().toLowerCase()
+    .normalize("NFKD").replace(/[\u0300-\u036f]/g, "");
+  return P.filter(p =>
+    (!q || p.q.includes(q)) &&
+    (!durum.ulke || p.ulke === durum.ulke) &&
+    (!durum.oyun || p.odak === "Yuksek") &&
+    (!durum.ingilizce || p.ingilizce) &&
+    (!durum.myo || !!p.myo) &&
+    (!durum.hoca || p.hoca.length > 0) &&
+    (!durum.lab || p.lab.length > 0));
+}
+
+/* ---------- KPI row ---------- */
+function künyeÇiz() {
+  const ulke = new Set(P.map(p => p.ulke)).size;
+  const myo = P.filter(p => p.myo).length;
+  const ing = P.filter(p => p.ingilizce).length;
+  const kadro = P.filter(p => p.hoca.length || p.hocaNot).length;
+  const veri = dil === "tr"
+    ? [[P.length, "program"], [ulke, "ülke"], [myo, "MYO / ön lisans düzeyi"],
+       [ing, "İngilizce eğitim"], [kadro, "kadro bilgisi olan"]]
+    : [[P.length, "programmes"], [ulke, "countries"], [myo, "short-cycle level"],
+       [ing, "taught in English"], [kadro, "with faculty info"]];
+  $("#kunye").innerHTML = veri.map(([n, e]) =>
+    `<div class="kutu"><b>${n}</b><span>${kaç(e)}</span></div>`).join("");
+}
+
+/* ---------- filter chips ---------- */
+function çipler() {
+  const sayım = {};
+  P.forEach(p => { sayım[p.ulke] = (sayım[p.ulke] || 0) + 1; });
+  const sıra = Object.keys(sayım).sort((a, b) =>
+    sayım[b] - sayım[a] || a.localeCompare(b));
+  const ad = k => dil === "tr" ? (P.find(p => p.ulke === k) || {}).ulkeTR
+                               : (P.find(p => p.ulke === k) || {}).ulkeEN;
+
+  $("#ulkeler").innerHTML =
+    `<span class="etiket">${kaç(T().ulke)}</span>` +
+    `<button class="çip" data-ulke="" aria-pressed="${!durum.ulke}">${kaç(T().hepsi)}<i>${P.length}</i></button>` +
+    sıra.map(k =>
+      `<button class="çip" data-ulke="${kaç(k)}" aria-pressed="${durum.ulke === k}">` +
+      `${kaç(ad(k))}<i>${sayım[k]}</i></button>`).join("");
+
+  const anahtar = [["oyun", T().oyunBolum], ["ingilizce", T().ingilizce],
+                   ["myo", T().myoSeviye], ["hoca", T().hocaVar], ["lab", T().labVar]];
+  $("#sinirlar").innerHTML =
+    `<span class="etiket">${kaç(T().sinir)}</span>` +
+    anahtar.map(([k, e]) =>
+      `<button class="çip" data-bayrak="${k}" aria-pressed="${durum[k]}">${kaç(e)}</button>`).join("");
+}
+
+/* ---------- cards ---------- */
+function kart(p) {
+  const t = T();
+  const rozet = [];
+  if (p.odak === "Yuksek" || p.odak === "Orta") {
+    const [tr, en] = p.odak === "Yuksek" ? ["oyun bölümü", "game programme"]
+                                         : ["oyun dersleri", "game courses"];
+    rozet.push(`<span class="rozet oyun">${kaç(dil === "tr" ? tr : en)}</span>`);
+  }
+  if (p.myo) rozet.push(`<span class="rozet myo">${kaç(t.myoSeviye)}</span>`);
+  if (p.ingilizce) rozet.push(`<span class="rozet">${kaç(t.ingilizce)}</span>`);
+
+  const alan = [];
+  if (p.derece) alan.push([t.kDerece, kaç(p.derece)]);
+  if (p.sure) alan.push([t.kSure, `${p.sure} ${kaç(t.yil)}`]);
+  if (p.ects) alan.push([t.kEcts, `${p.ects}${p.ectsNot ? " <em style='color:var(--text-3)'>" + kaç(t.bologna) + "</em>" : ""}`]);
+  if (p.dil) alan.push([t.kDil, kaç(p.dil)]);
+  if (p.ucret) alan.push([t.kUcret, kaç(p.ucret)]);
+  if (p.myo) alan.push([t.kMyo, kaç(p.myo)]);
+
+  const katla = (baslik, içerik) =>
+    içerik ? `<details><summary>${kaç(baslik)}</summary>${içerik}</details>` : "";
+
+  const dersler = p.dersler.length
+    ? `<ul>${p.dersler.map(d => `<li>${kaç(d)}</li>`).join("")}</ul>` : "";
+  const lab = p.lab.length
+    ? `<ul>${p.lab.map(l => `<li>${l.url ? `<a href="${kaç(l.url)}" target="_blank" rel="noopener">${kaç(l.ad)}</a>` : kaç(l.ad)}</li>`).join("")}</ul>` : "";
+  const hoca = p.hoca.length
+    ? `<ul>${p.hoca.map(h => {
+        const ad = h.url ? `<a href="${kaç(h.url)}" target="_blank" rel="noopener">${kaç(h.ad)}</a>` : kaç(h.ad);
+        const ek = [h.unvan, h.alan].filter(Boolean).map(kaç).join(" — ");
+        return `<li class="kişi"><b>${ad}</b>${ek ? ` <em>— ${ek}</em>` : ""}</li>`;
+      }).join("")}</ul>` : "";
+
+  return `<article class="kart">
+    <h2>${kaç(p.kurum)}</h2>
+    <div class="yer">${kaç(p.sehir)}${p.sehir ? " · " : ""}${kaç(ulkeAdi(p))}</div>
+    ${rozet.length ? `<div class="rozetler">${rozet.join("")}</div>` : ""}
+    ${p.program ? `<div class="prog">${kaç(p.program)}</div>` : ""}
+    ${alan.length ? `<dl>${alan.map(([k, v]) => `<dt>${kaç(k)}</dt><dd>${v}</dd>`).join("")}</dl>` : ""}
+    ${katla(t.dersler, dersler)}
+    ${katla(t.lab, lab)}
+    ${katla(t.hoca, hoca)}
+    ${!p.hoca.length && p.hocaNot ? `<details><summary>${kaç(t.kadro)}</summary><p style="font-size:14px;margin:8px 0 0">${kaç(p.hocaNot)}</p></details>` : ""}
+    ${p["not"] ? `<p class="açıklama">${kaç(p["not"])}</p>` : ""}
+    ${p.url ? `<p style="margin:11px 0 0"><a href="${kaç(p.url)}" target="_blank" rel="noopener">${kaç(t.sayfa)} →</a></p>` : ""}
+    ${p.kaynaklar.length ? `<p class="kaynak">${kaç(t.kaynak)}: ${p.kaynaklar.map(k => `<a href="${kaç(k)}" target="_blank" rel="noopener">${kaç(k)}</a>`).join(" · ")}</p>` : ""}
+  </article>`;
+}
+
+function çiz() {
+  const sonuç = süz();
+  $("#sayac").textContent = T().sonuc(sonuç.length);
+  $("#liste").innerHTML = sonuç.length
+    ? sonuç.map(kart).join("")
+    : `<p class="boş">${kaç(T().bos)}</p>`;
+}
+
+function dilUygula() {
+  document.documentElement.lang = dil;
+  document.documentElement.dataset.lang = dil;
+  document.querySelectorAll("[data-t]").forEach(e => {
+    const v = T()[e.dataset.t];
+    if (typeof v === "string") e.textContent = v;
+  });
+  $("#ara").placeholder = T().ara;
+  document.querySelectorAll(".dil button").forEach(b =>
+    b.classList.toggle("açık", b.dataset.dil === dil));
+  künyeÇiz(); çipler(); çiz();
+}
+
+/* ---------- events ---------- */
+$("#ara").addEventListener("input", e => { durum.q = e.target.value; çiz(); });
+
+document.addEventListener("click", e => {
+  const ulke = e.target.closest("[data-ulke]");
+  if (ulke) { durum.ulke = ulke.dataset.ulke; çipler(); çiz(); return; }
+  const bayrak = e.target.closest("[data-bayrak]");
+  if (bayrak) { durum[bayrak.dataset.bayrak] = !durum[bayrak.dataset.bayrak]; çipler(); çiz(); return; }
+  const d = e.target.closest("[data-dil]");
+  if (d) { dil = d.dataset.dil; try { localStorage.setItem("atlas-dil", dil); } catch (_) {} dilUygula(); }
+});
+
+$("#tema").addEventListener("click", () => {
+  const kök = document.documentElement;
+  const koyu = kök.dataset.theme === "dark" ||
+    (!kök.dataset.theme && matchMedia("(prefers-color-scheme: dark)").matches);
+  kök.dataset.theme = koyu ? "light" : "dark";
+  try { localStorage.setItem("atlas-tema", kök.dataset.theme); } catch (_) {}
+});
+
+try {
+  const kt = localStorage.getItem("atlas-tema");
+  if (kt) document.documentElement.dataset.theme = kt;
+  const kd = localStorage.getItem("atlas-dil");
+  if (kd) dil = kd;
+} catch (_) {}
+
+dilUygula();
+</script>
+</body>
+</html>
