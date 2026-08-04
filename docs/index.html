@@ -110,19 +110,20 @@ header::before {
 }
 .marka-blok {
   display: grid;
-  grid-template-columns: 18px 1fr;
-  column-gap: 10px; row-gap: 2px;
+  grid-template-columns: 32px 1fr;
+  column-gap: 12px; row-gap: 2px;
   align-items: center; min-width: 0;
 }
 .marka-blok::before {
-  content: ""; width: 18px; height: 18px; grid-row: 1; grid-column: 1;
+  content: ""; width: 32px; height: 32px; grid-row: 1 / span 2; grid-column: 1;
+  align-self: center;
   background:
-    linear-gradient(var(--accent-2), var(--accent-2)) 0 0 / 5px 5px no-repeat,
-    linear-gradient(#ffe08a, #ffe08a) 5px 0 / 8px 5px no-repeat,
-    linear-gradient(var(--accent-2), var(--accent-2)) 13px 0 / 5px 5px no-repeat,
-    linear-gradient(#3dffe0, #3dffe0) 3px 5px / 12px 7px no-repeat,
-    linear-gradient(#1b2430, #1b2430) 5px 12px / 4px 6px no-repeat,
-    linear-gradient(#1b2430, #1b2430) 10px 12px / 4px 6px no-repeat;
+    linear-gradient(var(--accent-2), var(--accent-2)) 0 0 / 9px 9px no-repeat,
+    linear-gradient(#ffe08a, #ffe08a) 9px 0 / 14px 9px no-repeat,
+    linear-gradient(var(--accent-2), var(--accent-2)) 23px 0 / 9px 9px no-repeat,
+    linear-gradient(#3dffe0, #3dffe0) 5px 9px / 22px 12px no-repeat,
+    linear-gradient(#1b2430, #1b2430) 9px 21px / 7px 11px no-repeat,
+    linear-gradient(#1b2430, #1b2430) 18px 21px / 7px 11px no-repeat;
   box-shadow: 0 0 0 1px rgba(0,0,0,0.15);
   animation: bob 0.8s steps(2) infinite;
 }
