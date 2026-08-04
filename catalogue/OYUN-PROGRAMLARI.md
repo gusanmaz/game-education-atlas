@@ -1,12 +1,12 @@
 # Oyun geliştirme programları — uluslararası katalog
 
-**231 program · 44 ülke** · detayı tamamlanan: 231/231
+**249 program · 48 ülke** · detayı tamamlanan: 249/249
 
-Alan doluluğu: derece %100 · dil %100 · ücret %100 · dersler %100 · araştırma labı %38 · öğretim üyesi ismen %42 (+ %16 kurum isim yayınlamıyor, gerekçesi kayıtta)
+Alan doluluğu: derece %100 · dil %100 · ücret %100 · dersler %100 · araştırma labı %36 · öğretim üyesi ismen %39 (+ %14 kurum isim yayınlamıyor, gerekçesi kayıtta)
 
 Dünya genelinde oyun geliştirme, oyun tasarımı ve oyun sanatı eğitimi veren yükseköğretim kurumlarının kataloğu. Her kayıt kurumun **kendi resmî sitesinden** teyit edilmiştir; kaynak bağlantıları kayıtların altında yer alır.
 
-Kapsam: Avrupa · Birleşik Krallık · Türkiye · ABD · Kanada · Avustralya · Yeni Zelanda · Japonya · Çin · Güney Kore · Singapur · Hong Kong · Tayvan · İsrail · Körfez ülkeleri (BAE, Suudi Arabistan, Katar, Bahreyn, Umman). Türkiye bölümü YÖK kılavuzunun tamamını kapsar; diğer ülkelerde kurumlar tek tek doğrulanarak eklenir.
+Kapsam: Avrupa · Birleşik Krallık · Türkiye · ABD · Kanada · Avustralya · Yeni Zelanda · Japonya · Çin · Güney Kore · Singapur · Hong Kong · Tayvan · İsrail · Körfez ülkeleri (BAE, Suudi Arabistan, Katar, Bahreyn, Umman) · Rusya · Ukrayna · Kafkasya (Azerbaycan, Ermenistan; Gürcistan'da adanmış oyun programı henüz doğrulanmadı). Türkiye bölümü YÖK kılavuzunun tamamını kapsar; diğer ülkelerde kurumlar tek tek doğrulanarak eklenir.
 
 **Alanların okunuşu.** *(Bologna normundan)* etiketli ECTS değerleri kurumun sayfasından değil, Avrupa Yükseköğretim Alanı'nın tam zamanlı yılda 60 ECTS kuralından türetilmiştir. *(tek bir değer geçerli değil)* ders düzeyi, değişim programı ya da çok kademeli yapıları gösterir. ECTS yalnızca Bologna ülkelerinde basılır; Fransız RNCP unvanları, İsveç YH diploması, Alman Fachschule gibi niteliklerde ECTS tanımlı olmadığı için ayrıca belirtilir.
 
@@ -16,6 +16,7 @@ Kapsam: Avrupa · Birleşik Krallık · Türkiye · ABD · Kanada · Avustralya 
 - [Almanya](#almanya) (18)
 - [Avustralya](#avustralya) (5)
 - [Avusturya](#avusturya) (3)
+- [Azerbaycan](#azerbaycan) (3)
 - [BAE](#bae) (4)
 - [Bahreyn](#bahreyn) (1)
 - [Belcika](#belcika) (4)
@@ -23,6 +24,7 @@ Kapsam: Avrupa · Birleşik Krallık · Türkiye · ABD · Kanada · Avustralya 
 - [Cek Cumhuriyeti](#cek-cumhuriyeti) (4)
 - [Cin](#cin) (8)
 - [Danimarka](#danimarka) (5)
+- [Ermenistan](#ermenistan) (1)
 - [Estonya](#estonya) (2)
 - [Finlandiya](#finlandiya) (10)
 - [Fransa](#fransa) (6)
@@ -48,11 +50,13 @@ Kapsam: Avrupa · Birleşik Krallık · Türkiye · ABD · Kanada · Avustralya 
 - [Polonya](#polonya) (5)
 - [Portekiz](#portekiz) (4)
 - [Romanya](#romanya) (2)
+- [Rusya](#rusya) (9)
 - [Singapur](#singapur) (4)
 - [Slovenya](#slovenya) (1)
 - [Suudi Arabistan](#suudi-arabistan) (3)
 - [Tayvan](#tayvan) (1)
 - [Turkiye](#turkiye) (10)
+- [Ukrayna](#ukrayna) (5)
 - [Umman](#umman) (2)
 - [Yeni Zelanda](#yeni-zelanda) (2)
 - [Yunanistan](#yunanistan) (1)
@@ -1587,6 +1591,63 @@ Katalogdaki **31 kurum**, oyun eğitimini lisans değil **kısa döngü yüksek�
 
 ---
 
+## Azerbaycan
+
+### ADA University — Baku
+
+**BS Computer Science (technical elective: Game Development Fundamentals)**  ·  _oyun dersleri_
+
+- **Derece:** Bachelor of Science
+- **Süre:** 4 yıl
+- **Eğitim dili:** Ingilizce
+- **Ücret:** Devlet/ozel hibrit — ada.edu.az den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Computer Science temelleri
+  - Game Development Fundamentals (secmeli)
+
+> Adanmis oyun lisansi yok; CS programinda yayinlanmis Game Development Fundamentals technical elective var.
+
+[Program sayfası](https://www.ada.edu.az/en/schools/site/programs/computer-science)
+
+### Baku Higher Oil School (BANM / BHOS) — Baku
+
+**Computer Science (050509) — elective CSCI 451 Games Technology**  ·  _oyun dersleri_
+
+- **Derece:** Bachelor (5 years)
+- **Süre:** 5 yıl
+- **Eğitim dili:** Ingilizce
+- **Ücret:** Devlet — bhos.edu.az den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Computer Science
+  - CSCI 451 Games Technology (secmeli)
+
+> Adanmis oyun programi yok; resmi kurrikulumda Games Technology secmeli dersi yayinlaniyor.
+
+[Program sayfası](https://bhos.edu.az/en/page/289/kurrikulum-strukturu)
+
+### Baku State University — Faculty of Applied Mathematics and Cybernetics — Baku
+
+**Mobile Applications Development and Game Design (master specialization)**  ·  _oyun bölümü_
+
+- **Derece:** Master specialization (Computer Science)
+- **Süre:** 2 yıl
+- **Eğitim dili:** Ingilizce
+- **Ücret:** Devlet universitesi — bsu.edu.az den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Mobil uygulama gelistirme
+  - Oyun tasarimi
+
+> Uc Kafkas ulkesinde isimli adanmis oyun hatti olarak dogrulanan en net ornek (MAGnUS / Erasmus+ KA2 cercevesinde duyurulmus Ingilizce master specialization). Guncel alimi BSU admissions ile teyit edilmeli.
+
+[Program sayfası](https://bsu.edu.az/az/news/20212022ci_tdris_ilind_bduda_yeni_magistr_ixtisaslamalar)
+
+**Doğrulama kaynakları:** <https://bsu.edu.az/az/news/bduda_erasmus_ka2_layihsi_rivsind_yay_mktbi>
+
+---
+
 ## BAE
 
 ### Abu Dhabi University — Abu Dhabi
@@ -2423,6 +2484,29 @@ Katalogdaki **31 kurum**, oyun eğitimini lisans değil **kısa döngü yüksek�
 [Program sayfası](https://www.sdu.dk/en/uddannelse/bachelor/spiludvikling-laeringsteknologi)
 
 **Doğrulama kaynakları:** <https://www.sdu.dk/en/uddannelse/kandidat/spiludvikling-laeringsteknologi>
+
+---
+
+## Ermenistan
+
+### American University of Armenia (AUA) — Yerevan
+
+**BS in Computer Science (includes CS218 Game Development)**  ·  _oyun dersleri_
+
+- **Derece:** Bachelor of Science
+- **Süre:** 4 yıl
+- **Eğitim dili:** Ingilizce
+- **Ücret:** Ozel universite — aua.am / catalog.aua.am den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Computer Science
+  - CS218 Game Development
+
+> Adanmis oyun bolumu yok. Resmi katalogda CS218 Game Development dersi ve kariyer ciktilari arasinda oyun gelistirme geciyor. TUMO bir HE derece kurumu degil — dahil edilmedi.
+
+[Program sayfası](https://catalog.aua.am/bs-in-computer-science/)
+
+**Doğrulama kaynakları:** <https://catalog.aua.am/bscs-courses/>
 
 ---
 
@@ -5401,6 +5485,192 @@ Katalogdaki **31 kurum**, oyun eğitimini lisans değil **kısa döngü yüksek�
 
 ---
 
+## Rusya
+
+### Bauman Moscow State Technical University — Moscow
+
+**Technologies for Computer Game Development**  ·  _oyun bölümü_
+
+- **Derece:** Master (09.04.02 Information Systems and Technologies)
+- **Süre:** 2 yıl
+- **Eğitim dili:** Rusca
+- **Ücret:** Devlet teknik universite — bmstu.ru den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun programlama
+  - Oyun muhendisligi
+
+> IU-3 bolumu GameDev yuksek lisansi; teknik/muhendislik odakli. Ayni isimli lisans aggregatorlarda gorunuyor ama bmstu.ru uzerinden dogrulanmadi.
+
+[Program sayfası](https://www.iu3.bmstu.ru/Home/StudyActivity)
+
+### Far Eastern Federal University (FEFU) — Vladivostok
+
+**Development and Management of Digital Products in the Game Industry**  ·  _oyun bölümü_
+
+- **Derece:** Master (09.04.03 Applied Informatics)
+- **Süre:** 2 yıl
+- **Eğitim dili:** Rusca
+- **Ücret:** Devlet universitesi — dvfu.ru den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun tasarimi
+  - Oyun araclari
+  - VR/AR
+  - Takim projeleri
+
+> Tam dongu oyun yuksek lisansi: tasarim, araclar, VR/AR, takim projeleri ve portfolyo oyunlari.
+
+[Program sayfası](https://postupi.dvfu.ru/education/magistratura/razrabotka-i-upravlenie-tsifrovymi-produktami-v-igrovoy-industrii/?lang=ru)
+
+### HSE University — Art and Design School — Moscow
+
+**Design BA — Game Design / Game Graphics and Concept Art profiles; Design MA — Systemic Game Design**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor / Master (54.03.01 Design)
+- **Süre:** 4 yıl
+- **Eğitim dili:** Rusca
+- **Ücret:** Devlet arastirma universitesi — design.hse.ru / hse.ru den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun tasarimi
+  - Oyun grafikleri ve concept art
+  - Proje tabanli oyun uretimi
+  - Sistemik oyun tasarimi (YL)
+
+> HSE Art and Design School icinde adanmis oyun profilleri. Lisans Design programi altinda Game Design ve Game Graphics; yuksek lisansta Systemic Game Design.
+
+[Program sayfası](https://design.hse.ru/dir/game-design)
+
+**Doğrulama kaynakları:** <https://design.hse.ru/ba/program/design> · <https://design.hse.ru/ma/design/gamedesign>
+
+### HSE University — Faculty of Computer Science / Art and Design School (joint) — Moscow
+
+**Game and Digital Product Development**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor (Software Engineering + Design joint)
+- **Süre:** 4 yıl
+- **Eğitim dili:** Rusca
+- **Ücret:** Devlet arastirma universitesi — digital.hse.ru / hse.ru den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun tasarimi
+  - Unity / Unreal programlama
+  - Produksiyon
+  - Pazarlama
+
+> 2025'ten itibaren Art & Design + Computer Science ortak lisansi; oyun tasarimi, programlama, uretim ve pazarlamayi birlestiriyor.
+
+[Program sayfası](https://digital.hse.ru/)
+
+### HSE University — St Petersburg campus — St Petersburg
+
+**Game Development**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor
+- **Süre:** 4 yıl
+- **Eğitim dili:** Rusca
+- **Ücret:** Devlet arastirma universitesi — spb.hse.ru den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun programlama
+  - Grafikler
+  - Oyun AI
+  - Optimizasyon
+  - Ag programlama
+
+> Teknik oyun gelistirme lisansi; ilk alim 2025. Video oyun programcilari icin grafik, AI, optimizasyon ve ag odakli.
+
+[Program sayfası](https://spb.hse.ru/en/ba/gamedev/)
+
+### ITMO University — Game Development School — St Petersburg
+
+**Game Development Technologies (BSc/MSc) + Game Design and Production (BSc)**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor / Master
+- **Süre:** 4 yıl
+- **Eğitim dili:** Rusca
+- **Ücret:** Devlet universitesi — itmo.ru / abit.itmo.ru den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - C++
+  - Unreal Engine 5
+  - Motorlar ve grafikler
+  - Oyun tasarimi ve produksiyon
+  - Oyun AI
+
+- **Araştırma laboratuvarı:**
+  - ITMO Game Development School <https://en.itmo.ru/en/department/509/Game_Development_School.htm>
+
+> Rusyanin en guclu teknik oyun okullarindan. Lisans: Game Development Technologies + Game Design and Production; yuksek lisans: Video Game Design / In-Game Technologies trackleri.
+
+[Program sayfası](https://abit.itmo.ru/en/program/bachelor/gamedev)
+
+**Doğrulama kaynakları:** <https://abit.itmo.ru/en/program/bachelor/gamedesign> · <https://abit.itmo.ru/en/program/master/gamedev> · <https://en.itmo.ru/en/department/509/Game_Development_School.htm>
+
+### Moscow Institute of Physics and Technology (MIPT) — TsOPRI / Scream School partnership — Moscow / Dolgoprudny
+
+**Modern Game Design (specialization within Applied Math & CS / ICT master's)**  ·  _oyun bölümü_
+
+- **Derece:** Master (MIPT state diploma)
+- **Süre:** 2 yıl
+- **Eğitim dili:** Rusca
+- **Ücret:** Devlet — mipt.ru / scream.school den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun motorlari
+  - Oyun mekanikleri
+  - Grafik programlama
+  - Produksiyon
+
+> MIPT Centre for Game Design & Development (TsOPRI) + Scream School. Rus devlet diploması. (Scream'in UK Hertfordshire BA validasyonu 2022'de askida — buraya dahil edilmedi.)
+
+[Program sayfası](https://globaluni.mipt.ru/education/basic-departments/tsentr-obucheniya-proektirovaniyu-i-razrabotke-igr-tsopri)
+
+**Doğrulama kaynakları:** <https://scream.school/ma>
+
+### Moscow Polytechnic University (Mospolytech) — Moscow
+
+**Software for the Computer Game Industry**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor (09.03.02 Information Systems and Technologies)
+- **Süre:** 4 yıl
+- **Eğitim dili:** Rusca
+- **Ücret:** Devlet universitesi — mospolytech.ru den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun yazilimi
+  - Platformlar
+  - Animasyon ve VFX
+  - Ses/video icerik
+
+> Oyun endustrisine yonelik adanmis lisans; kariyer ciktilari oyun tasarimcisi ve oyun gelistirici olarak yayinlaniyor.
+
+[Program sayfası](https://mospolytech.ru/postupayushchim/programmy-obucheniya/programmnoe-obespechenie-igrovoy-kompyuternoy-industrii/)
+
+### Synergy University — Moscow
+
+**Development of Computer Games, Augmented and Virtual Reality / Game Design and Game Development**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor (state diploma)
+- **Süre:** 4 yıl
+- **Eğitim dili:** Rusca
+- **Ücret:** Ozel akredite universite — synergy.ru den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun motorlari
+  - Programlama
+  - VR/AR
+  - Oyun tasarimi
+
+> Lisansli/akredite ozel universite lisansi (Skillbox sertifikasi degil). Oyun motorlari, programlama ve VR/AR; ayri bir Game Design and Game Development hatti da yayinlaniyor.
+
+[Program sayfası](https://synergy.ru/abiturientam/programmyi_obucheniya/razrabotka_kompyuternyh_igr)
+
+**Doğrulama kaynakları:** <https://synergyuniversity.ru/abiturientam/programmyi_obucheniya/gejmdizajn_i_razrabotka_igr>
+
+---
+
 ## Singapur
 
 > **Öğrenim ücreti (ülke kuralı):** Devlet politeknikleri ve üniversitelerinde ücret devlet desteğiyle (tuition grant) düşürülür; desteği alan uluslararası öğrenciler mezuniyet sonrası çalışma yükümlülüğü üstlenir.
@@ -5991,6 +6261,113 @@ Aşağıdaki iki tablo, YÖK Yükseköğretim Program Atlası'nın **2026 kılav
 | İstanbul Sağlık Ve Sosyal Bilimler Meslek Yüksekokulu | İstanbul | İstanbul Sağlık Ve Sosyal Bilimler Meslek Yüksekokulu | Oyun Geliştirme ve Programlama (Ücretli) (Bursa Yerleşkesi) | Türkçe | 42 | 190.000 TL · Ücretli | — | — |
 
 > Ücret sütunu vakıf üniversitelerinde yıllık öğrenim ücretini ya da burs oranını, devlet üniversitelerinde ücretsizliği gösterir. **Kadro** sütunu kılavuzda o programa bağlı gösterilen öğretim elemanı sayılarıdır (profesör / doçent / dr. öğretim üyesi / araştırma görevlisi) ve programın büyüklüğü hakkında fikir verir. Başarı sırası son yerleşen adayın YKS sırasıdır; boş hücreler o yıl yerleşme olmadığını ya da verinin kılavuzda bulunmadığını gösterir.
+
+---
+
+## Ukrayna
+
+### Igor Sikorsky Kyiv Polytechnic Institute (KPI) — Kyiv
+
+**Computer Game Development and Interactive Systems Programming**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor (F2 Software Engineering)
+- **Süre:** 4 yıl
+- **Eğitim dili:** Ukraynaca
+- **Ücret:** Devlet teknik universite — kpi.ua / osvita.kpi.ua den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun motorlari
+  - Oyun AI
+  - Grafik programlama
+  - Etkilesimli sistemler
+
+> 2025 alim listesinde adanmis lisans OPP. Faculty of Informatics and Computer Engineering bunyesinde.
+
+[Program sayfası](https://osvita.kpi.ua/sites/default/files/files/1_Osvitni_programy_2025.pdf)
+
+**Doğrulama kaynakları:** <https://fiot.kpi.ua/wp-content/uploads/2025/04/%D0%9E%D0%9F%D0%9F_%D0%A0%D0%9A%D0%86%D0%9F%D0%86%D0%A1_121_%D0%B1%D0%B0%D0%BA_25_26_%D1%83%D0%BA%D1%80%D0%B0%D0%BD%D0%B3.pdf>
+
+### Kyiv National University of Technologies and Design (KNUTD) — Kyiv
+
+**Digital Art (concept art / characters / artistic design for computer games)**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor (Visual Arts / Fine Arts)
+- **Süre:** 4 yıl
+- **Eğitim dili:** Ukraynaca
+- **Ücret:** Devlet universitesi — knutd.edu.ua den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Concept art
+  - Karakter tasarimi
+  - Bilgisayar oyunu sanati
+
+> Baslik 'Game Design' degil ama Digital Art lisansi bilgisayar oyunlari icin concept art/karakter/sanatsal tasarim egitimi ve oyun sanatcisi kariyer ciktilari yayinlaniyor.
+
+[Program sayfası](https://en.knutd.edu.ua/university/faculties/fcci/)
+
+**Doğrulama kaynakları:** <https://knutd.edu.ua/admissions_main/obrati-profesiju/567/14558/>
+
+### Lviv Polytechnic National University — Lviv
+
+**Virtual Reality Systems (Computer Science) — Digital Entertainment Technologies track**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor (F3 Computer Science)
+- **Süre:** 4 yıl
+- **Eğitim dili:** Ukraynaca
+- **Ücret:** Devlet universitesi — lpnu.ua den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun tasarimi
+  - Oyun icerigi
+  - Oyun gelistirme temelleri
+  - XR
+
+> Ukrayna'nin ilk VR Systems lisansi (Lviv IT Cluster ile). Entertainment track oyun tasarimi ve oyun gelistirme temellerini yayinlaniyor.
+
+[Program sayfası](https://xr.net.ua/en)
+
+**Doğrulama kaynakları:** <https://lpnu.ua/en/icsit/areas-training-specialties-and-educational-programs>
+
+### Odesa National Technological University (ONTU) — Odesa
+
+**Game Development and Interactive Media in Virtual Reality**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor (F7 Computer Engineering)
+- **Süre:** 4 yıl
+- **Eğitim dili:** Ukraynaca
+- **Ücret:** Devlet universitesi — ontu.edu.ua den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - Oyun programlama
+  - Oyun tasarimi
+  - CG/3D
+  - Oyun AI
+  - VR/AR
+
+> Adanmis lisans; yayinlanan roller arasinda oyun tasarimcisi ve gameplay/engine programcisi var.
+
+[Program sayfası](https://pk.ontu.edu.ua/Page_528.html)
+
+### Zhytomyr Polytechnic State University — Zhytomyr
+
+**Computer Graphics and Game Development**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor (F3 / 122 Computer Science)
+- **Süre:** 4 yıl
+- **Eğitim dili:** Ukraynaca
+- **Ücret:** Devlet universitesi — ztu.edu.ua den teyit edilmeli
+
+- **Örnek dersler / müfredat:**
+  - 3D / animasyon
+  - Unity oyun uygulamalari
+  - AR/VR
+  - Oyun AI / ML
+
+> Acik oyun odakli Computer Science lisansi: 3D/animasyon, Unity, AR/VR, oyun AI.
+
+[Program sayfası](https://vstup.ztu.edu.ua/bakalavr/122-computer-science/)
+
+**Doğrulama kaynakları:** <https://ztu.edu.ua/education-programs/13.html>
 
 ---
 

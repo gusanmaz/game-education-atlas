@@ -1,7 +1,7 @@
 # Game Education Atlas · Oyun Eğitimi Atlası
 
-**231 higher-education game programmes across 44 countries — every record verified from the institution's own website.**
-*44 ülkede 231 yükseköğretim oyun programı — her kayıt kurumun kendi sitesinden doğrulandı.*
+**249 higher-education game programmes across 48 countries — every record verified from the institution's own website.**
+*48 ülkede 249 yükseköğretim oyun programı — her kayıt kurumun kendi sitesinden doğrulandı.*
 
 🌐 **[Browse the atlas / Katalogu gez](https://gusanmaz.github.io/game-education-atlas/)** ·
 📄 **[PDF](catalogue/oyun-programlari.pdf)** ·
@@ -28,9 +28,10 @@ that instead of leaving a blank.
 
 **Scope.** Europe · United Kingdom · Türkiye · United States · Canada · Australia · New Zealand ·
 Japan · China · South Korea · Singapore · Hong Kong · Taiwan · Israel · Gulf states (UAE, Saudi
-Arabia, Qatar, Bahrain, Oman). The Türkiye section is complete — it is generated directly from the
-Turkish Higher Education Council's 2026 admission guide and covers **every** programme with "game"
-in its name. Other countries are added institution by institution as each is verified.
+Arabia, Qatar, Bahrain, Oman) · Russia · Ukraine · Caucasus (Azerbaijan, Armenia). The Türkiye
+section is complete — it is generated directly from the Turkish Higher Education Council's 2026
+admission guide and covers **every** programme with "game" in its name. Other countries are added
+institution by institution as each is verified.
 
 **A note on level.** The catalogue pays particular attention to **short-cycle higher education**
 (EQF level 5 and its equivalents: Portuguese CTeSP, Danish AP, Swedish YH, US Associate of Applied
@@ -64,7 +65,7 @@ boş bırakılmak yerine bunun nedenini yazıyor.
 **Düzey vurgusu.** Katalog **kısa döngü yükseköğretime** (EQF 5 ve dengi: Portekiz CTeSP, Danimarka
 AP, İsveç YH, ABD Associate of Applied Science, Ontario College Advanced Diploma, Japon senmon
 gakkō, Singapur politeknik diploması, Türkiye ön lisans) ayrı bir önem veriyor. Bu programlar
-uluslararası listelerde sürekli eksik temsil ediliyor; burada 29 tanesi işaretli.
+uluslararası listelerde sürekli eksik temsil ediliyor; burada kısa döngü kayıtlar işaretli.
 
 **Türkiye bölümü eksiksizdir** — doğrudan YÖK'ün 2026 tercih kılavuzu verisinden üretilmiştir ve
 adında "oyun" geçen **bütün** programları kapsar.

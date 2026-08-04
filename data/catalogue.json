@@ -8669,6 +8669,467 @@
       "kurum_id": 1231,
       "kayit_id": "1231-1",
       "durum": "dogrulandi"
+    },
+    {
+      "kurum": "HSE University — Art and Design School",
+      "sehir": "Moscow",
+      "ulke": "Rusya",
+      "oyun_odagi": "Yuksek",
+      "program": "Design BA — Game Design / Game Graphics and Concept Art profiles; Design MA — Systemic Game Design",
+      "derece": "Bachelor / Master (54.03.01 Design)",
+      "sure_yil": 4,
+      "dil": "Rusca",
+      "ucret": "Devlet arastirma universitesi — design.hse.ru / hse.ru den teyit edilmeli",
+      "dersler": [
+        "Oyun tasarimi",
+        "Oyun grafikleri ve concept art",
+        "Proje tabanli oyun uretimi",
+        "Sistemik oyun tasarimi (YL)"
+      ],
+      "notlar": "HSE Art and Design School icinde adanmis oyun profilleri. Lisans Design programi altinda Game Design ve Game Graphics; yuksek lisansta Systemic Game Design.",
+      "url": "https://design.hse.ru/dir/game-design",
+      "kaynaklar": [
+        "https://design.hse.ru/dir/game-design",
+        "https://design.hse.ru/ba/program/design",
+        "https://design.hse.ru/ma/design/gamedesign"
+      ],
+      "kurum_id": 1232,
+      "kayit_id": "1232-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "HSE University — Faculty of Computer Science / Art and Design School (joint)",
+      "sehir": "Moscow",
+      "ulke": "Rusya",
+      "oyun_odagi": "Yuksek",
+      "program": "Game and Digital Product Development",
+      "derece": "Bachelor (Software Engineering + Design joint)",
+      "sure_yil": 4,
+      "dil": "Rusca",
+      "ucret": "Devlet arastirma universitesi — digital.hse.ru / hse.ru den teyit edilmeli",
+      "dersler": [
+        "Oyun tasarimi",
+        "Unity / Unreal programlama",
+        "Produksiyon",
+        "Pazarlama"
+      ],
+      "notlar": "2025'ten itibaren Art & Design + Computer Science ortak lisansi; oyun tasarimi, programlama, uretim ve pazarlamayi birlestiriyor.",
+      "url": "https://digital.hse.ru/",
+      "kaynaklar": [
+        "https://digital.hse.ru/"
+      ],
+      "kurum_id": 1233,
+      "kayit_id": "1233-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "HSE University — St Petersburg campus",
+      "sehir": "St Petersburg",
+      "ulke": "Rusya",
+      "oyun_odagi": "Yuksek",
+      "program": "Game Development",
+      "derece": "Bachelor",
+      "sure_yil": 4,
+      "dil": "Rusca",
+      "ucret": "Devlet arastirma universitesi — spb.hse.ru den teyit edilmeli",
+      "dersler": [
+        "Oyun programlama",
+        "Grafikler",
+        "Oyun AI",
+        "Optimizasyon",
+        "Ag programlama"
+      ],
+      "notlar": "Teknik oyun gelistirme lisansi; ilk alim 2025. Video oyun programcilari icin grafik, AI, optimizasyon ve ag odakli.",
+      "url": "https://spb.hse.ru/en/ba/gamedev/",
+      "kaynaklar": [
+        "https://spb.hse.ru/en/ba/gamedev/"
+      ],
+      "kurum_id": 1234,
+      "kayit_id": "1234-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "ITMO University — Game Development School",
+      "sehir": "St Petersburg",
+      "ulke": "Rusya",
+      "oyun_odagi": "Yuksek",
+      "program": "Game Development Technologies (BSc/MSc) + Game Design and Production (BSc)",
+      "derece": "Bachelor / Master",
+      "sure_yil": 4,
+      "dil": "Rusca",
+      "ucret": "Devlet universitesi — itmo.ru / abit.itmo.ru den teyit edilmeli",
+      "dersler": [
+        "C++",
+        "Unreal Engine 5",
+        "Motorlar ve grafikler",
+        "Oyun tasarimi ve produksiyon",
+        "Oyun AI"
+      ],
+      "arastirma_lab": [
+        {
+          "ad": "ITMO Game Development School",
+          "url": "https://en.itmo.ru/en/department/509/Game_Development_School.htm"
+        }
+      ],
+      "notlar": "Rusyanin en guclu teknik oyun okullarindan. Lisans: Game Development Technologies + Game Design and Production; yuksek lisans: Video Game Design / In-Game Technologies trackleri.",
+      "url": "https://abit.itmo.ru/en/program/bachelor/gamedev",
+      "kaynaklar": [
+        "https://abit.itmo.ru/en/program/bachelor/gamedev",
+        "https://abit.itmo.ru/en/program/bachelor/gamedesign",
+        "https://abit.itmo.ru/en/program/master/gamedev",
+        "https://en.itmo.ru/en/department/509/Game_Development_School.htm"
+      ],
+      "kurum_id": 1235,
+      "kayit_id": "1235-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Moscow Polytechnic University (Mospolytech)",
+      "sehir": "Moscow",
+      "ulke": "Rusya",
+      "oyun_odagi": "Yuksek",
+      "program": "Software for the Computer Game Industry",
+      "derece": "Bachelor (09.03.02 Information Systems and Technologies)",
+      "sure_yil": 4,
+      "dil": "Rusca",
+      "ucret": "Devlet universitesi — mospolytech.ru den teyit edilmeli",
+      "dersler": [
+        "Oyun yazilimi",
+        "Platformlar",
+        "Animasyon ve VFX",
+        "Ses/video icerik"
+      ],
+      "notlar": "Oyun endustrisine yonelik adanmis lisans; kariyer ciktilari oyun tasarimcisi ve oyun gelistirici olarak yayinlaniyor.",
+      "url": "https://mospolytech.ru/postupayushchim/programmy-obucheniya/programmnoe-obespechenie-igrovoy-kompyuternoy-industrii/",
+      "kaynaklar": [
+        "https://mospolytech.ru/postupayushchim/programmy-obucheniya/programmnoe-obespechenie-igrovoy-kompyuternoy-industrii/"
+      ],
+      "kurum_id": 1236,
+      "kayit_id": "1236-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Bauman Moscow State Technical University",
+      "sehir": "Moscow",
+      "ulke": "Rusya",
+      "oyun_odagi": "Yuksek",
+      "program": "Technologies for Computer Game Development",
+      "derece": "Master (09.04.02 Information Systems and Technologies)",
+      "sure_yil": 2,
+      "dil": "Rusca",
+      "ucret": "Devlet teknik universite — bmstu.ru den teyit edilmeli",
+      "dersler": [
+        "Oyun programlama",
+        "Oyun muhendisligi"
+      ],
+      "notlar": "IU-3 bolumu GameDev yuksek lisansi; teknik/muhendislik odakli. Ayni isimli lisans aggregatorlarda gorunuyor ama bmstu.ru uzerinden dogrulanmadi.",
+      "url": "https://www.iu3.bmstu.ru/Home/StudyActivity",
+      "kaynaklar": [
+        "https://www.iu3.bmstu.ru/Home/StudyActivity"
+      ],
+      "kurum_id": 1237,
+      "kayit_id": "1237-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Moscow Institute of Physics and Technology (MIPT) — TsOPRI / Scream School partnership",
+      "sehir": "Moscow / Dolgoprudny",
+      "ulke": "Rusya",
+      "oyun_odagi": "Yuksek",
+      "program": "Modern Game Design (specialization within Applied Math & CS / ICT master's)",
+      "derece": "Master (MIPT state diploma)",
+      "sure_yil": 2,
+      "dil": "Rusca",
+      "ucret": "Devlet — mipt.ru / scream.school den teyit edilmeli",
+      "dersler": [
+        "Oyun motorlari",
+        "Oyun mekanikleri",
+        "Grafik programlama",
+        "Produksiyon"
+      ],
+      "notlar": "MIPT Centre for Game Design & Development (TsOPRI) + Scream School. Rus devlet diploması. (Scream'in UK Hertfordshire BA validasyonu 2022'de askida — buraya dahil edilmedi.)",
+      "url": "https://globaluni.mipt.ru/education/basic-departments/tsentr-obucheniya-proektirovaniyu-i-razrabotke-igr-tsopri",
+      "kaynaklar": [
+        "https://globaluni.mipt.ru/education/basic-departments/tsentr-obucheniya-proektirovaniyu-i-razrabotke-igr-tsopri",
+        "https://scream.school/ma"
+      ],
+      "kurum_id": 1238,
+      "kayit_id": "1238-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Far Eastern Federal University (FEFU)",
+      "sehir": "Vladivostok",
+      "ulke": "Rusya",
+      "oyun_odagi": "Yuksek",
+      "program": "Development and Management of Digital Products in the Game Industry",
+      "derece": "Master (09.04.03 Applied Informatics)",
+      "sure_yil": 2,
+      "dil": "Rusca",
+      "ucret": "Devlet universitesi — dvfu.ru den teyit edilmeli",
+      "dersler": [
+        "Oyun tasarimi",
+        "Oyun araclari",
+        "VR/AR",
+        "Takim projeleri"
+      ],
+      "notlar": "Tam dongu oyun yuksek lisansi: tasarim, araclar, VR/AR, takim projeleri ve portfolyo oyunlari.",
+      "url": "https://postupi.dvfu.ru/education/magistratura/razrabotka-i-upravlenie-tsifrovymi-produktami-v-igrovoy-industrii/?lang=ru",
+      "kaynaklar": [
+        "https://postupi.dvfu.ru/education/magistratura/razrabotka-i-upravlenie-tsifrovymi-produktami-v-igrovoy-industrii/?lang=ru"
+      ],
+      "kurum_id": 1239,
+      "kayit_id": "1239-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Synergy University",
+      "sehir": "Moscow",
+      "ulke": "Rusya",
+      "oyun_odagi": "Yuksek",
+      "program": "Development of Computer Games, Augmented and Virtual Reality / Game Design and Game Development",
+      "derece": "Bachelor (state diploma)",
+      "sure_yil": 4,
+      "dil": "Rusca",
+      "ucret": "Ozel akredite universite — synergy.ru den teyit edilmeli",
+      "dersler": [
+        "Oyun motorlari",
+        "Programlama",
+        "VR/AR",
+        "Oyun tasarimi"
+      ],
+      "notlar": "Lisansli/akredite ozel universite lisansi (Skillbox sertifikasi degil). Oyun motorlari, programlama ve VR/AR; ayri bir Game Design and Game Development hatti da yayinlaniyor.",
+      "url": "https://synergy.ru/abiturientam/programmyi_obucheniya/razrabotka_kompyuternyh_igr",
+      "kaynaklar": [
+        "https://synergy.ru/abiturientam/programmyi_obucheniya/razrabotka_kompyuternyh_igr",
+        "https://synergyuniversity.ru/abiturientam/programmyi_obucheniya/gejmdizajn_i_razrabotka_igr"
+      ],
+      "kurum_id": 1240,
+      "kayit_id": "1240-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Igor Sikorsky Kyiv Polytechnic Institute (KPI)",
+      "sehir": "Kyiv",
+      "ulke": "Ukrayna",
+      "oyun_odagi": "Yuksek",
+      "program": "Computer Game Development and Interactive Systems Programming",
+      "derece": "Bachelor (F2 Software Engineering)",
+      "sure_yil": 4,
+      "dil": "Ukraynaca",
+      "ucret": "Devlet teknik universite — kpi.ua / osvita.kpi.ua den teyit edilmeli",
+      "dersler": [
+        "Oyun motorlari",
+        "Oyun AI",
+        "Grafik programlama",
+        "Etkilesimli sistemler"
+      ],
+      "notlar": "2025 alim listesinde adanmis lisans OPP. Faculty of Informatics and Computer Engineering bunyesinde.",
+      "url": "https://osvita.kpi.ua/sites/default/files/files/1_Osvitni_programy_2025.pdf",
+      "kaynaklar": [
+        "https://osvita.kpi.ua/sites/default/files/files/1_Osvitni_programy_2025.pdf",
+        "https://fiot.kpi.ua/wp-content/uploads/2025/04/%D0%9E%D0%9F%D0%9F_%D0%A0%D0%9A%D0%86%D0%9F%D0%86%D0%A1_121_%D0%B1%D0%B0%D0%BA_25_26_%D1%83%D0%BA%D1%80%D0%B0%D0%BD%D0%B3.pdf"
+      ],
+      "kurum_id": 1241,
+      "kayit_id": "1241-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Zhytomyr Polytechnic State University",
+      "sehir": "Zhytomyr",
+      "ulke": "Ukrayna",
+      "oyun_odagi": "Yuksek",
+      "program": "Computer Graphics and Game Development",
+      "derece": "Bachelor (F3 / 122 Computer Science)",
+      "sure_yil": 4,
+      "dil": "Ukraynaca",
+      "ucret": "Devlet universitesi — ztu.edu.ua den teyit edilmeli",
+      "dersler": [
+        "3D / animasyon",
+        "Unity oyun uygulamalari",
+        "AR/VR",
+        "Oyun AI / ML"
+      ],
+      "notlar": "Acik oyun odakli Computer Science lisansi: 3D/animasyon, Unity, AR/VR, oyun AI.",
+      "url": "https://vstup.ztu.edu.ua/bakalavr/122-computer-science/",
+      "kaynaklar": [
+        "https://vstup.ztu.edu.ua/bakalavr/122-computer-science/",
+        "https://ztu.edu.ua/education-programs/13.html"
+      ],
+      "kurum_id": 1242,
+      "kayit_id": "1242-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Odesa National Technological University (ONTU)",
+      "sehir": "Odesa",
+      "ulke": "Ukrayna",
+      "oyun_odagi": "Yuksek",
+      "program": "Game Development and Interactive Media in Virtual Reality",
+      "derece": "Bachelor (F7 Computer Engineering)",
+      "sure_yil": 4,
+      "dil": "Ukraynaca",
+      "ucret": "Devlet universitesi — ontu.edu.ua den teyit edilmeli",
+      "dersler": [
+        "Oyun programlama",
+        "Oyun tasarimi",
+        "CG/3D",
+        "Oyun AI",
+        "VR/AR"
+      ],
+      "notlar": "Adanmis lisans; yayinlanan roller arasinda oyun tasarimcisi ve gameplay/engine programcisi var.",
+      "url": "https://pk.ontu.edu.ua/Page_528.html",
+      "kaynaklar": [
+        "https://pk.ontu.edu.ua/Page_528.html"
+      ],
+      "kurum_id": 1243,
+      "kayit_id": "1243-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Lviv Polytechnic National University",
+      "sehir": "Lviv",
+      "ulke": "Ukrayna",
+      "oyun_odagi": "Yuksek",
+      "program": "Virtual Reality Systems (Computer Science) — Digital Entertainment Technologies track",
+      "derece": "Bachelor (F3 Computer Science)",
+      "sure_yil": 4,
+      "dil": "Ukraynaca",
+      "ucret": "Devlet universitesi — lpnu.ua den teyit edilmeli",
+      "dersler": [
+        "Oyun tasarimi",
+        "Oyun icerigi",
+        "Oyun gelistirme temelleri",
+        "XR"
+      ],
+      "notlar": "Ukrayna'nin ilk VR Systems lisansi (Lviv IT Cluster ile). Entertainment track oyun tasarimi ve oyun gelistirme temellerini yayinlaniyor.",
+      "url": "https://xr.net.ua/en",
+      "kaynaklar": [
+        "https://xr.net.ua/en",
+        "https://lpnu.ua/en/icsit/areas-training-specialties-and-educational-programs"
+      ],
+      "kurum_id": 1244,
+      "kayit_id": "1244-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Kyiv National University of Technologies and Design (KNUTD)",
+      "sehir": "Kyiv",
+      "ulke": "Ukrayna",
+      "oyun_odagi": "Yuksek",
+      "program": "Digital Art (concept art / characters / artistic design for computer games)",
+      "derece": "Bachelor (Visual Arts / Fine Arts)",
+      "sure_yil": 4,
+      "dil": "Ukraynaca",
+      "ucret": "Devlet universitesi — knutd.edu.ua den teyit edilmeli",
+      "dersler": [
+        "Concept art",
+        "Karakter tasarimi",
+        "Bilgisayar oyunu sanati"
+      ],
+      "notlar": "Baslik 'Game Design' degil ama Digital Art lisansi bilgisayar oyunlari icin concept art/karakter/sanatsal tasarim egitimi ve oyun sanatcisi kariyer ciktilari yayinlaniyor.",
+      "url": "https://en.knutd.edu.ua/university/faculties/fcci/",
+      "kaynaklar": [
+        "https://en.knutd.edu.ua/university/faculties/fcci/",
+        "https://knutd.edu.ua/admissions_main/obrati-profesiju/567/14558/"
+      ],
+      "kurum_id": 1245,
+      "kayit_id": "1245-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Baku State University — Faculty of Applied Mathematics and Cybernetics",
+      "sehir": "Baku",
+      "ulke": "Azerbaycan",
+      "oyun_odagi": "Yuksek",
+      "program": "Mobile Applications Development and Game Design (master specialization)",
+      "derece": "Master specialization (Computer Science)",
+      "sure_yil": 2,
+      "dil": "Ingilizce",
+      "ucret": "Devlet universitesi — bsu.edu.az den teyit edilmeli",
+      "dersler": [
+        "Mobil uygulama gelistirme",
+        "Oyun tasarimi"
+      ],
+      "notlar": "Uc Kafkas ulkesinde isimli adanmis oyun hatti olarak dogrulanan en net ornek (MAGnUS / Erasmus+ KA2 cercevesinde duyurulmus Ingilizce master specialization). Guncel alimi BSU admissions ile teyit edilmeli.",
+      "url": "https://bsu.edu.az/az/news/20212022ci_tdris_ilind_bduda_yeni_magistr_ixtisaslamalar",
+      "kaynaklar": [
+        "https://bsu.edu.az/az/news/20212022ci_tdris_ilind_bduda_yeni_magistr_ixtisaslamalar",
+        "https://bsu.edu.az/az/news/bduda_erasmus_ka2_layihsi_rivsind_yay_mktbi"
+      ],
+      "kurum_id": 1246,
+      "kayit_id": "1246-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "ADA University",
+      "sehir": "Baku",
+      "ulke": "Azerbaycan",
+      "oyun_odagi": "Orta",
+      "program": "BS Computer Science (technical elective: Game Development Fundamentals)",
+      "derece": "Bachelor of Science",
+      "sure_yil": 4,
+      "dil": "Ingilizce",
+      "ucret": "Devlet/ozel hibrit — ada.edu.az den teyit edilmeli",
+      "dersler": [
+        "Computer Science temelleri",
+        "Game Development Fundamentals (secmeli)"
+      ],
+      "notlar": "Adanmis oyun lisansi yok; CS programinda yayinlanmis Game Development Fundamentals technical elective var.",
+      "url": "https://www.ada.edu.az/en/schools/site/programs/computer-science",
+      "kaynaklar": [
+        "https://www.ada.edu.az/en/schools/site/programs/computer-science"
+      ],
+      "kurum_id": 1247,
+      "kayit_id": "1247-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "American University of Armenia (AUA)",
+      "sehir": "Yerevan",
+      "ulke": "Ermenistan",
+      "oyun_odagi": "Orta",
+      "program": "BS in Computer Science (includes CS218 Game Development)",
+      "derece": "Bachelor of Science",
+      "sure_yil": 4,
+      "dil": "Ingilizce",
+      "ucret": "Ozel universite — aua.am / catalog.aua.am den teyit edilmeli",
+      "dersler": [
+        "Computer Science",
+        "CS218 Game Development"
+      ],
+      "notlar": "Adanmis oyun bolumu yok. Resmi katalogda CS218 Game Development dersi ve kariyer ciktilari arasinda oyun gelistirme geciyor. TUMO bir HE derece kurumu degil — dahil edilmedi.",
+      "url": "https://catalog.aua.am/bs-in-computer-science/",
+      "kaynaklar": [
+        "https://catalog.aua.am/bs-in-computer-science/",
+        "https://catalog.aua.am/bscs-courses/"
+      ],
+      "kurum_id": 1248,
+      "kayit_id": "1248-1",
+      "durum": "dogrulandi"
+    },
+    {
+      "kurum": "Baku Higher Oil School (BANM / BHOS)",
+      "sehir": "Baku",
+      "ulke": "Azerbaycan",
+      "oyun_odagi": "Orta",
+      "program": "Computer Science (050509) — elective CSCI 451 Games Technology",
+      "derece": "Bachelor (5 years)",
+      "sure_yil": 5,
+      "dil": "Ingilizce",
+      "ucret": "Devlet — bhos.edu.az den teyit edilmeli",
+      "dersler": [
+        "Computer Science",
+        "CSCI 451 Games Technology (secmeli)"
+      ],
+      "notlar": "Adanmis oyun programi yok; resmi kurrikulumda Games Technology secmeli dersi yayinlaniyor.",
+      "url": "https://bhos.edu.az/en/page/289/kurrikulum-strukturu",
+      "kaynaklar": [
+        "https://bhos.edu.az/en/page/289/kurrikulum-strukturu"
+      ],
+      "kurum_id": 1249,
+      "kayit_id": "1249-1",
+      "durum": "dogrulandi"
     }
   ]
 }
