@@ -534,7 +534,7 @@ function kart(p) {
   return `<article class="${sınıflar.join(" ")}">
     <div class="kart-üst">
       <h2>${kaç(p.kurum)}</h2>
-      <div class="yer">${kaç(p.sehir)}${p.sehir ? " · " : ""}${kaç(ulkeAdi(p))}</div>
+      <div class="yer">${kaç(p.sehir)}${p.sehir ? " · " : ""}${bayrak(p.ulke)}${kaç(ulkeAdi(p))}</div>
     </div>
     ${rozet.length ? `<div class="rozetler">${rozet.join("")}</div>` : ""}
     ${p.program ? `<div class="prog">${kaç(p.program)}</div>` : ""}
