@@ -181,6 +181,39 @@ header::before {
   color: var(--accent-ink); padding: 6px 0 0; letter-spacing: 0.01em;
 }
 
+/* ---------- içindekiler (ülke paneli) ---------- */
+.icindekiler {
+  margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--line-soft);
+}
+.icindekiler summary {
+  font-family: var(--font-d); font-size: 11px; font-weight: 650;
+  letter-spacing: 0.04em; text-transform: uppercase; color: var(--text-3);
+  cursor: pointer; list-style: none; padding: 2px 0;
+}
+.icindekiler summary::-webkit-details-marker { display: none; }
+.icindekiler summary::before { content: none; }
+.icindekiler[open] summary { color: var(--accent-ink); margin-bottom: 6px; }
+.toc-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
+  gap: 4px;
+}
+.toc-oge {
+  display: flex; justify-content: space-between; align-items: center; gap: 6px;
+  padding: 5px 8px; border-radius: 6px; border: 1px solid var(--line);
+  background: var(--surface-1); color: var(--text-1); font-size: 12.5px;
+  cursor: pointer; text-align: left; font: inherit;
+}
+.toc-oge:hover, .toc-oge.açık {
+  border-color: var(--accent); background: var(--accent-bg); color: var(--accent-ink);
+}
+.toc-oge .toc-ad { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.toc-oge .toc-n {
+  font-family: var(--font-d); font-size: 10.5px; font-weight: 700;
+  color: var(--accent-ink); background: var(--accent-bg);
+  padding: 0 6px; border-radius: 4px; flex-shrink: 0;
+}
+.toc-oge.açık .toc-n { background: var(--accent); color: #fff; }
+
 /* ---------- cards (dense) ---------- */
 .liste { padding: 4px 0 48px; }
 .kart {
@@ -311,6 +344,10 @@ footer p { margin: 0 0 6px; max-width: 70ch; }
       <div class="alan" id="ulkeler"></div>
       <div class="alan" id="sinirlar"></div>
     </div>
+    <details class="icindekiler" id="toc-kutu">
+      <summary data-t="icindekiler"></summary>
+      <div class="toc-grid" id="toc"></div>
+    </details>
     <div class="sayaç" id="sayac"></div>
   </div>
 </section>
@@ -335,7 +372,7 @@ const METIN = {
     ozet: "",
     pdf: "PDF", md: "Markdown", repo: "GitHub", katki: "Contribute",
     ara: "Search institution, city, course, professor, lab…",
-    ulke: "Country", sinir: "Filter",
+    ulke: "Country", sinir: "Filter", icindekiler: "Contents · jump to country",
     hepsi: "All countries", sinirHepsi: "No filter",
     oyunBolum: "Dedicated game programme", ingilizce: "Taught in English",
     myoSeviye: "Short-cycle / associate level", hocaVar: "Named faculty listed",
@@ -357,7 +394,7 @@ const METIN = {
     ozet: "",
     pdf: "PDF", md: "Markdown", repo: "GitHub", katki: "Katkı ver",
     ara: "Kurum, şehir, ders, hoca, laboratuvar ara…",
-    ulke: "Ülke", sinir: "Süzgeç",
+    ulke: "Ülke", sinir: "Süzgeç", icindekiler: "İçindekiler · ülkeye git",
     hepsi: "Tüm ülkeler", sinirHepsi: "Süzgeç yok",
     oyunBolum: "Ayrı oyun bölümü", ingilizce: "İngilizce eğitim",
     myoSeviye: "MYO / ön lisans düzeyi", hocaVar: "Öğretim üyesi ismen var",
@@ -445,6 +482,15 @@ function çipler() {
     anahtar.map(([k, e]) =>
       `<option value="${k}"${durum.sinir === k ? " selected" : ""}>${kaç(e)}</option>`).join("") +
     `</select>`;
+
+  $("#toc").innerHTML =
+    `<button type="button" class="toc-oge${durum.ulke === "" ? " açık" : ""}" data-ulke="">` +
+    `<span class="toc-ad">${kaç(T().hepsi)}</span>` +
+    `<span class="toc-n">${P.length}</span></button>` +
+    sıra.map(k =>
+      `<button type="button" class="toc-oge${durum.ulke === k ? " açık" : ""}" data-ulke="${kaç(k)}">` +
+      `<span class="toc-ad">${bayrak(k)}${kaç(ad(k))}</span>` +
+      `<span class="toc-n">${sayım[k]}</span></button>`).join("");
 }
 
 function kart(p) {
@@ -535,11 +581,20 @@ $("#ara").addEventListener("input", e => { durum.q = e.target.value; çiz(); });
 
 document.addEventListener("change", e => {
   if (!e.target) return;
-  if (e.target.id === "ulke-sec") { durum.ulke = e.target.value || ""; çiz(); }
+  if (e.target.id === "ulke-sec") { durum.ulke = e.target.value || ""; çipler(); çiz(); }
   if (e.target.id === "sinir-sec") { durum.sinir = e.target.value || ""; çiz(); }
 });
 
 document.addEventListener("click", e => {
+  const toc = e.target.closest("[data-ulke]");
+  if (toc && toc.classList.contains("toc-oge")) {
+    durum.ulke = toc.dataset.ulke || "";
+    const sel = $("#ulke-sec");
+    if (sel) sel.value = durum.ulke;
+    çipler(); çiz();
+    $("#liste").scrollIntoView({ behavior: "smooth", block: "start" });
+    return;
+  }
   const d = e.target.closest("[data-dil]");
   if (d) { dil = d.dataset.dil; try { localStorage.setItem("atlas-dil", dil); } catch (_) {} dilUygula(); }
 });
@@ -560,6 +615,7 @@ try {
 } catch (_) {}
 
 dilUygula();
+if (matchMedia("(min-width: 720px)").matches) $("#toc-kutu").open = true;
 </script>
 </body>
 </html>
