@@ -81,44 +81,30 @@ header { border-bottom: 1px solid var(--line); background: var(--surface-1); }
 .bağ:hover { border-color: var(--text-3); }
 .bağ.ana:hover { filter: brightness(1.08); }
 
-/* ---------- KPI ---------- */
-.künye { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px;
-         background: var(--line-soft); border-top: 1px solid var(--line);
-         border-bottom: 1px solid var(--line); }
-.kutu { background: var(--surface-0); padding: 15px 18px; }
-.kutu b { display: block; font-size: 26px; font-weight: 650; letter-spacing: -0.02em; }
-.kutu span { font-size: 12.5px; color: var(--text-2); }
-
 /* ---------- filters ---------- */
-.süzgeç { padding: 18px 0 10px; position: sticky; top: 0; z-index: 5;
+.süzgeç { padding: 14px 0 8px; position: sticky; top: 0; z-index: 5;
           background: var(--surface-0); border-bottom: 1px solid var(--line); }
 .ara {
   width: 100%; font: inherit; padding: 10px 13px; border-radius: 9px;
   border: 1px solid var(--line); background: var(--surface-1); color: var(--text-1);
 }
 .ara:focus { outline: 2px solid var(--accent); outline-offset: -1px; border-color: var(--accent); }
-.satır { display: flex; gap: 7px; flex-wrap: wrap; margin-top: 11px; align-items: center; }
-.etiket { font-size: 12px; color: var(--text-3); margin-right: 2px; flex-shrink: 0; }
-.çip {
-  font: inherit; font-size: 13px; padding: 4px 10px; border-radius: 999px;
-  border: 1px solid var(--line); background: var(--surface-1); color: var(--text-2);
-  cursor: pointer; white-space: nowrap;
+.filtre-satır {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px;
 }
-.çip:hover { border-color: var(--text-3); }
-.çip[aria-pressed="true"] { background: var(--accent-bg); border-color: var(--accent); color: var(--accent); font-weight: 600; }
-.çip i { font-style: normal; color: var(--text-3); font-size: 11.5px; margin-left: 4px; }
-.çip[aria-pressed="true"] i { color: var(--accent); }
-.ulke-sec {
-  font: inherit; font-size: 13.5px; padding: 7px 32px 7px 11px; border-radius: 8px;
+.alan { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.etiket { font-size: 11.5px; color: var(--text-3); }
+.sec {
+  font: inherit; font-size: 13.5px; padding: 8px 32px 8px 11px; border-radius: 8px;
   border: 1px solid var(--line); background: var(--surface-1); color: var(--text-1);
-  min-width: min(100%, 280px); max-width: 100%;
+  width: 100%; min-width: 0;
   appearance: none; -webkit-appearance: none;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path fill='%2386857f' d='M1 1l5 5 5-5'/></svg>");
   background-repeat: no-repeat; background-position: right 11px center;
   cursor: pointer;
 }
-.ulke-sec:focus { outline: 2px solid var(--accent); outline-offset: -1px; border-color: var(--accent); }
-.sayaç { font-size: 13px; color: var(--text-2); padding: 9px 0 2px; }
+.sec:focus { outline: 2px solid var(--accent); outline-offset: -1px; border-color: var(--accent); }
+.sayaç { font-size: 12.5px; color: var(--text-3); padding: 8px 0 0; }
 
 /* ---------- cards ---------- */
 .liste { padding: 6px 0 60px; }
@@ -161,17 +147,8 @@ footer p { margin: 0 0 9px; max-width: 70ch; }
   .giriş h1 { font-size: 22px; }
   .giriş .bağlar { gap: 8px; }
   .bağ { padding: 8px 12px; font-size: 13.5px; }
-  .künye { grid-template-columns: repeat(2, 1fr); }
-  .kutu { padding: 12px 14px; }
-  .kutu b { font-size: 22px; }
-  .süzgeç { padding: 12px 0 8px; }
-  .satır { gap: 6px; margin-top: 9px; }
-  .satır#ulkeler { flex-direction: column; align-items: stretch; }
-  .satır#ulkeler .etiket { margin-bottom: 2px; }
-  .ulke-sec { min-width: 0; width: 100%; }
-  .satır#sinirlar { overflow-x: auto; flex-wrap: nowrap; -webkit-overflow-scrolling: touch;
-                    padding-bottom: 2px; scrollbar-width: none; }
-  .satır#sinirlar::-webkit-scrollbar { display: none; }
+  .süzgeç { padding: 10px 0 8px; }
+  .filtre-satır { grid-template-columns: 1fr; }
   .kart { padding: 14px 14px; margin: 10px 0; }
   .kart h2 { font-size: 16px; }
   dl { grid-template-columns: 1fr; gap: 0; }
@@ -179,7 +156,6 @@ footer p { margin: 0 0 9px; max-width: 70ch; }
   footer { padding: 20px 0 32px; }
 }
 @media (max-width: 380px) {
-  .künye { grid-template-columns: 1fr 1fr; }
   .giriş h1 { font-size: 20px; }
 }
 </style>
@@ -210,13 +186,13 @@ footer p { margin: 0 0 9px; max-width: 70ch; }
   </div>
 </section>
 
-<div class="wrap"><div class="künye" id="kunye"></div></div>
-
 <section class="süzgeç">
   <div class="wrap">
     <input class="ara" id="ara" type="search" autocomplete="off">
-    <div class="satır" id="ulkeler"></div>
-    <div class="satır" id="sinirlar"></div>
+    <div class="filtre-satır">
+      <div class="alan" id="ulkeler"></div>
+      <div class="alan" id="sinirlar"></div>
+    </div>
     <div class="sayaç" id="sayac"></div>
   </div>
 </section>
@@ -242,10 +218,11 @@ const METIN = {
     pdf: "PDF", md: "Markdown", repo: "GitHub", katki: "Contribute",
     ara: "Search institution, city, course, professor, lab…",
     ulke: "Country", sinir: "Filter",
-    hepsi: "All countries", oyunBolum: "Dedicated game programme", ingilizce: "Taught in English",
+    hepsi: "All countries", sinirHepsi: "No filter",
+    oyunBolum: "Dedicated game programme", ingilizce: "Taught in English",
     myoSeviye: "Short-cycle / associate level", hocaVar: "Named faculty listed",
     labVar: "Research lab listed",
-    sonuc: n => `${n} programme${n === 1 ? "" : "s"}`,
+    sonuc: (n, toplam, ulkeN) => `${n} of ${toplam} programmes · ${ulkeN} countries`,
     bos: "No programme matches these filters.",
     kDerece: "Degree", kSure: "Duration", kEcts: "ECTS", kDil: "Language", kUcret: "Tuition",
     kMyo: "Level", yil: "yr",
@@ -263,10 +240,11 @@ const METIN = {
     pdf: "PDF", md: "Markdown", repo: "GitHub", katki: "Katkı ver",
     ara: "Kurum, şehir, ders, hoca, laboratuvar ara…",
     ulke: "Ülke", sinir: "Süzgeç",
-    hepsi: "Tüm ülkeler", oyunBolum: "Ayrı oyun bölümü", ingilizce: "İngilizce eğitim",
+    hepsi: "Tüm ülkeler", sinirHepsi: "Süzgeç yok",
+    oyunBolum: "Ayrı oyun bölümü", ingilizce: "İngilizce eğitim",
     myoSeviye: "MYO / ön lisans düzeyi", hocaVar: "Öğretim üyesi ismen var",
     labVar: "Araştırma laboratuvarı var",
-    sonuc: n => `${n} program`,
+    sonuc: (n, toplam, ulkeN) => `${n} / ${toplam} program · ${ulkeN} ülke`,
     bos: "Bu süzgeçlere uyan program yok.",
     kDerece: "Derece", kSure: "Süre", kEcts: "AKTS", kDil: "Eğitim dili", kUcret: "Ücret",
     kMyo: "Düzey", yil: "yıl",
@@ -281,46 +259,47 @@ const METIN = {
 
 const P = window.ATLAS.programlar;
 let dil = (navigator.language || "en").toLowerCase().startsWith("tr") ? "tr" : "en";
-const durum = { q: "", ulke: "", oyun: false, ingilizce: false, myo: false, hoca: false, lab: false };
+const durum = { q: "", ulke: "", sinir: "" };
+
+// ISO 3166-1 alpha-2 -> flag emoji for catalogue country keys
+const BAYRAK = {
+  ABD: "🇺🇸", Almanya: "🇩🇪", Avustralya: "🇦🇺", Avusturya: "🇦🇹", Azerbaycan: "🇦🇿",
+  BAE: "🇦🇪", Bahreyn: "🇧🇭", Belcika: "🇧🇪", "Birlesik Krallik": "🇬🇧",
+  "Cek Cumhuriyeti": "🇨🇿", Cin: "🇨🇳", Danimarka: "🇩🇰", Ermenistan: "🇦🇲",
+  Estonya: "🇪🇪", Finlandiya: "🇫🇮", Fransa: "🇫🇷", Gurcistan: "🇬🇪",
+  "Guney Kore": "🇰🇷", Hirvatistan: "🇭🇷", Hollanda: "🇳🇱", "Hong Kong": "🇭🇰",
+  Irlanda: "🇮🇪", Ispanya: "🇪🇸", Israil: "🇮🇱", Isvec: "🇸🇪", Isvicre: "🇨🇭",
+  Italya: "🇮🇹", Izlanda: "🇮🇸", Japonya: "🇯🇵", Kanada: "🇨🇦", Katar: "🇶🇦",
+  Letonya: "🇱🇻", Litvanya: "🇱🇹", Macaristan: "🇭🇺", Malta: "🇲🇹", Norvec: "🇳🇴",
+  Polonya: "🇵🇱", Portekiz: "🇵🇹", Romanya: "🇷🇴", Rusya: "🇷🇺", Singapur: "🇸🇬",
+  Slovenya: "🇸🇮", "Suudi Arabistan": "🇸🇦", Tayvan: "🇹🇼", Turkiye: "🇹🇷",
+  Ukrayna: "🇺🇦", Umman: "🇴🇲", "Yeni Zelanda": "🇳🇿", Yunanistan: "🇬🇷",
+};
 
 const $ = s => document.querySelector(s);
 const kaç = e => String(e == null ? "" : e).replace(/[&<>"']/g, c =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const T = () => METIN[dil];
 const ulkeAdi = p => (dil === "tr" ? p.ulkeTR : p.ulkeEN);
+const bayrak = k => BAYRAK[k] ? BAYRAK[k] + " " : "";
 
 /* ---------- filtering ---------- */
 function süz() {
   // Arama dizini aksansiz tutuluyor; sorguyu da ayni bicime indir
-  // (̀-ͯ = birlesik aksan isaretleri)
   const q = durum.q.trim().toLowerCase()
     .normalize("NFKD").replace(/[\u0300-\u036f]/g, "");
   return P.filter(p =>
     (!q || p.q.includes(q)) &&
     (!durum.ulke || p.ulke === durum.ulke) &&
-    (!durum.oyun || p.odak === "Yuksek") &&
-    (!durum.ingilizce || p.ingilizce) &&
-    (!durum.myo || !!p.myo) &&
-    (!durum.hoca || p.hoca.length > 0) &&
-    (!durum.lab || p.lab.length > 0));
+    (!durum.sinir || (
+      (durum.sinir === "oyun" && p.odak === "Yuksek") ||
+      (durum.sinir === "ingilizce" && p.ingilizce) ||
+      (durum.sinir === "myo" && !!p.myo) ||
+      (durum.sinir === "hoca" && p.hoca.length > 0) ||
+      (durum.sinir === "lab" && p.lab.length > 0))));
 }
 
-/* ---------- KPI row ---------- */
-function künyeÇiz() {
-  const ulke = new Set(P.map(p => p.ulke)).size;
-  const myo = P.filter(p => p.myo).length;
-  const ing = P.filter(p => p.ingilizce).length;
-  const kadro = P.filter(p => p.hoca.length || p.hocaNot).length;
-  const veri = dil === "tr"
-    ? [[P.length, "program"], [ulke, "ülke"], [myo, "MYO / ön lisans düzeyi"],
-       [ing, "İngilizce eğitim"], [kadro, "kadro bilgisi olan"]]
-    : [[P.length, "programmes"], [ulke, "countries"], [myo, "short-cycle level"],
-       [ing, "taught in English"], [kadro, "with faculty info"]];
-  $("#kunye").innerHTML = veri.map(([n, e]) =>
-    `<div class="kutu"><b>${n}</b><span>${kaç(e)}</span></div>`).join("");
-}
-
-/* ---------- filters (country dropdown + chip toggles) ---------- */
+/* ---------- filters (two compact dropdowns) ---------- */
 function çipler() {
   const sayım = {};
   P.forEach(p => { sayım[p.ulke] = (sayım[p.ulke] || 0) + 1; });
@@ -336,19 +315,22 @@ function çipler() {
 
   $("#ulkeler").innerHTML =
     `<label class="etiket" for="ulke-sec">${kaç(T().ulke)}</label>` +
-    `<select class="ulke-sec" id="ulke-sec" aria-label="${kaç(T().ulke)}">` +
-    `<option value="">${kaç(T().hepsi)} (${P.length})</option>` +
+    `<select class="sec" id="ulke-sec" aria-label="${kaç(T().ulke)}">` +
+    `<option value="">${kaç(T().hepsi)}</option>` +
     sıra.map(k =>
       `<option value="${kaç(k)}"${durum.ulke === k ? " selected" : ""}>` +
-      `${kaç(ad(k))} (${sayım[k]})</option>`).join("") +
+      `${bayrak(k)}${kaç(ad(k))} (${sayım[k]})</option>`).join("") +
     `</select>`;
 
   const anahtar = [["oyun", T().oyunBolum], ["ingilizce", T().ingilizce],
                    ["myo", T().myoSeviye], ["hoca", T().hocaVar], ["lab", T().labVar]];
   $("#sinirlar").innerHTML =
-    `<span class="etiket">${kaç(T().sinir)}</span>` +
+    `<label class="etiket" for="sinir-sec">${kaç(T().sinir)}</label>` +
+    `<select class="sec" id="sinir-sec" aria-label="${kaç(T().sinir)}">` +
+    `<option value="">${kaç(T().sinirHepsi)}</option>` +
     anahtar.map(([k, e]) =>
-      `<button class="çip" data-bayrak="${k}" aria-pressed="${durum[k]}">${kaç(e)}</button>`).join("");
+      `<option value="${k}"${durum.sinir === k ? " selected" : ""}>${kaç(e)}</option>`).join("") +
+    `</select>`;
 }
 
 /* ---------- cards ---------- */
@@ -403,7 +385,8 @@ function kart(p) {
 
 function çiz() {
   const sonuç = süz();
-  $("#sayac").textContent = T().sonuc(sonuç.length);
+  const ulkeN = new Set(P.map(p => p.ulke)).size;
+  $("#sayac").textContent = T().sonuc(sonuç.length, P.length, ulkeN);
   $("#liste").innerHTML = sonuç.length
     ? sonuç.map(kart).join("")
     : `<p class="boş">${kaç(T().bos)}</p>`;
@@ -425,22 +408,19 @@ function dilUygula() {
   document.title = dil === "tr"
     ? `Oyun Eğitimi Atlası — ${ulkeN} ülkede ${P.length} yükseköğretim oyun programı`
     : `Game Education Atlas — ${P.length} higher-education game programmes across ${ulkeN} countries`;
-  künyeÇiz(); çipler(); çiz();
+  çipler(); çiz();
 }
 
 /* ---------- events ---------- */
 $("#ara").addEventListener("input", e => { durum.q = e.target.value; çiz(); });
 
 document.addEventListener("change", e => {
-  if (e.target && e.target.id === "ulke-sec") {
-    durum.ulke = e.target.value || "";
-    çiz();
-  }
+  if (!e.target) return;
+  if (e.target.id === "ulke-sec") { durum.ulke = e.target.value || ""; çiz(); }
+  if (e.target.id === "sinir-sec") { durum.sinir = e.target.value || ""; çiz(); }
 });
 
 document.addEventListener("click", e => {
-  const bayrak = e.target.closest("[data-bayrak]");
-  if (bayrak) { durum[bayrak.dataset.bayrak] = !durum[bayrak.dataset.bayrak]; çipler(); çiz(); return; }
   const d = e.target.closest("[data-dil]");
   if (d) { dil = d.dataset.dil; try { localStorage.setItem("atlas-dil", dil); } catch (_) {} dilUygula(); }
 });
