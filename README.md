@@ -1,7 +1,7 @@
 # Game Education Atlas · Oyun Eğitimi Atlası
 
-**249 higher-education game programmes across 48 countries — every record verified from the institution's own website.**
-*48 ülkede 249 yükseköğretim oyun programı — her kayıt kurumun kendi sitesinden doğrulandı.*
+**254 higher-education game programmes across 48 countries — every record verified from the institution's own website.**
+*48 ülkede 254 yükseköğretim oyun programı — her kayıt kurumun kendi sitesinden doğrulandı.*
 
 🌐 **[Browse the atlas / Katalogu gez](https://gusanmaz.github.io/game-education-atlas/)** ·
 📄 **[PDF TR](catalogue/oyun-programlari.pdf)** · **[PDF EN](catalogue/game-programmes.pdf)** ·

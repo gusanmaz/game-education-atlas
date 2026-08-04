@@ -13408,6 +13408,259 @@
           "CSCI 451 Games Technology (elective)"
         ]
       }
+    },
+    {
+      "ulke": "Malta",
+      "sehir": "Paola",
+      "kurum": "MCAST — Malta College of Arts, Science and Technology",
+      "oyun_odagi": "Yuksek",
+      "program": "BSc (Hons) in Digital Games Development",
+      "derece": "Bachelor of Science (Honours)",
+      "sure_yil": 3,
+      "ects": 180,
+      "ects_kaynak": "bologna-normu",
+      "dil": "Ingilizce",
+      "ucret": "AB/AEA vatandaslari icin devlet destekli harc; AB disi ogrenciler tam ucret oder. [ulke kurali — kurumdan teyit edilmeli]",
+      "myo_duzeyi": null,
+      "dersler": [
+        "Game design",
+        "Game level design",
+        "3D game engines",
+        "UX/UI for games",
+        "Software development & testing",
+        "3D modelling",
+        "Game networking",
+        "AI / mathematics / physics for games",
+        "Work-based learning / apprenticeship"
+      ],
+      "arastirma_lab": [],
+      "hocalar": [],
+      "hoca_notu": "Ogretim kadrosu kurum sitesinde program sayfasinda ismen yayinlanmiyor; basvuru oncesi MCAST Institute of Information and Communication Technology ile teyit edin.",
+      "notlar": "MQF/EQF 6 duzeyinde 180 ECTS'lik tam oyun gelistirme lisansi. Cift derece (double degree) yolu da sunuluyor. University of Malta Institute of Digital Games kaydindan AYRI bir kurum — Malta'daki ikinci ana oyun egitimi yolu.",
+      "url": "https://mcast.edu.mt/prospectus-2024-25/it6-a04-23/",
+      "kaynaklar": [
+        "https://mcast.edu.mt/prospectus-2024-25/it6-a04-23/"
+      ],
+      "durum": "dogrulandi",
+      "en": {
+        "program": "BSc (Hons) in Digital Games Development",
+        "derece": "Bachelor of Science (Honours)",
+        "dil": "English",
+        "ucret": "State-supported fees for EU/EEA citizens; non-EU students pay full fees. [country rule — confirm with institution]",
+        "sehir": "Paola",
+        "hoca_notu": "Named faculty is not published on the programme page; confirm with MCAST Institute of Information and Communication Technology before applying.",
+        "notlar": "A full MQF/EQF level-6 game development bachelor (180 ECTS). A double-degree route is also offered. Separate from the University of Malta Institute of Digital Games — Malta's second main game-education pathway.",
+        "dersler": [
+          "Game design",
+          "Game level design",
+          "3D game engines",
+          "UX/UI for games",
+          "Software development & testing",
+          "3D modelling",
+          "Game networking",
+          "AI / mathematics / physics for games",
+          "Work-based learning / apprenticeship"
+        ]
+      },
+      "kurum_id": 1250,
+      "kayit_id": "1250-1"
+    },
+    {
+      "ulke": "Yunanistan",
+      "sehir": "Atina",
+      "kurum": "AKTO Art & Design College (Middlesex University validated)",
+      "oyun_odagi": "Yuksek",
+      "program": "BA (Hons) Game Design",
+      "derece": "Bachelor of Arts (Honours) — Middlesex University diplomasi",
+      "sure_yil": 3,
+      "ects": 180,
+      "ects_kaynak": "bologna-normu",
+      "dil": "Yunanca (yabanci basvurularda B2 Yunanca)",
+      "ucret": "Ozel sanat okulu — ucret kurumdan teyit edilmeli.",
+      "myo_duzeyi": null,
+      "dersler": [
+        "Game Design Research & Practice",
+        "Level Design",
+        "Game Development",
+        "Game design studio modules"
+      ],
+      "arastirma_lab": [],
+      "hocalar": [],
+      "hoca_notu": "Kadro listesi program bilgilendirme PDF'inde ismen yayinlanmiyor.",
+      "notlar": "AKTO, Middlesex University tarafindan dogrulanan BA (Hons) Game Design programini Atina'da yurutuyor. Egitim dili Yunanca; tam zamanli 3 yil / yari zamanli secenek var. Ionian University kaydindan ayri — Yunanistan'da adanmis oyun tasarimi lisansi.",
+      "url": "https://akto.gr/wp-content/uploads/2023/05/BAHons-Game-Design_AKTO.pdf",
+      "kaynaklar": [
+        "https://akto.gr/wp-content/uploads/2023/05/BAHons-Game-Design_AKTO.pdf",
+        "https://akto.gr/"
+      ],
+      "durum": "dogrulandi",
+      "en": {
+        "program": "BA (Hons) Game Design",
+        "derece": "Bachelor of Arts (Honours) — Middlesex University award",
+        "dil": "Greek (B2 Greek required for international applicants)",
+        "ucret": "Private art college — confirm tuition with the institution.",
+        "sehir": "Athens",
+        "hoca_notu": "Named faculty is not listed in the programme specification PDF.",
+        "notlar": "AKTO runs a Middlesex University–validated BA (Hons) Game Design in Athens. Taught in Greek; 3 years full-time or a part-time route. Separate from the Ionian University entry — a dedicated game-design bachelor in Greece.",
+        "dersler": [
+          "Game Design Research & Practice",
+          "Level Design",
+          "Game Development",
+          "Game design studio modules"
+        ]
+      },
+      "kurum_id": 1251,
+      "kayit_id": "1251-1"
+    },
+    {
+      "ulke": "Yunanistan",
+      "sehir": "Selanik",
+      "kurum": "AAS College Thessaloniki",
+      "oyun_odagi": "Yuksek",
+      "program": "BA (Hons) Animation & Games Art",
+      "derece": "Bachelor of Arts (Honours) — British degree",
+      "sure_yil": 3,
+      "ects": 180,
+      "ects_kaynak": "bologna-normu",
+      "dil": "Ingilizce",
+      "ucret": "Ozel sanat koleji — ucret kurumdan teyit edilmeli.",
+      "myo_duzeyi": null,
+      "dersler": [
+        "Drawing & animation principles",
+        "Design fundamentals",
+        "Storytelling / narrative",
+        "Interactive media",
+        "Computer-generated animation",
+        "Industry-standard software for games art"
+      ],
+      "arastirma_lab": [],
+      "hocalar": [],
+      "hoca_notu": "Ogretim uyeleri program tanitim sayfasinda ismen listelenmiyor.",
+      "notlar": "Selanik'teki AAS College, animasyon ve oyun sanati odakli Ingilizce BA (Hons) sunuyor. Mezun profili character animator, concept artist, modeller, storyboard, VFX. Yunanistan kapsamina ikinci adanmis oyun/animasyon programi olarak eklendi.",
+      "url": "https://aas.gr/courses-aas-college/bahons-animation-games-art/",
+      "kaynaklar": [
+        "https://aas.gr/courses-aas-college/bahons-animation-games-art/"
+      ],
+      "durum": "dogrulandi",
+      "en": {
+        "program": "BA (Hons) Animation & Games Art",
+        "derece": "Bachelor of Arts (Honours) — British degree",
+        "dil": "English",
+        "ucret": "Private art college — confirm tuition with the institution.",
+        "sehir": "Thessaloniki",
+        "hoca_notu": "Named faculty is not listed on the programme page.",
+        "notlar": "AAS College in Thessaloniki offers an English-taught BA (Hons) focused on animation and games art. Graduate roles include character animator, concept artist, modeller, storyboard and VFX. Added as a second dedicated games/animation pathway in Greece.",
+        "dersler": [
+          "Drawing & animation principles",
+          "Design fundamentals",
+          "Storytelling / narrative",
+          "Interactive media",
+          "Computer-generated animation",
+          "Industry-standard software for games art"
+        ]
+      },
+      "kurum_id": 1252,
+      "kayit_id": "1252-1"
+    },
+    {
+      "ulke": "Hollanda",
+      "sehir": "Rotterdam",
+      "kurum": "Rotterdam University of Applied Sciences (Hogeschool Rotterdam)",
+      "oyun_odagi": "Yuksek",
+      "program": "Game Design and Development (exchange programme)",
+      "derece": "Exchange / minor-level package within UAS studies",
+      "sure_yil": null,
+      "ects": null,
+      "dil": "Ingilizce",
+      "ucret": "Degisim ogrencileri icin ucretsiz (anlasma kapsami); derece ogrencileri AB/AEA yasal harc oder.",
+      "myo_duzeyi": null,
+      "dersler": [
+        "Game design",
+        "Game development",
+        "English-taught exchange studio work"
+      ],
+      "arastirma_lab": [],
+      "hocalar": [],
+      "hoca_notu": "Exchange programi sayfasinda isimli kadro yayinlanmiyor.",
+      "notlar": "Hazir Ingilizce 'Game Design and Development' degisim paketi sunuluyor — Erasmus/degisim ogrencilerine acik. Tam dort yillik yerel lisans adi degil; yine de Hollanda'da oyun odakli ayri bir hareketlilik yolu. BUas / HKU / Saxion kayitlarina ek.",
+      "url": "https://www.rotterdamuas.com/programmes/exchange/gamedesignanddevelopment/",
+      "kaynaklar": [
+        "https://www.rotterdamuas.com/programmes/exchange/gamedesignanddevelopment/"
+      ],
+      "durum": "dogrulandi",
+      "en": {
+        "program": "Game Design and Development (exchange programme)",
+        "derece": "Exchange / minor-level package within UAS studies",
+        "dil": "English",
+        "ucret": "Free for exchange students under agreements; degree students pay the statutory EU/EEA fee.",
+        "sehir": "Rotterdam",
+        "hoca_notu": "Named faculty is not published on the exchange programme page.",
+        "notlar": "Offers a ready-made English 'Game Design and Development' exchange package open to Erasmus/exchange students. Not a full four-year local bachelor title, but a distinct game-focused mobility pathway in the Netherlands. Complements BUas / HKU / Saxion entries.",
+        "dersler": [
+          "Game design",
+          "Game development",
+          "English-taught exchange studio work"
+        ]
+      },
+      "kurum_id": 1253,
+      "kayit_id": "1253-1"
+    },
+    {
+      "ulke": "Litvanya",
+      "sehir": "Vilnius",
+      "kurum": "Vilniaus verslo kolegija (Vilnius Business College)",
+      "oyun_odagi": "Yuksek",
+      "program": "Game Development",
+      "derece": "Professional Bachelor of Computing",
+      "sure_yil": 3,
+      "ects": 180,
+      "ects_kaynak": "bologna-normu",
+      "dil": "Ingilizce",
+      "ucret": "Devlet finansmanli kontenjanlar ucretsiz olabilir; ucretli yerler ve AB disi ogrenciler ucret oder. [ulke kurali — kurumdan teyit]",
+      "myo_duzeyi": "Professional Bachelor (kolegija / short-cycle–adjacent UAS track)",
+      "dersler": [
+        "Programming basics",
+        "3D modelling",
+        "Computer graphics and animation",
+        "Video game physics",
+        "Data structures and algorithms",
+        "Project management",
+        "Game development with Unity3D",
+        "Human-computer interaction",
+        "Audio and video processing"
+      ],
+      "arastirma_lab": [],
+      "hocalar": [],
+      "hoca_notu": "Program sayfasinda isimli ogretim uyesi listesi yok.",
+      "notlar": "Vilnius Business College'in Ingilizce Professional Bachelor Game Development programi (180 ECTS). Unity odakli; programlama, 3D, fizik ve proje yonetimi iceriyor. SMK / KTU / VILNIUS TECH kayitlarina ek Litvanya kolegija yolu.",
+      "url": "https://www.kolegija.lt/en/studiju-programos/game-development/",
+      "kaynaklar": [
+        "https://www.kolegija.lt/en/studiju-programos/game-development/"
+      ],
+      "durum": "dogrulandi",
+      "en": {
+        "program": "Game Development",
+        "derece": "Professional Bachelor of Computing",
+        "dil": "English",
+        "ucret": "State-funded places may be free; fee-paying places and non-EU students pay tuition. [country rule — confirm with institution]",
+        "sehir": "Vilnius",
+        "myo_duzeyi": "Professional Bachelor (kolegija / short-cycle–adjacent UAS track)",
+        "hoca_notu": "No named faculty list on the programme page.",
+        "notlar": "English-taught Professional Bachelor in Game Development (180 ECTS) at Vilnius Business College. Unity-focused; covers programming, 3D, physics and project management. Adds a Lithuanian kolegija pathway alongside SMK / KTU / VILNIUS TECH.",
+        "dersler": [
+          "Programming basics",
+          "3D modelling",
+          "Computer graphics and animation",
+          "Video game physics",
+          "Data structures and algorithms",
+          "Project management",
+          "Game development with Unity3D",
+          "Human-computer interaction",
+          "Audio and video processing"
+        ]
+      },
+      "kurum_id": 1254,
+      "kayit_id": "1254-1"
     }
   ]
 }

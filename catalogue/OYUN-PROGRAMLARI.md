@@ -1,8 +1,8 @@
 # Oyun geliştirme programları — uluslararası katalog
 
-**249 program · 48 ülke** · detayı tamamlanan: 249/249
+**254 program · 48 ülke** · detayı tamamlanan: 254/254
 
-Alan doluluğu: derece %100 · dil %100 · ücret %100 · dersler %100 · araştırma labı %36 · öğretim üyesi ismen %39 (+ %14 kurum isim yayınlamıyor, gerekçesi kayıtta)
+Alan doluluğu: derece %100 · dil %100 · ücret %100 · dersler %100 · araştırma labı %35 · öğretim üyesi ismen %38 (+ %16 kurum isim yayınlamıyor, gerekçesi kayıtta)
 
 Dünya genelinde oyun geliştirme, oyun tasarımı ve oyun sanatı eğitimi veren yükseköğretim kurumlarının kataloğu. Her kayıt kurumun **kendi resmî sitesinden** teyit edilmiştir; kaynak bağlantıları kayıtların altında yer alır.
 
@@ -12,7 +12,7 @@ Kapsam: Avrupa · Birleşik Krallık · Türkiye · ABD · Kanada · Avustralya 
 
 ## İçindekiler
 
-Toplam **249 program** · **48 ülke**. Ülke adına tıklayınca ilgili bölüme gidersiniz.
+Toplam **254 program** · **48 ülke**. Ülke adına tıklayınca ilgili bölüme gidersiniz.
 
 | Ülke | Ülke | Ülke |
 | --- | --- | --- |
@@ -22,22 +22,22 @@ Toplam **249 program** · **48 ülke**. Ülke adına tıklayınca ilgili bölüm
 | [Çek Cumhuriyeti](#cek-cumhuriyeti) · **4** | [Çin](#cin) · **8** | [Danimarka](#danimarka) · **5** |
 | [Ermenistan](#ermenistan) · **1** | [Estonya](#estonya) · **2** | [Finlandiya](#finlandiya) · **10** |
 | [Fransa](#fransa) · **6** | [Güney Kore](#guney-kore) · **3** | [Hırvatistan](#hirvatistan) · **1** |
-| [Hollanda](#hollanda) · **9** | [Hong Kong](#hong-kong) · **4** | [İrlanda](#irlanda) · **3** |
+| [Hollanda](#hollanda) · **10** | [Hong Kong](#hong-kong) · **4** | [İrlanda](#irlanda) · **3** |
 | [İspanya](#ispanya) · **9** | [İsrail](#israil) · **1** | [İsveç](#isvec) · **9** |
 | [İsviçre](#isvicre) · **2** | [İtalya](#italya) · **8** | [İzlanda](#izlanda) · **2** |
 | [Japonya](#japonya) · **13** | [Kanada](#kanada) · **8** | [Katar](#katar) · **3** |
-| [Letonya](#letonya) · **2** | [Litvanya](#litvanya) · **4** | [Macaristan](#macaristan) · **1** |
-| [Malta](#malta) · **1** | [Norveç](#norvec) · **4** | [Polonya](#polonya) · **5** |
+| [Letonya](#letonya) · **2** | [Litvanya](#litvanya) · **5** | [Macaristan](#macaristan) · **1** |
+| [Malta](#malta) · **2** | [Norveç](#norvec) · **4** | [Polonya](#polonya) · **5** |
 | [Portekiz](#portekiz) · **4** | [Romanya](#romanya) · **2** | [Rusya](#rusya) · **9** |
 | [Singapur](#singapur) · **4** | [Slovenya](#slovenya) · **1** | [Suudi Arabistan](#suudi-arabistan) · **3** |
 | [Tayvan](#tayvan) · **1** | [Türkiye](#turkiye) · **10** | [Ukrayna](#ukrayna) · **5** |
-| [Umman](#umman) · **2** | [Yeni Zelanda](#yeni-zelanda) · **2** | [Yunanistan](#yunanistan) · **1** |
+| [Umman](#umman) · **2** | [Yeni Zelanda](#yeni-zelanda) · **2** | [Yunanistan](#yunanistan) · **3** |
 
 - [Kısa döngü / ön lisans kurumları](#kısa-dongu-on-lisans-duzeyindeki-kurumlar)
 
 ## Kısa döngü / ön lisans düzeyindeki kurumlar
 
-Katalogdaki **31 kurum**, oyun eğitimini lisans değil **kısa döngü yükseköğretim** düzeyinde veriyor (EQF 5 ve dengi: ön lisans, associate degree, CTeSP, YH, polytechnic diploma, senmon gakkō vb.). Bu düzey uluslararası listelerde sıkça eksik kalır; burada ayrı işaretlenmiştir.
+Katalogdaki **32 kurum**, oyun eğitimini lisans değil **kısa döngü yükseköğretim** düzeyinde veriyor (EQF 5 ve dengi: ön lisans, associate degree, CTeSP, YH, polytechnic diploma, senmon gakkō vb.). Bu düzey uluslararası listelerde sıkça eksik kalır; burada ayrı işaretlenmiştir.
 
 | Kurum | Ülke | Derece |
 | --- | --- | --- |
@@ -62,6 +62,7 @@ Katalogdaki **31 kurum**, oyun eğitimini lisans değil **kısa döngü yüksek�
 | Algonquin College | Kanada | Ontario College Advanced Diploma |
 | Centennial College | Kanada | Ontario College Advanced Diploma |
 | Vancouver Film School (VFS) | Kanada | VFS Diploma (1 yil yogun) |
+| Vilniaus verslo kolegija (Vilnius Business College) | Litvanya | Professional Bachelor (kolegija / short-cycle–adjacent UAS track) |
 | P.PORTO – Polytechnic of Porto (ESMAD & ISEP) | Portekiz | CTeSP — EQF 5, Portekiz kisa dongu yuksekogretim |
 | Nanyang Polytechnic (NYP) — School of Design & Media | Singapur | Singapur Polytechnic Diploma (3 yil) |
 | Temasek Polytechnic (TP) — School of Informatics & IT | Singapur | Singapur Polytechnic Diploma (3 yil) |
@@ -3200,6 +3201,26 @@ Katalogdaki **31 kurum**, oyun eğitimini lisans değil **kısa döngü yüksek�
 
 [Program sayfası](https://www.nhlstenden.com/en/exchange-programmes/communication-media/game-development-3d)
 
+### Rotterdam University of Applied Sciences (Hogeschool Rotterdam) — Rotterdam
+
+**Game Design and Development (exchange programme)**  ·  _oyun bölümü_
+
+- **Derece:** Exchange / minor-level package within UAS studies
+- **Süre:** — *(tek bir değer geçerli değil)*  ·  **ECTS:** — *(tek bir değer geçerli değil)*
+- **Eğitim dili:** Ingilizce
+- **Ücret:** Degisim ogrencileri icin ucretsiz (anlasma kapsami); derece ogrencileri AB/AEA yasal harc oder.
+
+- **Örnek dersler / müfredat:**
+  - Game design
+  - Game development
+  - English-taught exchange studio work
+
+- **Öğretim kadrosu:** Exchange programi sayfasinda isimli kadro yayinlanmiyor.
+
+> Hazir Ingilizce 'Game Design and Development' degisim paketi sunuluyor — Erasmus/degisim ogrencilerine acik. Tam dort yillik yerel lisans adi degil; yine de Hollanda'da oyun odakli ayri bir hareketlilik yolu. BUas / HKU / Saxion kayitlarina ek.
+
+[Program sayfası](https://www.rotterdamuas.com/programmes/exchange/gamedesignanddevelopment/)
+
 ### Saxion University of Applied Sciences — Enschede/Deventer/Apeldoorn
 
 **Creative Media and Game Technologies (CMGT) — degisim programi**  ·  _oyun bölümü_
@@ -4952,6 +4973,32 @@ Katalogdaki **31 kurum**, oyun eğitimini lisans değil **kısa döngü yüksek�
 
 **Doğrulama kaynakları:** <https://smk.lt/en/study-programmes/computer-games-and-animation/>
 
+### Vilniaus verslo kolegija (Vilnius Business College) — Vilnius
+
+**Game Development**  ·  _oyun bölümü_
+
+- **Derece:** Professional Bachelor of Computing
+- **Süre:** 3 yıl  ·  **ECTS:** 180 ECTS *(Bologna normundan)*
+- **Eğitim dili:** Ingilizce
+- **Ücret:** Devlet finansmanli kontenjanlar ucretsiz olabilir; ucretli yerler ve AB disi ogrenciler ucret oder. [ulke kurali — kurumdan teyit]
+
+- **Örnek dersler / müfredat:**
+  - Programming basics
+  - 3D modelling
+  - Computer graphics and animation
+  - Video game physics
+  - Data structures and algorithms
+  - Project management
+  - Game development with Unity3D
+  - Human-computer interaction
+  - Audio and video processing
+
+- **Öğretim kadrosu:** Program sayfasinda isimli ogretim uyesi listesi yok.
+
+> Vilnius Business College'in Ingilizce Professional Bachelor Game Development programi (180 ECTS). Unity odakli; programlama, 3D, fizik ve proje yonetimi iceriyor. SMK / KTU / VILNIUS TECH kayitlarina ek Litvanya kolegija yolu.
+
+[Program sayfası](https://www.kolegija.lt/en/studiju-programos/game-development/)
+
 ### Vilnius Gediminas Technical University (VILNIUS TECH) — Vilnius
 
 **Multimedia Design**  ·  _oyun dersleri_
@@ -5010,6 +5057,32 @@ Katalogdaki **31 kurum**, oyun eğitimini lisans değil **kısa döngü yüksek�
 ## Malta
 
 > **Öğrenim ücreti (ülke kuralı):** AB/AEA vatandaşları için öğrenim ücretsizdir; AB dışı öğrenciler ücret öder.
+
+### MCAST — Malta College of Arts, Science and Technology — Paola
+
+**BSc (Hons) in Digital Games Development**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor of Science (Honours)
+- **Süre:** 3 yıl  ·  **ECTS:** 180 ECTS *(Bologna normundan)*
+- **Eğitim dili:** Ingilizce
+- **Ücret:** AB/AEA vatandaslari icin devlet destekli harc; AB disi ogrenciler tam ucret oder. [ulke kurali — kurumdan teyit edilmeli]
+
+- **Örnek dersler / müfredat:**
+  - Game design
+  - Game level design
+  - 3D game engines
+  - UX/UI for games
+  - Software development & testing
+  - 3D modelling
+  - Game networking
+  - AI / mathematics / physics for games
+  - Work-based learning / apprenticeship
+
+- **Öğretim kadrosu:** Ogretim kadrosu kurum sitesinde program sayfasinda ismen yayinlanmiyor; basvuru oncesi MCAST Institute of Information and Communication Technology ile teyit edin.
+
+> MQF/EQF 6 duzeyinde 180 ECTS'lik tam oyun gelistirme lisansi. Cift derece (double degree) yolu da sunuluyor. University of Malta Institute of Digital Games kaydindan AYRI bir kurum — Malta'daki ikinci ana oyun egitimi yolu.
+
+[Program sayfası](https://mcast.edu.mt/prospectus-2024-25/it6-a04-23/)
 
 ### University of Malta – Institute of Digital Games — Msida
 
@@ -6450,6 +6523,52 @@ Aşağıdaki iki tablo, YÖK Yükseköğretim Program Atlası'nın **2026 kılav
 ## Yunanistan
 
 > **Öğrenim ücreti (ülke kuralı):** Devlet üniversitelerinde lisans öğrenimi ücretsizdir.
+
+### AAS College Thessaloniki — Selanik
+
+**BA (Hons) Animation & Games Art**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor of Arts (Honours) — British degree
+- **Süre:** 3 yıl  ·  **ECTS:** 180 ECTS *(Bologna normundan)*
+- **Eğitim dili:** Ingilizce
+- **Ücret:** Ozel sanat koleji — ucret kurumdan teyit edilmeli.
+
+- **Örnek dersler / müfredat:**
+  - Drawing & animation principles
+  - Design fundamentals
+  - Storytelling / narrative
+  - Interactive media
+  - Computer-generated animation
+  - Industry-standard software for games art
+
+- **Öğretim kadrosu:** Ogretim uyeleri program tanitim sayfasinda ismen listelenmiyor.
+
+> Selanik'teki AAS College, animasyon ve oyun sanati odakli Ingilizce BA (Hons) sunuyor. Mezun profili character animator, concept artist, modeller, storyboard, VFX. Yunanistan kapsamina ikinci adanmis oyun/animasyon programi olarak eklendi.
+
+[Program sayfası](https://aas.gr/courses-aas-college/bahons-animation-games-art/)
+
+### AKTO Art & Design College (Middlesex University validated) — Atina
+
+**BA (Hons) Game Design**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor of Arts (Honours) — Middlesex University diplomasi
+- **Süre:** 3 yıl  ·  **ECTS:** 180 ECTS *(Bologna normundan)*
+- **Eğitim dili:** Yunanca (yabanci basvurularda B2 Yunanca)
+- **Ücret:** Ozel sanat okulu — ucret kurumdan teyit edilmeli.
+
+- **Örnek dersler / müfredat:**
+  - Game Design Research & Practice
+  - Level Design
+  - Game Development
+  - Game design studio modules
+
+- **Öğretim kadrosu:** Kadro listesi program bilgilendirme PDF'inde ismen yayinlanmiyor.
+
+> AKTO, Middlesex University tarafindan dogrulanan BA (Hons) Game Design programini Atina'da yurutuyor. Egitim dili Yunanca; tam zamanli 3 yil / yari zamanli secenek var. Ionian University kaydindan ayri — Yunanistan'da adanmis oyun tasarimi lisansi.
+
+[Program sayfası](https://akto.gr/wp-content/uploads/2023/05/BAHons-Game-Design_AKTO.pdf)
+
+**Doğrulama kaynakları:** <https://akto.gr/>
 
 ### Ionian University — Department of Audio and Visual Arts (AVARTS) — Korfu
 

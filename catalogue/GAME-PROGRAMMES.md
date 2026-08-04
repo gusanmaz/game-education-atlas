@@ -1,6 +1,6 @@
 # Game development programmes — international catalogue
 
-**249 programmes · 48 countries** · detail complete: 249/249
+**254 programmes · 48 countries** · detail complete: 254/254
 
 A catalogue of higher-education institutions teaching game development, game design and game art. Every record was verified from the institution's **own official website**; source links appear under each entry.
 
@@ -10,7 +10,7 @@ Scope: Europe · United Kingdom · Türkiye · USA · Canada · Australia · New
 
 ## Contents
 
-**249 programmes** · **48 countries**. Click a country name to jump to that section.
+**254 programmes** · **48 countries**. Click a country name to jump to that section.
 
 | Country | Country | Country |
 | --- | --- | --- |
@@ -20,22 +20,22 @@ Scope: Europe · United Kingdom · Türkiye · USA · Canada · Australia · New
 | [Czechia](#cek-cumhuriyeti) · **4** | [China](#cin) · **8** | [Denmark](#danimarka) · **5** |
 | [Armenia](#ermenistan) · **1** | [Estonia](#estonya) · **2** | [Finland](#finlandiya) · **10** |
 | [France](#fransa) · **6** | [South Korea](#guney-kore) · **3** | [Croatia](#hirvatistan) · **1** |
-| [Netherlands](#hollanda) · **9** | [Hong Kong](#hong-kong) · **4** | [Ireland](#irlanda) · **3** |
+| [Netherlands](#hollanda) · **10** | [Hong Kong](#hong-kong) · **4** | [Ireland](#irlanda) · **3** |
 | [Spain](#ispanya) · **9** | [Israel](#israil) · **1** | [Sweden](#isvec) · **9** |
 | [Switzerland](#isvicre) · **2** | [Italy](#italya) · **8** | [Iceland](#izlanda) · **2** |
 | [Japan](#japonya) · **13** | [Canada](#kanada) · **8** | [Qatar](#katar) · **3** |
-| [Latvia](#letonya) · **2** | [Lithuania](#litvanya) · **4** | [Hungary](#macaristan) · **1** |
-| [Malta](#malta) · **1** | [Norway](#norvec) · **4** | [Poland](#polonya) · **5** |
+| [Latvia](#letonya) · **2** | [Lithuania](#litvanya) · **5** | [Hungary](#macaristan) · **1** |
+| [Malta](#malta) · **2** | [Norway](#norvec) · **4** | [Poland](#polonya) · **5** |
 | [Portugal](#portekiz) · **4** | [Romania](#romanya) · **2** | [Russia](#rusya) · **9** |
 | [Singapore](#singapur) · **4** | [Slovenia](#slovenya) · **1** | [Saudi Arabia](#suudi-arabistan) · **3** |
 | [Taiwan](#tayvan) · **1** | [Türkiye](#turkiye) · **10** | [Ukraine](#ukrayna) · **5** |
-| [Oman](#umman) · **2** | [New Zealand](#yeni-zelanda) · **2** | [Greece](#yunanistan) · **1** |
+| [Oman](#umman) · **2** | [New Zealand](#yeni-zelanda) · **2** | [Greece](#yunanistan) · **3** |
 
 - [Short-cycle / associate institutions](#short-cycle-associate-level-institutions)
 
 ## Short-cycle / associate-level institutions
 
-The catalogue includes **31 institutions** that teach games at **short-cycle higher education** level (EQF 5 and equivalents: associate degree, CTeSP, YH, polytechnic diploma, senmon gakkō, Turkish ön lisans, etc.). This level is often missing from international listings; it is marked separately here.
+The catalogue includes **32 institutions** that teach games at **short-cycle higher education** level (EQF 5 and equivalents: associate degree, CTeSP, YH, polytechnic diploma, senmon gakkō, Turkish ön lisans, etc.). This level is often missing from international listings; it is marked separately here.
 
 | Institution | Country | Award |
 | --- | --- | --- |
@@ -60,6 +60,7 @@ The catalogue includes **31 institutions** that teach games at **short-cycle hig
 | Algonquin College | Canada | Ontario College Advanced Diploma |
 | Centennial College | Canada | Ontario College Advanced Diploma |
 | Vancouver Film School (VFS) | Canada | VFS Diploma (1 year intensive) |
+| Vilniaus verslo kolegija (Vilnius Business College) | Lithuania | Professional Bachelor (kolegija / short-cycle–adjacent UAS track) |
 | P.PORTO – Polytechnic of Porto (ESMAD & ISEP) | Portugal | CTeSP — EQF 5, Portuguese short cycle higher education |
 | Nanyang Polytechnic (NYP) — School of Design & Media | Singapore | Singapore Polytechnic Diploma (3 years) |
 | Temasek Polytechnic (TP) — School of Informatics & IT | Singapore | Singapore Polytechnic Diploma (3 years) |
@@ -3198,6 +3199,26 @@ The catalogue includes **31 institutions** that teach games at **short-cycle hig
 
 [Programme page](https://www.nhlstenden.com/en/exchange-programmes/communication-media/game-development-3d)
 
+### Rotterdam University of Applied Sciences (Hogeschool Rotterdam) — Rotterdam
+
+**Game Design and Development (exchange programme)**  ·  _game programme_
+
+- **Degree:** Exchange / minor-level package within UAS studies
+- **Duration:** — *(no single value applies)*  ·  **ECTS:** — *(no single value applies)*
+- **Language:** English
+- **Tuition:** Free for exchange students under agreements; degree students pay the statutory EU/EEA fee.
+
+- **Sample courses / curriculum:**
+  - Game design
+  - Game development
+  - English-taught exchange studio work
+
+- **Faculty listing:** Named faculty is not published on the exchange programme page.
+
+> Offers a ready-made English 'Game Design and Development' exchange package open to Erasmus/exchange students. Not a full four-year local bachelor title, but a distinct game-focused mobility pathway in the Netherlands. Complements BUas / HKU / Saxion entries.
+
+[Programme page](https://www.rotterdamuas.com/programmes/exchange/gamedesignanddevelopment/)
+
 ### Saxion University of Applied Sciences — Enschede/Deventer/Apeldoorn
 
 **Creative Media and Game Technologies (CMGT) — exchange programme**  ·  _game programme_
@@ -4950,6 +4971,32 @@ The catalogue includes **31 institutions** that teach games at **short-cycle hig
 
 **Verification sources:** <https://smk.lt/en/study-programmes/computer-games-and-animation/>
 
+### Vilniaus verslo kolegija (Vilnius Business College) — Vilnius
+
+**Game Development**  ·  _game programme_
+
+- **Degree:** Professional Bachelor of Computing
+- **Duration:** 3 yr  ·  **ECTS:** 180 ECTS *(from Bologna norm)*
+- **Language:** English
+- **Tuition:** State-funded places may be free; fee-paying places and non-EU students pay tuition. [country rule — confirm with institution]
+
+- **Sample courses / curriculum:**
+  - Programming basics
+  - 3D modelling
+  - Computer graphics and animation
+  - Video game physics
+  - Data structures and algorithms
+  - Project management
+  - Game development with Unity3D
+  - Human-computer interaction
+  - Audio and video processing
+
+- **Faculty listing:** No named faculty list on the programme page.
+
+> English-taught Professional Bachelor in Game Development (180 ECTS) at Vilnius Business College. Unity-focused; covers programming, 3D, physics and project management. Adds a Lithuanian kolegija pathway alongside SMK / KTU / VILNIUS TECH.
+
+[Programme page](https://www.kolegija.lt/en/studiju-programos/game-development/)
+
 ### Vilnius Gediminas Technical University (VILNIUS TECH) — Vilnius
 
 **Multimedia Design**  ·  _game courses_
@@ -5008,6 +5055,32 @@ The catalogue includes **31 institutions** that teach games at **short-cycle hig
 ## Malta
 
 > **Tuition (country rule):** Tuition is free for EU/EEA citizens; non-EU students pay fees.
+
+### MCAST — Malta College of Arts, Science and Technology — Paola
+
+**BSc (Hons) in Digital Games Development**  ·  _game programme_
+
+- **Degree:** Bachelor of Science (Honours)
+- **Duration:** 3 yr  ·  **ECTS:** 180 ECTS *(from Bologna norm)*
+- **Language:** English
+- **Tuition:** State-supported fees for EU/EEA citizens; non-EU students pay full fees. [country rule — confirm with institution]
+
+- **Sample courses / curriculum:**
+  - Game design
+  - Game level design
+  - 3D game engines
+  - UX/UI for games
+  - Software development & testing
+  - 3D modelling
+  - Game networking
+  - AI / mathematics / physics for games
+  - Work-based learning / apprenticeship
+
+- **Faculty listing:** Named faculty is not published on the programme page; confirm with MCAST Institute of Information and Communication Technology before applying.
+
+> A full MQF/EQF level-6 game development bachelor (180 ECTS). A double-degree route is also offered. Separate from the University of Malta Institute of Digital Games — Malta's second main game-education pathway.
+
+[Programme page](https://mcast.edu.mt/prospectus-2024-25/it6-a04-23/)
 
 ### University of Malta – Institute of Digital Games — Msida
 
@@ -6320,6 +6393,52 @@ The catalogue includes **31 institutions** that teach games at **short-cycle hig
 ## Yunanistan
 
 > **Tuition (country rule):** Tuition is free for undergraduate studies at public universities.
+
+### AAS College Thessaloniki — Thessaloniki
+
+**BA (Hons) Animation & Games Art**  ·  _game programme_
+
+- **Degree:** Bachelor of Arts (Honours) — British degree
+- **Duration:** 3 yr  ·  **ECTS:** 180 ECTS *(from Bologna norm)*
+- **Language:** English
+- **Tuition:** Private art college — confirm tuition with the institution.
+
+- **Sample courses / curriculum:**
+  - Drawing & animation principles
+  - Design fundamentals
+  - Storytelling / narrative
+  - Interactive media
+  - Computer-generated animation
+  - Industry-standard software for games art
+
+- **Faculty listing:** Named faculty is not listed on the programme page.
+
+> AAS College in Thessaloniki offers an English-taught BA (Hons) focused on animation and games art. Graduate roles include character animator, concept artist, modeller, storyboard and VFX. Added as a second dedicated games/animation pathway in Greece.
+
+[Programme page](https://aas.gr/courses-aas-college/bahons-animation-games-art/)
+
+### AKTO Art & Design College (Middlesex University validated) — Athens
+
+**BA (Hons) Game Design**  ·  _game programme_
+
+- **Degree:** Bachelor of Arts (Honours) — Middlesex University award
+- **Duration:** 3 yr  ·  **ECTS:** 180 ECTS *(from Bologna norm)*
+- **Language:** Greek (B2 Greek required for international applicants)
+- **Tuition:** Private art college — confirm tuition with the institution.
+
+- **Sample courses / curriculum:**
+  - Game Design Research & Practice
+  - Level Design
+  - Game Development
+  - Game design studio modules
+
+- **Faculty listing:** Named faculty is not listed in the programme specification PDF.
+
+> AKTO runs a Middlesex University–validated BA (Hons) Game Design in Athens. Taught in Greek; 3 years full-time or a part-time route. Separate from the Ionian University entry — a dedicated game-design bachelor in Greece.
+
+[Programme page](https://akto.gr/wp-content/uploads/2023/05/BAHons-Game-Design_AKTO.pdf)
+
+**Verification sources:** <https://akto.gr/>
 
 ### Ionian University — Department of Audio and Visual Arts (AVARTS) — Corfu
 
