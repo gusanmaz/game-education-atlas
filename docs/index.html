@@ -189,58 +189,15 @@ header::before {
 .bağ.ana { background: var(--accent-2); border-color: #fff; color: #1b2430; }
 .bağ:hover { transform: translate(-1px, -1px); box-shadow: 3px 3px 0 rgba(0,0,0,0.4); }
 .bağ:active { transform: translate(1px, 1px); box-shadow: 1px 1px 0 rgba(0,0,0,0.35); }
-.bağ::before {
-  content: ""; width: 14px; height: 14px; flex-shrink: 0;
+.px-ico {
+  width: 18px; height: 18px; flex-shrink: 0;
+  display: inline-block; vertical-align: middle;
   image-rendering: pixelated; image-rendering: crisp-edges;
+  shape-rendering: crispEdges;
+  border: 2px solid #1b2430;
+  box-shadow: 1px 1px 0 rgba(0,0,0,0.35);
 }
-.bağ.ix-pdf::before {
-  background:
-    linear-gradient(#fff, #fff) 2px 1px / 10px 12px no-repeat,
-    linear-gradient(#e85d4c, #e85d4c) 4px 3px / 6px 2px no-repeat,
-    linear-gradient(#e85d4c, #e85d4c) 4px 6px / 6px 2px no-repeat,
-    linear-gradient(#e85d4c, #e85d4c) 4px 9px / 4px 2px no-repeat;
-  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.2);
-}
-.bağ.ana.ix-pdf::before {
-  background:
-    linear-gradient(#1b2430, #1b2430) 2px 1px / 10px 12px no-repeat,
-    linear-gradient(#fff, #fff) 4px 3px / 6px 2px no-repeat,
-    linear-gradient(#fff, #fff) 4px 6px / 6px 2px no-repeat,
-    linear-gradient(#fff, #fff) 4px 9px / 4px 2px no-repeat;
-}
-.bağ.ix-md::before {
-  background:
-    linear-gradient(#9af5e4, #9af5e4) 1px 1px / 12px 12px no-repeat,
-    linear-gradient(#0b3d4a, #0b3d4a) 3px 4px / 2px 6px no-repeat,
-    linear-gradient(#0b3d4a, #0b3d4a) 5px 6px / 2px 2px no-repeat,
-    linear-gradient(#0b3d4a, #0b3d4a) 7px 4px / 2px 6px no-repeat,
-    linear-gradient(#0b3d4a, #0b3d4a) 9px 4px / 2px 6px no-repeat;
-}
-.bağ.ix-gh::before {
-  background:
-    linear-gradient(#fff, #fff) 4px 1px / 6px 3px no-repeat,
-    linear-gradient(#fff, #fff) 3px 4px / 8px 5px no-repeat,
-    linear-gradient(#fff, #fff) 2px 9px / 3px 4px no-repeat,
-    linear-gradient(#fff, #fff) 9px 9px / 3px 4px no-repeat,
-    linear-gradient(#fff, #fff) 5px 9px / 4px 3px no-repeat,
-    linear-gradient(#1b2430, #1b2430) 5px 5px / 1px 1px no-repeat,
-    linear-gradient(#1b2430, #1b2430) 8px 5px / 1px 1px no-repeat;
-}
-.bağ.ix-pr::before {
-  background:
-    linear-gradient(#ffe08a, #ffe08a) 6px 1px / 2px 8px no-repeat,
-    linear-gradient(#ffe08a, #ffe08a) 3px 4px / 8px 2px no-repeat,
-    linear-gradient(#3dffe0, #3dffe0) 2px 10px / 10px 3px no-repeat,
-    linear-gradient(#fff, #fff) 4px 11px / 2px 1px no-repeat,
-    linear-gradient(#fff, #fff) 8px 11px / 2px 1px no-repeat;
-}
-.bağ.ix-about::before {
-  background:
-    linear-gradient(#ffe08a, #ffe08a) 2px 0 / 10px 14px no-repeat,
-    linear-gradient(#1b2430, #1b2430) 6px 2px / 2px 2px no-repeat,
-    linear-gradient(#1b2430, #1b2430) 6px 6px / 2px 5px no-repeat,
-    linear-gradient(#1b2430, #1b2430) 6px 12px / 2px 1px no-repeat;
-}
+.bağ.ana .px-ico { border-color: #1b2430; }
 
 .süzgeç {
   padding: 12px 0 8px; position: sticky; top: 0; z-index: 5;
@@ -274,7 +231,26 @@ header::before {
   color: var(--accent-ink); padding: 8px 0 0;
 }
 
-.liste { padding: 8px 0 52px; }
+.liste { padding: 8px 0 16px; }
+.sayfa-nav {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+  gap: 6px; padding: 8px 0 40px;
+}
+.sayfa-nav .düğme {
+  color: var(--text-1); border-color: var(--line);
+  background: var(--surface-1); box-shadow: 2px 2px 0 var(--shadow);
+}
+.sayfa-nav .düğme:hover { background: var(--accent-bg); }
+.sayfa-nav .düğme.açık {
+  background: var(--accent-2); border-color: var(--ink); color: #1b2430;
+}
+.sayfa-nav .düğme:disabled {
+  opacity: 0.4; cursor: not-allowed; transform: none; box-shadow: 2px 2px 0 var(--shadow);
+}
+.sayfa-bilgi {
+  font-family: var(--font-d); font-size: 13px; font-weight: 600;
+  color: var(--text-2); min-width: 7ch; text-align: center;
+}
 .kart {
   border: var(--px) solid var(--line); border-radius: 0;
   padding: 11px 12px; margin: 10px 0;
@@ -411,11 +387,11 @@ footer p:last-child { margin-bottom: 0; }
     </div>
     <div class="üst-sağ">
       <div class="bağlar">
-        <a class="bağ ana ix-pdf" id="bag-pdf" href="https://github.com/gusanmaz/game-education-atlas/raw/main/catalogue/oyun-programlari.pdf"><span data-t="pdf"></span></a>
-        <a class="bağ ix-md" id="bag-md" href="https://github.com/gusanmaz/game-education-atlas/blob/main/catalogue/OYUN-PROGRAMLARI.md"><span data-t="md"></span></a>
-        <a class="bağ ix-gh" href="https://github.com/gusanmaz/game-education-atlas"><span data-t="repo"></span></a>
-        <a class="bağ ix-pr" href="https://github.com/gusanmaz/game-education-atlas/blob/main/CONTRIBUTING.md"><span data-t="katki"></span></a>
-        <a class="bağ ix-about" id="bag-about" href="#rehber"><span data-t="about"></span></a>
+        <a class="bağ ana" id="bag-pdf" href="https://github.com/gusanmaz/game-education-atlas/raw/main/catalogue/oyun-programlari.pdf"><svg class="px-ico" viewBox="0 0 18 18" aria-hidden="true"><rect width="18" height="18" fill="#e53935"/><text x="9" y="12.5" text-anchor="middle" font-family="Pixelify Sans,Courier New,monospace" font-size="7" font-weight="700" fill="#fff">PDF</text></svg><span data-t="pdf"></span></a>
+        <a class="bağ" id="bag-md" href="https://github.com/gusanmaz/game-education-atlas/blob/main/catalogue/OYUN-PROGRAMLARI.md"><svg class="px-ico" viewBox="0 0 18 18" aria-hidden="true"><rect width="18" height="18" fill="#3dffe0"/><text x="9" y="12.5" text-anchor="middle" font-family="Pixelify Sans,Courier New,monospace" font-size="7" font-weight="700" fill="#0b3d4a">MD</text></svg><span data-t="md"></span></a>
+        <a class="bağ" href="https://github.com/gusanmaz/game-education-atlas"><svg class="px-ico" viewBox="0 0 18 18" aria-hidden="true"><rect width="18" height="18" fill="#24292f"/><rect x="6" y="2" width="6" height="3" fill="#fff"/><rect x="5" y="5" width="8" height="5" fill="#fff"/><rect x="4" y="10" width="3" height="4" fill="#fff"/><rect x="11" y="10" width="3" height="4" fill="#fff"/><rect x="7" y="10" width="4" height="3" fill="#fff"/><rect x="6" y="6" width="1" height="1" fill="#24292f"/><rect x="11" y="6" width="1" height="1" fill="#24292f"/></svg><span data-t="repo"></span></a>
+        <a class="bağ" href="https://github.com/gusanmaz/game-education-atlas/blob/main/CONTRIBUTING.md"><svg class="px-ico" viewBox="0 0 18 18" aria-hidden="true"><rect width="18" height="18" fill="#6f42c1"/><rect x="3" y="3" width="2" height="10" fill="#ffe08a"/><rect x="13" y="3" width="2" height="6" fill="#ffe08a"/><rect x="5" y="7" width="8" height="2" fill="#ffe08a"/><rect x="11" y="9" width="2" height="4" fill="#ffe08a"/><rect x="10" y="12" width="4" height="2" fill="#3dffe0"/></svg><span data-t="katki"></span></a>
+        <a class="bağ" id="bag-about" href="#rehber"><svg class="px-ico" viewBox="0 0 18 18" aria-hidden="true"><rect width="18" height="18" fill="#ffe08a"/><rect x="8" y="3" width="2" height="2" fill="#1b2430"/><rect x="8" y="7" width="2" height="6" fill="#1b2430"/><rect x="8" y="14" width="2" height="2" fill="#1b2430"/></svg><span data-t="about"></span></a>
       </div>
       <div class="üst-kontroller">
         <div class="dil" role="group" aria-label="Language">
@@ -465,6 +441,7 @@ footer p:last-child { margin-bottom: 0; }
 </section>
 
 <main class="wrap liste" id="liste"></main>
+<nav class="wrap sayfa-nav" id="sayfa-nav" aria-label="Pagination" hidden></nav>
 
 <footer>
   <div class="wrap">
@@ -491,6 +468,8 @@ const METIN = {
     myoSeviye: "Short-cycle / associate level", hocaVar: "Named faculty listed",
     labVar: "Research lab listed",
     sonuc: (n, toplam, ulkeN) => `${n} of ${toplam} programmes · ${ulkeN} countries`,
+    sayfaAralik: (a, b, n) => `${a}–${b} / ${n}`,
+    onceki: "Prev", sonraki: "Next",
     bos: "No programme matches these filters.",
     kDerece: "Degree", kSure: "Duration", kEcts: "ECTS", kDil: "Language", kUcret: "Tuition",
     kMyo: "Level", yil: "yr",
@@ -519,6 +498,8 @@ const METIN = {
     myoSeviye: "MYO / ön lisans düzeyi", hocaVar: "Öğretim üyesi ismen var",
     labVar: "Araştırma laboratuvarı var",
     sonuc: (n, toplam, ulkeN) => `${n} / ${toplam} program · ${ulkeN} ülke`,
+    sayfaAralik: (a, b, n) => `${a}–${b} / ${n}`,
+    onceki: "Önceki", sonraki: "Sonraki",
     bos: "Bu süzgeçlere uyan program yok.",
     kDerece: "Derece", kSure: "Süre", kEcts: "AKTS", kDil: "Dil", kUcret: "Ücret",
     kMyo: "Düzey", yil: "yıl",
@@ -538,8 +519,9 @@ const METIN = {
 };
 
 const P = window.ATLAS.programlar;
+const SAYFA_BOYUT = 10;
 let dil = (navigator.language || "en").toLowerCase().startsWith("tr") ? "tr" : "en";
-const durum = { q: "", ulke: "", sinir: "" };
+const durum = { q: "", ulke: "", sinir: "", sayfa: 1 };
 
 const BAYRAK = {
   ABD: "🇺🇸", Almanya: "🇩🇪", Avustralya: "🇦🇺", Avusturya: "🇦🇹", Azerbaycan: "🇦🇿",
@@ -689,10 +671,40 @@ function kart(p) {
 function çiz() {
   const sonuç = süz();
   const ulkeN = new Set(P.map(p => p.ulke)).size;
+  const toplamSayfa = Math.max(1, Math.ceil(sonuç.length / SAYFA_BOYUT));
+  if (durum.sayfa > toplamSayfa) durum.sayfa = toplamSayfa;
+  if (durum.sayfa < 1) durum.sayfa = 1;
+  const baş = (durum.sayfa - 1) * SAYFA_BOYUT;
+  const dilim = sonuç.slice(baş, baş + SAYFA_BOYUT);
+  const a = sonuç.length ? baş + 1 : 0;
+  const b = baş + dilim.length;
+
   $("#sayac").textContent = T().sonuc(sonuç.length, P.length, ulkeN);
   $("#liste").innerHTML = sonuç.length
-    ? sonuç.map(kart).join("")
+    ? dilim.map(kart).join("")
     : `<p class="boş">${kaç(T().bos)}</p>`;
+
+  const nav = $("#sayfa-nav");
+  if (!sonuç.length || toplamSayfa <= 1) {
+    nav.hidden = true;
+    nav.innerHTML = "";
+    return;
+  }
+  nav.hidden = false;
+  const t = T();
+  const maxBtn = 7;
+  let from = Math.max(1, durum.sayfa - 3);
+  let to = Math.min(toplamSayfa, from + maxBtn - 1);
+  from = Math.max(1, to - maxBtn + 1);
+  let sayfalar = "";
+  for (let i = from; i <= to; i++) {
+    sayfalar += `<button type="button" class="düğme${i === durum.sayfa ? " açık" : ""}" data-sayfa="${i}">${i}</button>`;
+  }
+  nav.innerHTML =
+    `<button type="button" class="düğme" data-sayfa="${durum.sayfa - 1}" ${durum.sayfa <= 1 ? "disabled" : ""}>${kaç(t.onceki)}</button>` +
+    sayfalar +
+    `<button type="button" class="düğme" data-sayfa="${durum.sayfa + 1}" ${durum.sayfa >= toplamSayfa ? "disabled" : ""}>${kaç(t.sonraki)}</button>` +
+    `<span class="sayfa-bilgi">${kaç(t.sayfaAralik(a, b, sonuç.length))}</span>`;
 }
 
 function dilUygula() {
@@ -721,17 +733,28 @@ function dilUygula() {
   çipler(); çiz();
 }
 
-$("#ara").addEventListener("input", e => { durum.q = e.target.value; çiz(); });
+function sayfaSıfırla() { durum.sayfa = 1; }
+
+$("#ara").addEventListener("input", e => { durum.q = e.target.value; sayfaSıfırla(); çiz(); });
 
 document.addEventListener("change", e => {
   if (!e.target) return;
-  if (e.target.id === "ulke-sec") { durum.ulke = e.target.value || ""; çiz(); }
-  if (e.target.id === "sinir-sec") { durum.sinir = e.target.value || ""; çiz(); }
+  if (e.target.id === "ulke-sec") { durum.ulke = e.target.value || ""; sayfaSıfırla(); çiz(); }
+  if (e.target.id === "sinir-sec") { durum.sinir = e.target.value || ""; sayfaSıfırla(); çiz(); }
 });
 
 document.addEventListener("click", e => {
   const d = e.target.closest("[data-dil]");
   if (d) { dil = d.dataset.dil; try { localStorage.setItem("atlas-dil", dil); } catch (_) {} dilUygula(); }
+  const s = e.target.closest("[data-sayfa]");
+  if (s && !s.disabled) {
+    const n = Number(s.dataset.sayfa);
+    if (Number.isFinite(n) && n >= 1) {
+      durum.sayfa = n;
+      çiz();
+      $("#liste").scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
 });
 
 $("#bag-about").addEventListener("click", e => {
