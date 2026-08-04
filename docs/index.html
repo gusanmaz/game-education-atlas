@@ -183,8 +183,9 @@ header::before {
   border: 2px solid #fff; color: #e8fff6; background: rgba(0,0,0,0.2);
   box-shadow: 2px 2px 0 rgba(0,0,0,0.35);
   transition: transform .1s steps(1), box-shadow .1s steps(1);
-  white-space: nowrap;
+  white-space: nowrap; cursor: pointer;
 }
+button.bağ { appearance: none; -webkit-appearance: none; }
 .bağ.ana { background: var(--accent-2); border-color: #fff; color: #1b2430; }
 .bağ:hover { transform: translate(-1px, -1px); box-shadow: 3px 3px 0 rgba(0,0,0,0.4); }
 .bağ:active { transform: translate(1px, 1px); box-shadow: 1px 1px 0 rgba(0,0,0,0.35); }
@@ -399,7 +400,7 @@ footer p:last-child { margin-bottom: 0; }
     </div>
     <div class="üst-sağ">
       <div class="bağlar">
-        <a class="bağ ana" id="bag-pdf" href="https://github.com/gusanmaz/game-education-atlas/raw/main/catalogue/oyun-programlari.pdf"><svg class="px-ico" viewBox="0 0 18 18" aria-hidden="true"><rect width="18" height="18" fill="#e53935"/><text x="9" y="12.5" text-anchor="middle" font-family="Pixelify Sans,Courier New,monospace" font-size="7" font-weight="700" fill="#fff">PDF</text></svg><span data-t="pdf"></span></a>
+        <a class="bağ" id="bag-pdf" href="https://github.com/gusanmaz/game-education-atlas/raw/main/catalogue/oyun-programlari.pdf"><svg class="px-ico" viewBox="0 0 18 18" aria-hidden="true"><rect width="18" height="18" fill="#e53935"/><text x="9" y="12.5" text-anchor="middle" font-family="Pixelify Sans,Courier New,monospace" font-size="7" font-weight="700" fill="#fff">PDF</text></svg><span data-t="pdf"></span></a>
         <a class="bağ" id="bag-md" href="https://github.com/gusanmaz/game-education-atlas/blob/main/catalogue/OYUN-PROGRAMLARI.md"><svg class="px-ico" viewBox="0 0 18 18" aria-hidden="true"><rect width="18" height="18" fill="#3dffe0"/><text x="9" y="12.5" text-anchor="middle" font-family="Pixelify Sans,Courier New,monospace" font-size="7" font-weight="700" fill="#0b3d4a">MD</text></svg><span data-t="md"></span></a>
         <a class="bağ" href="https://github.com/gusanmaz/game-education-atlas"><svg class="px-ico" viewBox="0 0 18 18" aria-hidden="true"><rect width="18" height="18" fill="#24292f"/><rect x="6" y="2" width="6" height="3" fill="#fff"/><rect x="5" y="5" width="8" height="5" fill="#fff"/><rect x="4" y="10" width="3" height="4" fill="#fff"/><rect x="11" y="10" width="3" height="4" fill="#fff"/><rect x="7" y="10" width="4" height="3" fill="#fff"/><rect x="6" y="6" width="1" height="1" fill="#24292f"/><rect x="11" y="6" width="1" height="1" fill="#24292f"/></svg><span data-t="repo"></span></a>
       </div>
