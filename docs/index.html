@@ -204,6 +204,10 @@ button.bağ { appearance: none; -webkit-appearance: none; }
   background: color-mix(in srgb, var(--surface-0) 94%, transparent);
   border-bottom: var(--px) solid var(--line);
 }
+.süzgeç .filtre-satır {
+  transition: max-height .22s ease, opacity .18s ease, margin .18s ease;
+  max-height: 220px; overflow: hidden;
+}
 .ara {
   width: 100%; font: inherit; padding: 9px 12px; border-radius: 0;
   border: var(--px) solid var(--line); background: var(--surface-1); color: var(--text-1);
@@ -381,10 +385,15 @@ footer p:last-child { margin-bottom: 0; }
   .giriş h1 { font-size: 1.2rem; max-width: none; }
   .filtre-satır { grid-template-columns: 1fr; }
   .kart { box-shadow: 3px 3px 0 var(--shadow); }
+  .süzgeç.gizle-filtre { padding-bottom: 6px; }
+  .süzgeç.gizle-filtre .filtre-satır {
+    max-height: 0; opacity: 0; margin-top: 0; pointer-events: none;
+  }
+  .süzgeç.gizle-filtre .sayaç { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
   .kart, .marka-blok::before, header::before { animation: none; }
-  .bağ, .kart { transition: none; }
+  .bağ, .kart, .süzgeç .filtre-satır { transition: none; }
 }
 </style>
 </head>
@@ -808,6 +817,27 @@ try {
   const kd = localStorage.getItem("atlas-dil");
   if (kd) dil = kd;
 } catch (_) {}
+
+(() => {
+  const bar = document.querySelector(".süzgeç");
+  if (!bar) return;
+  const mq = matchMedia("(max-width: 720px)");
+  let sonY = window.scrollY;
+  const güncelle = () => {
+    if (!mq.matches) {
+      bar.classList.remove("gizle-filtre");
+      return;
+    }
+    const y = window.scrollY;
+    const delta = y - sonY;
+    if (y < 60) bar.classList.remove("gizle-filtre");
+    else if (delta > 10) bar.classList.add("gizle-filtre");
+    else if (delta < -10) bar.classList.remove("gizle-filtre");
+    sonY = y;
+  };
+  window.addEventListener("scroll", güncelle, { passive: true });
+  mq.addEventListener("change", güncelle);
+})();
 
 dilUygula();
 </script>
