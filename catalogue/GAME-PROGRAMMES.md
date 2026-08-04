@@ -1,41 +1,48 @@
 # Game development programmes — international catalogue
 
-**254 programmes · 48 countries** · detail complete: 254/254
+**264 programmes · 50 countries** · detail complete: 264/264
 
-A catalogue of higher-education institutions teaching game development, game design and game art. Every record was verified from the institution's **own official website**; source links appear under each entry.
+**Prepared by:** Güvenç Usanmaz · **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · **Generated:** August 2026 (living document; regenerate from the catalogue as records change).
 
-Scope: Europe · United Kingdom · Türkiye · USA · Canada · Australia · New Zealand · Japan · China · South Korea · Singapore · Hong Kong · Taiwan · Israel · Gulf states (UAE, Saudi Arabia, Qatar, Bahrain, Oman) · Russia · Ukraine · Caucasus (Azerbaijan, Armenia; no dedicated game programme verified yet in Georgia). The Türkiye section covers the full national admissions guide; other countries are added institution by institution as each is verified.
+A catalogue of higher-education institutions teaching game development, game design and game art. Every record was checked against the institution's **own official website**; source links appear under each entry.
+
+**AI assistance & accuracy.** AI tools were used while researching, drafting and maintaining this catalogue. Information is **not guaranteed to be 100% accurate or complete** — fees, languages, curricula and programme names change. Gaps and outdated fields are likely. Always verify on the institution's site before applying.
+
+**Contributions welcome.** Corrections and additions via GitHub pull request matter a great deal: [game-education-atlas](https://github.com/gusanmaz/game-education-atlas) · see `CONTRIBUTING.md`. Community patches keep this guide useful for students and professionals planning game-dev study abroad.
+
+Scope: Europe (incl. South Cyprus / Republic of Cyprus and Northern Cyprus, listed separately) · United Kingdom · Türkiye · USA · Canada · Australia · New Zealand · Japan · China · South Korea · Singapore · Hong Kong · Taiwan · Israel · Gulf states (UAE, Saudi Arabia, Qatar, Bahrain, Oman) · Russia · Ukraine · Caucasus (Azerbaijan, Armenia; no dedicated game programme verified yet in Georgia). The Türkiye section covers the full national admissions guide; other countries are added institution by institution as each is verified.
 
 **How to read the fields.** ECTS values marked *(from Bologna norm)* are derived from the European Higher Education Area rule of 60 ECTS per full-time year, not from the institution's page. *(no single value applies)* marks course-level, exchange or multi-track structures. ECTS is printed only for Bologna countries.
 
 ## Contents
 
-**254 programmes** · **48 countries**. Click a country name to jump to that section.
+**264 programmes** · **50 countries**. Click a country name to jump to that section.
 
 | Country | Country | Country |
 | --- | --- | --- |
 | [United States](#abd) · **32** | [Germany](#almanya) · **18** | [Australia](#avustralya) · **5** |
-| [Austria](#avusturya) · **3** | [Azerbaijan](#azerbaycan) · **3** | [United Arab Emirates](#bae) · **4** |
+| [Austria](#avusturya) · **5** | [Azerbaijan](#azerbaycan) · **3** | [United Arab Emirates](#bae) · **4** |
 | [Bahrain](#bahreyn) · **1** | [Belgium](#belcika) · **4** | [United Kingdom](#birlesik-krallik) · **7** |
 | [Czechia](#cek-cumhuriyeti) · **4** | [China](#cin) · **8** | [Denmark](#danimarka) · **5** |
 | [Armenia](#ermenistan) · **1** | [Estonia](#estonya) · **2** | [Finland](#finlandiya) · **10** |
-| [France](#fransa) · **6** | [South Korea](#guney-kore) · **3** | [Croatia](#hirvatistan) · **1** |
-| [Netherlands](#hollanda) · **10** | [Hong Kong](#hong-kong) · **4** | [Ireland](#irlanda) · **3** |
-| [Spain](#ispanya) · **9** | [Israel](#israil) · **1** | [Sweden](#isvec) · **9** |
-| [Switzerland](#isvicre) · **2** | [Italy](#italya) · **8** | [Iceland](#izlanda) · **2** |
-| [Japan](#japonya) · **13** | [Canada](#kanada) · **8** | [Qatar](#katar) · **3** |
-| [Latvia](#letonya) · **2** | [Lithuania](#litvanya) · **5** | [Hungary](#macaristan) · **1** |
-| [Malta](#malta) · **2** | [Norway](#norvec) · **4** | [Poland](#polonya) · **5** |
-| [Portugal](#portekiz) · **4** | [Romania](#romanya) · **2** | [Russia](#rusya) · **9** |
-| [Singapore](#singapur) · **4** | [Slovenia](#slovenya) · **1** | [Saudi Arabia](#suudi-arabistan) · **3** |
-| [Taiwan](#tayvan) · **1** | [Türkiye](#turkiye) · **10** | [Ukraine](#ukrayna) · **5** |
-| [Oman](#umman) · **2** | [New Zealand](#yeni-zelanda) · **2** | [Greece](#yunanistan) · **3** |
+| [France](#fransa) · **6** | [Cyprus (South)](#guney-kibris) · **2** | [South Korea](#guney-kore) · **3** |
+| [Croatia](#hirvatistan) · **1** | [Netherlands](#hollanda) · **10** | [Hong Kong](#hong-kong) · **4** |
+| [Ireland](#irlanda) · **3** | [Spain](#ispanya) · **9** | [Israel](#israil) · **1** |
+| [Sweden](#isvec) · **9** | [Switzerland](#isvicre) · **4** | [Italy](#italya) · **8** |
+| [Iceland](#izlanda) · **2** | [Japan](#japonya) · **13** | [Canada](#kanada) · **10** |
+| [Qatar](#katar) · **3** | [Northern Cyprus](#kuzey-kibris) · **2** | [Latvia](#letonya) · **2** |
+| [Lithuania](#litvanya) · **5** | [Hungary](#macaristan) · **1** | [Malta](#malta) · **2** |
+| [Norway](#norvec) · **4** | [Poland](#polonya) · **5** | [Portugal](#portekiz) · **4** |
+| [Romania](#romanya) · **2** | [Russia](#rusya) · **9** | [Singapore](#singapur) · **4** |
+| [Slovenia](#slovenya) · **1** | [Saudi Arabia](#suudi-arabistan) · **3** | [Taiwan](#tayvan) · **1** |
+| [Türkiye](#turkiye) · **10** | [Ukraine](#ukrayna) · **5** | [Oman](#umman) · **2** |
+| [New Zealand](#yeni-zelanda) · **2** | [Greece](#yunanistan) · **3** |  |
 
 - [Short-cycle / associate institutions](#short-cycle-associate-level-institutions)
 
 ## Short-cycle / associate-level institutions
 
-The catalogue includes **32 institutions** that teach games at **short-cycle higher education** level (EQF 5 and equivalents: associate degree, CTeSP, YH, polytechnic diploma, senmon gakkō, Turkish ön lisans, etc.). This level is often missing from international listings; it is marked separately here.
+The catalogue includes **33 institutions** that teach games at **short-cycle higher education** level (EQF 5 and equivalents: associate degree, CTeSP, YH, polytechnic diploma, senmon gakkō, Turkish ön lisans, etc.). This level is often missing from international listings; it is marked separately here.
 
 | Institution | Country | Award |
 | --- | --- | --- |
@@ -58,6 +65,7 @@ The catalogue includes **32 institutions** that teach games at **short-cycle hig
 | Nihon Kogakuin Creators College | Japan | Senmon gakko diploma |
 | Osaka Amusement Media College (AMG Osaka) | Japan | Senmon Gakko Diploma |
 | Algonquin College | Canada | Ontario College Advanced Diploma |
+| Capilano University — School of Animation & Visual Effects | Canada | Short-cycle / college diploma — vocational higher education around EQF 5 |
 | Centennial College | Canada | Ontario College Advanced Diploma |
 | Vancouver Film School (VFS) | Canada | VFS Diploma (1 year intensive) |
 | Vilniaus verslo kolegija (Vilnius Business College) | Lithuania | Professional Bachelor (kolegija / short-cycle–adjacent UAS track) |
@@ -1562,6 +1570,51 @@ The catalogue includes **32 institutions** that teach games at **short-cycle hig
 
 **Verification sources:** <https://pgda.at/education/>
 
+### FH des BFI Wien (University of Applied Sciences BFI Vienna) — Vienna
+
+**Interactive Media and Games Business (Bachelor)**  ·  _game programme_
+
+- **Degree:** Bachelor
+- **Duration:** 3 yr  ·  **ECTS:** 180 ECTS *(from Bologna norm)*
+- **Language:** German (some modules in English)
+- **Tuition:** Austrian UAS: ~EUR 363/semester + student-union fee for EU students; higher for non-EU
+
+- **Sample courses / curriculum:**
+  - Game engines (Unity, Unreal, CryEngine, etc.)
+  - Fundamentals of Level Design & Balancing
+  - Interactive and Visual Storytelling
+  - Costing of Interactive Media Projects
+  - Media industry & start-up management
+  - XR / VR / AR
+  - E-sports / community management
+
+- **Faculty listing:** Industry practitioners teach as guest lecturers; check FH BFI for the standing faculty list.
+
+> Games + interactive media + BUSINESS blend — not a pure programming degree. Strong emphasis on entrepreneurship, localisation and production management. Curriculum mainly in German.
+
+[Programme page](https://www.fh-vie.ac.at/en/pages/studies/bachelor/interactive-media-games-business-eng)
+
+### SAE Institute Austria (Vienna) — University of Hertfordshire validated — Vienna
+
+**BSc (Hons) Games Programming (Bachelor Programme)**  ·  _game programme_
+
+- **Degree:** BSc (Hons) — University of Hertfordshire
+- **Duration:** 3 yr  ·  **ECTS:** — *(not yet collected)*
+- **Language:** German / English (depending on campus delivery)
+- **Tuition:** Private vocational college — SAE fee schedule applies; financing plans available.
+
+- **Sample courses / curriculum:**
+  - Games programming
+  - Game production / project leadership
+  - SAE Diploma + Advanced Diploma stages
+  - Bachelor top-up (Hertfordshire / Berlin campus online components)
+
+- **Faculty listing:** SAE teaching staff varies by campus; confirm with the Vienna campus.
+
+> Blended learning in Vienna; the final bachelor stage is under Berlin / University of Hertfordshire responsibility (UK degree). Same SAE network as the Germany entry — listed separately for the Austrian campus.
+
+[Programme page](https://www.sae.edu/aut/en/courses/games-programming-bachelor-programme/)
+
 ---
 
 ## Azerbaycan
@@ -2955,6 +3008,69 @@ The catalogue includes **32 institutions** that teach games at **short-cycle hig
 
 ---
 
+## Guney Kibris
+
+> **Geographic note:** This section covers **South Cyprus** (Republic of Cyprus / Greek Cypriot administration). It is an EU member; ECTS and the Bologna framework apply. Northern Cyprus records are listed under a separate heading.
+
+> **Tuition (country rule):** Private universities charge fees; EU and non-EU tariffs may differ. Confirm current figures on the institution's site.
+
+### UCLan Cyprus (University of Central Lancashire Cyprus) — Larnaca
+
+**BSc (Hons) Computing — Computer Games Development specialisation**  ·  _game programme_
+
+- **Degree:** Bachelor of Science (Honours)
+- **Duration:** 4 yr  ·  **ECTS:** 240 ECTS *(from Bologna norm)*
+- **Language:** English
+- **Tuition:** Private-university fees; EU and non-EU tariffs differ — confirm on uclancyprus.ac.cy.
+
+- **Sample courses / curriculum:**
+  - Games Development 1 / 2
+  - Computer graphics (DirectX)
+  - Unreal Engine (years 3–4)
+  - AI algorithms for games
+  - Game architecture & optimisation
+  - VR / AR / MR immersive modules
+  - Student-led studio: Rays and Vectors
+
+- **Research labs:**
+  - Games Laboratory / Rays and Vectors studio
+
+- **Faculty listing:** Staff is shared across UK and Cyprus campuses; check the programme page for current names.
+
+> SOUTH CYPRUS (Republic of Cyprus / Greek Cypriot administration). Games Development specialisation within Computing; curriculum said to follow IGDA guidelines. Dual-campus model linked to University of Central Lancashire (UK).
+
+[Programme page](https://www.uclancyprus.ac.cy/undergraduate-course/bsc-hons-computing/)
+
+**Verification sources:** <https://computing.uclancyprus.ac.cy/games.html>
+
+### University of Nicosia — Nicosia
+
+**BA Interactive Media and Animation — game design / VR / animation focus**  ·  _game programme_
+
+- **Degree:** Bachelor of Arts
+- **Duration:** 4 yr  ·  **ECTS:** 240 ECTS
+- **Language:** English
+- **Tuition:** Approx. EUR 10,320/year for non-EU students (2026-27 published); confirm EU tariff with the institution.
+
+- **Sample courses / curriculum:**
+  - Interactive Multimedia Development
+  - Storyboarding and 2D Animation
+  - 3D Modeling and Animation
+  - Interface Design and Development
+  - Virtual Reality
+  - Game Design and Development
+  - Multimedia Project Management
+
+- **Faculty listing:** Department of Design and Multimedia staff is listed on the institutional site; confirm before applying.
+
+> SOUTH CYPRUS. Full bachelor; curriculum explicitly includes Game Design and Development and VR. Not a pure game-engineering degree — interactive media + animation + game design blend.
+
+[Programme page](https://www.unic.ac.cy/interactive-media-and-animation-ba/)
+
+**Verification sources:** <https://www.unic.ac.cy/amd/programmes/>
+
+---
+
 ## Guney Kore
 
 > **Tuition (country rule):** Tuition is charged; private universities are significantly more expensive than public ones. Scholarship opportunities for international students are common.
@@ -3991,6 +4107,56 @@ The catalogue includes **32 institutions** that teach games at **short-cycle hig
 
 > **Tuition (country rule):** Semester fees at state-supported institutions are low by European standards; fees for international students may be increased at some institutions.
 
+### FHNW — Hochschule fur Technik (School of Computer Science) — Brugg-Windisch
+
+**BSc Computer Science — Game Technologies & Extended Reality study track**  ·  _game programme_
+
+- **Degree:** Bachelor of Science FHNW in Computer Science
+- **Duration:** 3 yr  ·  **ECTS:** 180 ECTS *(from Bologna norm)*
+- **Language:** German and English
+- **Tuition:** Swiss UAS semester fees — confirm on fhnw.ch; international students may pay a surcharge.
+
+- **Sample courses / curriculum:**
+  - Game design and development
+  - Game engines and tools
+  - Computer graphics
+  - 3D modelling
+  - Extended reality (VR/AR/MR)
+  - 3D user interfaces & experience design
+  - Simulations and agents
+
+- **Faculty listing:** School of Computer Science faculty; check FHNW for current names.
+
+> Full-time, part-time or practice-integrated (PiBS) options. Game/XR modules from semester one; industry projects in semesters 5–6. Separate from ZHdK (design) and HSLU (Digital Ideation) — technical/CS track.
+
+[Programme page](https://www.fhnw.ch/en/computer-science/degree-programmes/offerings/programmes/game-technologies-extended-reality)
+
+### Fernfachhochschule Schweiz (FFHS) — Zurich
+
+**BSc Visual Computing and Game Engineering**  ·  _game programme_
+
+- **Degree:** Bachelor of Science
+- **Duration:** 4.5 yr  ·  **ECTS:** 180 ECTS
+- **Language:** German (English B1 required)
+- **Tuition:** Approx. CHF 16,400 total (published); blended / work-compatible model.
+
+- **Sample courses / curriculum:**
+  - Game development
+  - Graphics programming
+  - High-performance computing
+  - XR technologies
+  - Behavioral & generative AI
+  - Computer vision
+  - Serious games / UX / software law
+
+- **Faculty listing:** Programme lead and staff are announced on the FFHS site; check the current list for the 2026 intake.
+
+> Nine-semester blended bachelor (Zurich Gleisarena campus every second Saturday). Refocused successor of the earlier Game and VR Development profile, launching 2026. Designed to run alongside employment.
+
+[Programme page](https://www.ffhs.ch/en/degree-programmes/bachelor/bsc-visual-computing-and-game-engineering)
+
+**Verification sources:** <https://www.ffhs.ch/en/ueber-uns/news/article/2025-12-01-ffhs-schaerft-fokus-bachelor-visual-computing-and-game-engineering-startet-2026>
+
 ### Lucerne University of Applied Sciences and Arts (HSLU) — Rotkreuz and Emmenbrucke (Lucerne)
 
 **Bachelor in Digital Ideation — specialisation options: GAME DESIGN, Web & Mobile, UX Design**  ·  _game programme_
@@ -4616,6 +4782,32 @@ The catalogue includes **32 institutions** that teach games at **short-cycle hig
 
 **Verification sources:** <https://commons.bcit.ca/computing/files/2023/10/BScACS-Map-Games-Development-Feb-06-2023.pdf>
 
+### Capilano University — School of Animation & Visual Effects — North Vancouver
+
+**3D Animation for Film & Games Diploma (+ 2D Animation & Visual Development; VFX diploma)**  ·  _game programme_
+
+- **Degree:** Diploma (2 years)
+- **Duration:** 2 yr
+- **Language:** English
+- **Tuition:** Domestic / international tariffs on the CapU site; college-level fees are usually lower than university bachelor tuition.
+
+- **Sample courses / curriculum:**
+  - 3D Animation
+  - Visual Effects Animation
+  - 3D Design for Production
+  - Technical Direction and Rigging
+  - Digital Compositing
+  - Communication for Animation and Game Design
+  - Art of Visual Storytelling
+
+- **Faculty listing:** Industry-experienced instructor model; current staff on CapU AVFX pages.
+
+> Two-year Vancouver-area diploma aimed at film/games pipelines; not a pure game-programming bachelor — heavy 3D animation / VFX / game-cinematics focus. Strong launch pad into B.C. animation and games.
+
+[Programme page](https://www.capilanou.ca/programs--courses/program-profiles/3d-animation-modeling--effects-for-film---games-diploma/)
+
+**Verification sources:** <https://www.capilanou.ca/programs--courses/search--select/explore-our-areas-of-study/fine--applied-arts/school-of-animation--visual-effects/>
+
 ### Centennial College — Toronto, Ontario (Progress campus)
 
 **Game — Development (Ontario College Advanced Diploma, 3 years) · Game — Art (16 months intensive)**  ·  _game programme_
@@ -4703,6 +4895,35 @@ The catalogue includes **32 institutions** that teach games at **short-cycle hig
 [Programme page](https://www.nad.ca/)
 
 **Verification sources:** <https://www.nad.ca/programmes/baccalaureat-en-creation-3d-pour-le-jeu-video-arts-techniques> · <https://www.nad.ca/programmes/maitrise-en-art-design-numerique> · <https://programmes.uqac.ca/7179> · <https://en.wikipedia.org/wiki/School_NAD-UQAC>
+
+### Ontario Tech University — Oshawa
+
+**Bachelor of Information Technology (Honours) — Game Development and Interactive Media**  ·  _game programme_
+
+- **Degree:** Bachelor of Information Technology (Honours)
+- **Duration:** 4 yr
+- **Language:** English
+- **Tuition:** Domestic / international undergraduate fees per Ontario Tech tariff — confirm on ontariotechu.ca.
+
+- **Sample courses / curriculum:**
+  - Game Development Workshop (team project each term)
+  - Game programming
+  - Game art / 3D modelling
+  - Game design
+  - Entrepreneurship / venture creation
+  - Serious games & simulation
+  - Capstone / internship options
+
+- **Research labs:**
+  - Gaming and virtual reality laboratory (motion capture, audiometric room, 3D displays)
+
+- **Faculty listing:** Faculty of Business and Information Technology; check the faculty site for current names.
+
+> Full game production from year one; four pillars of programming + art + design + entrepreneurship. Also known formerly as Game Development and Entrepreneurship. Strong co-op/internship and studio-founding emphasis.
+
+[Programme page](https://ontariotechu.ca/programs/undergraduate/computers-and-technology/information-technology-game-development-and-interactive-media/)
+
+**Verification sources:** <https://businessandit.ontariotechu.ca/undergraduate/bachelor-of-information-technology/game-development-and-interactive-media/index.php>
 
 ### Sheridan College — Oakville, Ontario (Trafalgar campus)
 
@@ -4830,6 +5051,66 @@ The catalogue includes **32 institutions** that teach games at **short-cycle hig
 [Programme page](https://qatar.vcu.edu/academics/undergraduate-programs/kinetic-imaging/)
 
 **Verification sources:** <https://bulletin.vcu.edu/undergraduate/arts/school-arts-qatar/kinetic-imaging-bfa-conc-interaction-game-design/>
+
+---
+
+## Kuzey Kibris
+
+> **Geographic note:** This section covers **Northern Cyprus** (Turkish Cypriot administration). Programmes may be taught in Turkish or English. Degree recognition varies by destination country — check YÖK / host-country equivalence rules before applying. South Cyprus records are listed separately.
+
+> **Tuition (country rule):** Tuition is charged; TRNC/Turkish citizen and international tariffs usually differ. Confirm current figures on the institution's site.
+
+### Dogu Akdeniz Universitesi (Eastern Mediterranean University, EMU) — Famagusta
+
+**Digital Game Design Undergraduate Programme (B.A.)**  ·  _game programme_
+
+- **Degree:** Bachelor of Arts
+- **Duration:** 4 yr  ·  **ECTS:** 240 ECTS *(from Bologna norm)*
+- **Language:** Turkish / English options — confirm with the institution
+- **Tuition:** International fees follow the EMU tariff; TRNC/Turkish citizen rates may differ — confirm on emu.edu.tr.
+
+- **Sample courses / curriculum:**
+  - Introduction to Animation and Game Design
+  - Digital Game Design
+  - 3D Modelling, Texturing and Lighting
+  - Game Programming I
+  - Game Engines and Interface
+  - Game Theme Design
+  - Game Mechanics
+
+- **Research labs:**
+  - Motion capture (MOCAP) studio
+  - Mac / PC labs, green-screen and photography studios
+
+- **Faculty listing:** Faculty of Communication / Visual Arts & Visual Communication Design; check EMU site for current names.
+
+> NORTHERN CYPRUS (Turkish Cypriot administration). Dedicated four-year Digital Game Design bachelor. Degree recognition varies by destination country — check YÖK / host-country equivalence before applying.
+
+[Programme page](https://www.emu.edu.tr/tr/programlar/dijital-oyun-tasarimi-lisans-programi/1467)
+
+**Verification sources:** <https://www.emu.edu.tr/en/programs/digital-game-design-undergraduate-program/1467>
+
+### Uluslararasi Kibris Universitesi (Cyprus International University, CIU) — Nicosia
+
+**Digital Game Design (bachelor)**  ·  _game programme_
+
+- **Degree:** Bachelor
+- **Duration:** 4 yr  ·  **ECTS:** 240 ECTS *(from Bologna norm)*
+- **Language:** Turkish / English — confirm with the institution
+- **Tuition:** International fees follow the CIU tariff — confirm on prospective.ciu.edu.tr.
+
+- **Sample courses / curriculum:**
+  - 2D / 3D animation
+  - Sound design
+  - Storyboard and character creation
+  - Game technologies
+  - Foundation in drawing, illustration and art
+
+- **Faculty listing:** Named faculty may not be listed in detail on the programme page; confirm with CIU.
+
+> NORTHERN CYPRUS. Dedicated Digital Game Design bachelor with a practice-oriented animation/games curriculum. Check YÖK / destination-country recognition before applying.
+
+[Programme page](https://prospective.ciu.edu.tr/tr/programlar/lisans/dijital-oyun-tasarimi)
 
 ---
 

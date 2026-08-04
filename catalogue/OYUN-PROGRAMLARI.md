@@ -1,43 +1,50 @@
 # Oyun geliştirme programları — uluslararası katalog
 
-**254 program · 48 ülke** · detayı tamamlanan: 254/254
+**264 program · 50 ülke** · detayı tamamlanan: 264/264
 
-Alan doluluğu: derece %100 · dil %100 · ücret %100 · dersler %100 · araştırma labı %35 · öğretim üyesi ismen %38 (+ %16 kurum isim yayınlamıyor, gerekçesi kayıtta)
+**Hazırlayan:** Güvenç Usanmaz · **Lisans:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · **Üretim:** Ağustos 2026 (yaşayan belge; katalog güncellendikçe yeniden üretilir).
 
-Dünya genelinde oyun geliştirme, oyun tasarımı ve oyun sanatı eğitimi veren yükseköğretim kurumlarının kataloğu. Her kayıt kurumun **kendi resmî sitesinden** teyit edilmiştir; kaynak bağlantıları kayıtların altında yer alır.
+Alan doluluğu: derece %100 · dil %100 · ücret %100 · dersler %100 · araştırma labı %35 · öğretim üyesi ismen %37 (+ %19 kurum isim yayınlamıyor, gerekçesi kayıtta)
 
-Kapsam: Avrupa · Birleşik Krallık · Türkiye · ABD · Kanada · Avustralya · Yeni Zelanda · Japonya · Çin · Güney Kore · Singapur · Hong Kong · Tayvan · İsrail · Körfez ülkeleri (BAE, Suudi Arabistan, Katar, Bahreyn, Umman) · Rusya · Ukrayna · Kafkasya (Azerbaycan, Ermenistan; Gürcistan'da adanmış oyun programı henüz doğrulanmadı). Türkiye bölümü YÖK kılavuzunun tamamını kapsar; diğer ülkelerde kurumlar tek tek doğrulanarak eklenir.
+Dünya genelinde oyun geliştirme, oyun tasarımı ve oyun sanatı eğitimi veren yükseköğretim kurumlarının kataloğu. Her kayıt kurumun **kendi resmî sitesinden** kontrol edilmiştir; kaynak bağlantıları kayıtların altında yer alır.
+
+**Yapay zekâ ve doğruluk.** Bu kataloğun araştırılması, derlenmesi ve güncellenmesinde yapay zekâ araçlarından yararlanılmıştır. Bilgilerin **yüzde yüz doğruluğu veya eksiksizliği garanti edilmez** — ücretler, diller, müfredatlar ve program adları değişir; eksikler ve eskiyen alanlar olabilir. Başvuru öncesi mutlaka kurumun kendi sitesinden teyit edin.
+
+**Katkı önemli.** Düzeltme ve eklemeler GitHub pull request ile yapılabilir ve gerçekten işe yarar: [game-education-atlas](https://github.com/gusanmaz/game-education-atlas) · `CONTRIBUTING.md`. Topluluk yamaları, yurt dışında oyun eğitimi planlayan öğrenci ve profesyoneller için bu rehberi canlı tutar.
+
+Kapsam: Avrupa (Güney Kıbrıs / Kıbrıs Cumhuriyeti ve Kuzey Kıbrıs ayrı başlıklarda) · Birleşik Krallık · Türkiye · ABD · Kanada · Avustralya · Yeni Zelanda · Japonya · Çin · Güney Kore · Singapur · Hong Kong · Tayvan · İsrail · Körfez ülkeleri (BAE, Suudi Arabistan, Katar, Bahreyn, Umman) · Rusya · Ukrayna · Kafkasya (Azerbaycan, Ermenistan; Gürcistan'da adanmış oyun programı henüz doğrulanmadı). Türkiye bölümü YÖK kılavuzunun tamamını kapsar; diğer ülkelerde kurumlar tek tek doğrulanarak eklenir.
 
 **Alanların okunuşu.** *(Bologna normundan)* etiketli ECTS değerleri kurumun sayfasından değil, Avrupa Yükseköğretim Alanı'nın tam zamanlı yılda 60 ECTS kuralından türetilmiştir. *(tek bir değer geçerli değil)* ders düzeyi, değişim programı ya da çok kademeli yapıları gösterir. ECTS yalnızca Bologna ülkelerinde basılır; Fransız RNCP unvanları, İsveç YH diploması, Alman Fachschule gibi niteliklerde ECTS tanımlı olmadığı için ayrıca belirtilir.
 
 ## İçindekiler
 
-Toplam **254 program** · **48 ülke**. Ülke adına tıklayınca ilgili bölüme gidersiniz.
+Toplam **264 program** · **50 ülke**. Ülke adına tıklayınca ilgili bölüme gidersiniz.
 
 | Ülke | Ülke | Ülke |
 | --- | --- | --- |
 | [ABD](#abd) · **32** | [Almanya](#almanya) · **18** | [Avustralya](#avustralya) · **5** |
-| [Avusturya](#avusturya) · **3** | [Azerbaycan](#azerbaycan) · **3** | [BAE](#bae) · **4** |
+| [Avusturya](#avusturya) · **5** | [Azerbaycan](#azerbaycan) · **3** | [BAE](#bae) · **4** |
 | [Bahreyn](#bahreyn) · **1** | [Belçika](#belcika) · **4** | [Birleşik Krallık](#birlesik-krallik) · **7** |
 | [Çek Cumhuriyeti](#cek-cumhuriyeti) · **4** | [Çin](#cin) · **8** | [Danimarka](#danimarka) · **5** |
 | [Ermenistan](#ermenistan) · **1** | [Estonya](#estonya) · **2** | [Finlandiya](#finlandiya) · **10** |
-| [Fransa](#fransa) · **6** | [Güney Kore](#guney-kore) · **3** | [Hırvatistan](#hirvatistan) · **1** |
-| [Hollanda](#hollanda) · **10** | [Hong Kong](#hong-kong) · **4** | [İrlanda](#irlanda) · **3** |
-| [İspanya](#ispanya) · **9** | [İsrail](#israil) · **1** | [İsveç](#isvec) · **9** |
-| [İsviçre](#isvicre) · **2** | [İtalya](#italya) · **8** | [İzlanda](#izlanda) · **2** |
-| [Japonya](#japonya) · **13** | [Kanada](#kanada) · **8** | [Katar](#katar) · **3** |
-| [Letonya](#letonya) · **2** | [Litvanya](#litvanya) · **5** | [Macaristan](#macaristan) · **1** |
-| [Malta](#malta) · **2** | [Norveç](#norvec) · **4** | [Polonya](#polonya) · **5** |
-| [Portekiz](#portekiz) · **4** | [Romanya](#romanya) · **2** | [Rusya](#rusya) · **9** |
-| [Singapur](#singapur) · **4** | [Slovenya](#slovenya) · **1** | [Suudi Arabistan](#suudi-arabistan) · **3** |
-| [Tayvan](#tayvan) · **1** | [Türkiye](#turkiye) · **10** | [Ukrayna](#ukrayna) · **5** |
-| [Umman](#umman) · **2** | [Yeni Zelanda](#yeni-zelanda) · **2** | [Yunanistan](#yunanistan) · **3** |
+| [Fransa](#fransa) · **6** | [Güney Kıbrıs](#guney-kibris) · **2** | [Güney Kore](#guney-kore) · **3** |
+| [Hırvatistan](#hirvatistan) · **1** | [Hollanda](#hollanda) · **10** | [Hong Kong](#hong-kong) · **4** |
+| [İrlanda](#irlanda) · **3** | [İspanya](#ispanya) · **9** | [İsrail](#israil) · **1** |
+| [İsveç](#isvec) · **9** | [İsviçre](#isvicre) · **4** | [İtalya](#italya) · **8** |
+| [İzlanda](#izlanda) · **2** | [Japonya](#japonya) · **13** | [Kanada](#kanada) · **10** |
+| [Katar](#katar) · **3** | [Kuzey Kıbrıs](#kuzey-kibris) · **2** | [Letonya](#letonya) · **2** |
+| [Litvanya](#litvanya) · **5** | [Macaristan](#macaristan) · **1** | [Malta](#malta) · **2** |
+| [Norveç](#norvec) · **4** | [Polonya](#polonya) · **5** | [Portekiz](#portekiz) · **4** |
+| [Romanya](#romanya) · **2** | [Rusya](#rusya) · **9** | [Singapur](#singapur) · **4** |
+| [Slovenya](#slovenya) · **1** | [Suudi Arabistan](#suudi-arabistan) · **3** | [Tayvan](#tayvan) · **1** |
+| [Türkiye](#turkiye) · **10** | [Ukrayna](#ukrayna) · **5** | [Umman](#umman) · **2** |
+| [Yeni Zelanda](#yeni-zelanda) · **2** | [Yunanistan](#yunanistan) · **3** |  |
 
 - [Kısa döngü / ön lisans kurumları](#kısa-dongu-on-lisans-duzeyindeki-kurumlar)
 
 ## Kısa döngü / ön lisans düzeyindeki kurumlar
 
-Katalogdaki **32 kurum**, oyun eğitimini lisans değil **kısa döngü yükseköğretim** düzeyinde veriyor (EQF 5 ve dengi: ön lisans, associate degree, CTeSP, YH, polytechnic diploma, senmon gakkō vb.). Bu düzey uluslararası listelerde sıkça eksik kalır; burada ayrı işaretlenmiştir.
+Katalogdaki **33 kurum**, oyun eğitimini lisans değil **kısa döngü yükseköğretim** düzeyinde veriyor (EQF 5 ve dengi: ön lisans, associate degree, CTeSP, YH, polytechnic diploma, senmon gakkō vb.). Bu düzey uluslararası listelerde sıkça eksik kalır; burada ayrı işaretlenmiştir.
 
 | Kurum | Ülke | Derece |
 | --- | --- | --- |
@@ -60,6 +67,7 @@ Katalogdaki **32 kurum**, oyun eğitimini lisans değil **kısa döngü yüksek�
 | Nihon Kogakuin Creators College | Japonya | Senmon gakko diplomasi |
 | Osaka Amusement Media College (AMG Osaka) | Japonya | Senmon gakko diplomasi |
 | Algonquin College | Kanada | Ontario College Advanced Diploma |
+| Capilano University — School of Animation & Visual Effects | Kanada | Kisa dongu / college diploma — EQF 5 civari mesleki yuksekogretim |
 | Centennial College | Kanada | Ontario College Advanced Diploma |
 | Vancouver Film School (VFS) | Kanada | VFS Diploma (1 yil yogun) |
 | Vilniaus verslo kolegija (Vilnius Business College) | Litvanya | Professional Bachelor (kolegija / short-cycle–adjacent UAS track) |
@@ -1564,6 +1572,51 @@ Katalogdaki **32 kurum**, oyun eğitimini lisans değil **kısa döngü yüksek�
 
 **Doğrulama kaynakları:** <https://pgda.at/education/>
 
+### FH des BFI Wien (University of Applied Sciences BFI Vienna) — Viyana
+
+**Interactive Media and Games Business (Bachelor)**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor
+- **Süre:** 3 yıl  ·  **ECTS:** 180 ECTS *(Bologna normundan)*
+- **Eğitim dili:** Almanca (bazi dersler Ingilizce)
+- **Ücret:** Avusturya FH: AB ogrencileri icin donem basina ~363 EUR + ogrenci birligi aidati; AB disi daha yuksek
+
+- **Örnek dersler / müfredat:**
+  - Game engines (Unity, Unreal, CryEngine vb.)
+  - Fundamentals of Level Design & Balancing
+  - Interactive and Visual Storytelling
+  - Costing of Interactive Media Projects
+  - Media industry & start-up management
+  - XR / VR / AR
+  - E-sports / community management
+
+- **Öğretim kadrosu:** Sektor temsilcileri misafir egitmen olarak yer aliyor; sabit kadro listesi icin FH BFI sitesine bakin.
+
+> Oyun + interaktif medya + ISLETME karmasi — saf programlama lisansi degil. Girisimcilik, lokalizasyon ve uretim yonetimi vurgusu guclu. Mufredat agirlikla Almanca.
+
+[Program sayfası](https://www.fh-vie.ac.at/en/pages/studies/bachelor/interactive-media-games-business-eng)
+
+### SAE Institute Austria (Vienna) — University of Hertfordshire validated — Viyana
+
+**BSc (Hons) Games Programming (Bachelor Programme)**  ·  _oyun bölümü_
+
+- **Derece:** BSc (Hons) — University of Hertfordshire
+- **Süre:** 3 yıl  ·  **ECTS:** — *(henüz toplanmadı)*
+- **Eğitim dili:** Almanca / Ingilizce (kampus uygulamasina gore)
+- **Ücret:** Ozel meslek yuksekokulu — SAE ucret tarifesi gecerli; finansman planlari sunuluyor.
+
+- **Örnek dersler / müfredat:**
+  - Games programming
+  - Game production / project leadership
+  - SAE Diploma + Advanced Diploma asamalari
+  - Bachelor top-up (Hertfordshire / Berlin campus online components)
+
+- **Öğretim kadrosu:** SAE egitmen kadrosu kampus bazinda degisir; Viyana kampusu ile teyit edin.
+
+> Viyana kampusunda blended ogrenme; lisansin son asamasinda Berlin / University of Hertfordshire sorumluluguyla UK derecesi. Almanya SAE kaydiyla ayni ag — Avusturya kampusu ayri kayit.
+
+[Program sayfası](https://www.sae.edu/aut/en/courses/games-programming-bachelor-programme/)
+
 ---
 
 ## Azerbaycan
@@ -2957,6 +3010,69 @@ Katalogdaki **32 kurum**, oyun eğitimini lisans değil **kısa döngü yüksek�
 
 ---
 
+## Guney Kibris
+
+> **Coğrafi not:** Bu bölüm **Güney Kıbrıs**'ı (Kıbrıs Cumhuriyeti / Rum yönetimi) kapsar. AB üyesidir; ECTS ve Bologna çerçevesi geçerlidir. Kuzey Kıbrıs kayıtları ayrı başlıktadır.
+
+> **Öğrenim ücreti (ülke kuralı):** Özel üniversiteler ücretlidir; AB ve AB dışı tarifeler ayrılabilir. Güncel rakamlar kurum sitesinden doğrulanmalıdır.
+
+### UCLan Cyprus (University of Central Lancashire Cyprus) — Larnaka
+
+**BSc (Hons) Computing — Computer Games Development uzmanlik yolu**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor of Science (Honours)
+- **Süre:** 4 yıl  ·  **ECTS:** 240 ECTS *(Bologna normundan)*
+- **Eğitim dili:** Ingilizce
+- **Ücret:** Ozel universite ucretleri; AB ve AB disi tarifeler ayridir — uclancyprus.ac.cy den teyit edin.
+
+- **Örnek dersler / müfredat:**
+  - Games Development 1 / 2
+  - Computer graphics (DirectX)
+  - Unreal Engine (3. ve 4. yil)
+  - AI algorithms for games
+  - Game architecture & optimisation
+  - VR / AR / MR immersive modules
+  - Student-led studio: Rays and Vectors
+
+- **Araştırma laboratuvarı:**
+  - Games Laboratory / Rays and Vectors studio
+
+- **Öğretim kadrosu:** Ogretim kadrosu UK ve Kibris kampusleri arasinda paylasiliyor; guncel isimler icin program sayfasina bakin.
+
+> GUNEY KIBRIS (Kibris Cumhuriyeti / Rum yonetimi). Computing lisansinin Computer Games Development uzmanlik yolu; IGDA kilavuzlarina dayandigi belirtiliyor. University of Central Lancashire (UK) ile baglantili cift kampus modeli.
+
+[Program sayfası](https://www.uclancyprus.ac.cy/undergraduate-course/bsc-hons-computing/)
+
+**Doğrulama kaynakları:** <https://computing.uclancyprus.ac.cy/games.html>
+
+### University of Nicosia — Lefkosa
+
+**BA Interactive Media and Animation — oyun tasarimi / VR / animasyon odakli**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor of Arts
+- **Süre:** 4 yıl  ·  **ECTS:** 240 ECTS
+- **Eğitim dili:** Ingilizce
+- **Ücret:** AB disi ogrenciler icin yaklasik 10.320 EUR/yil (2026-27 ilan); AB tarifesi kurumdan teyit edilmeli.
+
+- **Örnek dersler / müfredat:**
+  - Interactive Multimedia Development
+  - Storyboarding and 2D Animation
+  - 3D Modeling and Animation
+  - Interface Design and Development
+  - Virtual Reality
+  - Game Design and Development
+  - Multimedia Project Management
+
+- **Öğretim kadrosu:** Department of Design and Multimedia kadrosu kurum sitesinde yayinlaniyor; basvuru oncesi teyit edin.
+
+> GUNEY KIBRIS. Tam lisans; mufredatta Game Design and Development ile VR acikca yer aliyor. Saf oyun muhendisligi degil — interaktif medya + animasyon + oyun tasarimi karmasi.
+
+[Program sayfası](https://www.unic.ac.cy/interactive-media-and-animation-ba/)
+
+**Doğrulama kaynakları:** <https://www.unic.ac.cy/amd/programmes/>
+
+---
+
 ## Guney Kore
 
 > **Öğrenim ücreti (ülke kuralı):** Öğrenim ücretlidir; özel üniversiteler devlet üniversitelerinden belirgin biçimde pahalıdır. Uluslararası öğrenciler için burs olanakları yaygındır.
@@ -3993,6 +4109,56 @@ Katalogdaki **32 kurum**, oyun eğitimini lisans değil **kısa döngü yüksek�
 
 > **Öğrenim ücreti (ülke kuralı):** Devlet destekli kurumlarda dönem harcı Avrupa ölçeğinde düşüktür; uluslararası öğrenciler için harç bazı kurumlarda artırılır.
 
+### FHNW — Hochschule fur Technik (School of Computer Science) — Brugg-Windisch
+
+**BSc Computer Science — Game Technologies & Extended Reality study track**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor of Science FHNW in Computer Science
+- **Süre:** 3 yıl  ·  **ECTS:** 180 ECTS *(Bologna normundan)*
+- **Eğitim dili:** Almanca ve Ingilizce
+- **Ücret:** Isvicre FH donem harci — fhnw.ch den teyit edin; uluslararasi ogrencilere ek ucret olabilir.
+
+- **Örnek dersler / müfredat:**
+  - Game design and development
+  - Game engines and tools
+  - Computer graphics
+  - 3D modelling
+  - Extended reality (VR/AR/MR)
+  - 3D user interfaces & experience design
+  - Simulations and agents
+
+- **Öğretim kadrosu:** Informatik fakultesi kadrosu; guncel isimler icin FHNW sitesine bakin.
+
+> Tam zamanli, yari zamanli veya uygulama entegreli (PiBS) secenekleri. Ilk donemden itibaren oyun/XR modulleri; 5-6. donemde sektor projeleri. ZHdK (tasarim) ve HSLU (Digital Ideation) kayitlarindan AYRI — teknik/informatik hattı.
+
+[Program sayfası](https://www.fhnw.ch/en/computer-science/degree-programmes/offerings/programmes/game-technologies-extended-reality)
+
+### Fernfachhochschule Schweiz (FFHS) — Zurih
+
+**BSc Visual Computing and Game Engineering**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor of Science
+- **Süre:** 4.5 yıl  ·  **ECTS:** 180 ECTS
+- **Eğitim dili:** Almanca (Ingilizce B1 kosulu)
+- **Ücret:** Yaklasik CHF 16.400 toplam (ilan); blended / meslek ile paralel model.
+
+- **Örnek dersler / müfredat:**
+  - Game development
+  - Graphics programming
+  - High-performance computing
+  - XR technologies
+  - Behavioral & generative AI
+  - Computer vision
+  - Serious games / UX / software law
+
+- **Öğretim kadrosu:** Program yoneticisi ve kadro FFHS sitesinde duyuruluyor; 2026 baslangic icin guncel listeyi kontrol edin.
+
+> 9 donemlik blended lisans (her ikinci Cumartesi Zurih Gleisarena kampusu). Onceki Game and VR Development profilinin 2026 itibariyla yeniden adlandirilmis / keskinlestirilmis hali. Meslek ile paralel okumaya uygun.
+
+[Program sayfası](https://www.ffhs.ch/en/degree-programmes/bachelor/bsc-visual-computing-and-game-engineering)
+
+**Doğrulama kaynakları:** <https://www.ffhs.ch/en/ueber-uns/news/article/2025-12-01-ffhs-schaerft-fokus-bachelor-visual-computing-and-game-engineering-startet-2026>
+
 ### Lucerne University of Applied Sciences and Arts (HSLU) — Rotkreuz ve Emmenbrucke (Luzern)
 
 **Bachelor in Digital Ideation — uzmanlasma secenekleri: GAME DESIGN, Web & Mobile, UX Design**  ·  _oyun bölümü_
@@ -4618,6 +4784,32 @@ Katalogdaki **32 kurum**, oyun eğitimini lisans değil **kısa döngü yüksek�
 
 **Doğrulama kaynakları:** <https://commons.bcit.ca/computing/files/2023/10/BScACS-Map-Games-Development-Feb-06-2023.pdf>
 
+### Capilano University — School of Animation & Visual Effects — North Vancouver
+
+**3D Animation for Film & Games Diploma (+ 2D Animation & Visual Development; VFX diploma)**  ·  _oyun bölümü_
+
+- **Derece:** Diploma (2 yil)
+- **Süre:** 2 yıl
+- **Eğitim dili:** Ingilizce
+- **Ücret:** Kanadali / uluslararasi tarifeler CapU sitesinden; college duzeyi universite lisansindan genellikle daha dusuk.
+
+- **Örnek dersler / müfredat:**
+  - 3D Animation
+  - Visual Effects Animation
+  - 3D Design for Production
+  - Technical Direction and Rigging
+  - Digital Compositing
+  - Communication for Animation and Game Design
+  - Art of Visual Storytelling
+
+- **Öğretim kadrosu:** Sektor deneyimli egitmen modeli; guncel kadro CapU AVFX sayfalarinda.
+
+> Vancouver bolgesi film/oyun pipeline'ina yonelik IKI yillik diploma; saf oyun programlama lisansi degil — 3D animasyon / VFX / oyun sinematikleri agirlikli. BC oyun ve animasyon sektoru icin guclu cikis noktasi.
+
+[Program sayfası](https://www.capilanou.ca/programs--courses/program-profiles/3d-animation-modeling--effects-for-film---games-diploma/)
+
+**Doğrulama kaynakları:** <https://www.capilanou.ca/programs--courses/search--select/explore-our-areas-of-study/fine--applied-arts/school-of-animation--visual-effects/>
+
 ### Centennial College — Toronto, Ontario (Progress kampusu)
 
 **Game — Development (Ontario College Advanced Diploma, 3 yil) · Game — Art (16 ay yogun)**  ·  _oyun bölümü_
@@ -4705,6 +4897,35 @@ Katalogdaki **32 kurum**, oyun eğitimini lisans değil **kısa döngü yüksek�
 [Program sayfası](https://www.nad.ca/)
 
 **Doğrulama kaynakları:** <https://www.nad.ca/programmes/baccalaureat-en-creation-3d-pour-le-jeu-video-arts-techniques> · <https://www.nad.ca/programmes/maitrise-en-art-design-numerique> · <https://programmes.uqac.ca/7179> · <https://en.wikipedia.org/wiki/School_NAD-UQAC>
+
+### Ontario Tech University — Oshawa
+
+**Bachelor of Information Technology (Honours) — Game Development and Interactive Media**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor of Information Technology (Honours)
+- **Süre:** 4 yıl
+- **Eğitim dili:** Ingilizce
+- **Ücret:** Kanadali / uluslararasi lisans ucretleri Ontario Tech tarifesine gore — ontariotechu.ca den teyit edin.
+
+- **Örnek dersler / müfredat:**
+  - Game Development Workshop (her donem ekip projesi)
+  - Game programming
+  - Game art / 3D modelling
+  - Game design
+  - Entrepreneurship / venture creation
+  - Serious games & simulation
+  - Capstone / internship options
+
+- **Araştırma laboratuvarı:**
+  - Gaming and virtual reality laboratory (motion capture, audiometric room, 3D displays)
+
+- **Öğretim kadrosu:** Faculty of Business and Information Technology kadrosu; guncel isimler icin fakulte sitesine bakin.
+
+> Ilk yildan itibaren tam oyun uretimi; programlama + sanat + tasarim + girisimcilik dort ayagi. Eski adi Game Development and Entrepreneurship olarak da anilir. Co-op/internship ve kendi studio kurma vurgusu.
+
+[Program sayfası](https://ontariotechu.ca/programs/undergraduate/computers-and-technology/information-technology-game-development-and-interactive-media/)
+
+**Doğrulama kaynakları:** <https://businessandit.ontariotechu.ca/undergraduate/bachelor-of-information-technology/game-development-and-interactive-media/index.php>
 
 ### Sheridan College — Oakville, Ontario (Trafalgar kampusu)
 
@@ -4832,6 +5053,66 @@ Katalogdaki **32 kurum**, oyun eğitimini lisans değil **kısa döngü yüksek�
 [Program sayfası](https://qatar.vcu.edu/academics/undergraduate-programs/kinetic-imaging/)
 
 **Doğrulama kaynakları:** <https://bulletin.vcu.edu/undergraduate/arts/school-arts-qatar/kinetic-imaging-bfa-conc-interaction-game-design/>
+
+---
+
+## Kuzey Kibris
+
+> **Coğrafi not:** Bu bölüm **Kuzey Kıbrıs**'ı (Türk yönetimi) kapsar. Programlar Türkçe veya İngilizce olabilir. Diploma tanınırlığı hedef ülkeye göre değişir — başvuru öncesi YÖK / hedef ülke denklik kurallarını kontrol edin. Güney Kıbrıs kayıtları ayrı başlıktadır.
+
+> **Öğrenim ücreti (ülke kuralı):** Öğrenim ücretlidir; TC/KKTC vatandaşı ve uluslararası tarifeler genellikle ayrıdır. Güncel rakamlar kurum sitesinden doğrulanmalıdır.
+
+### Dogu Akdeniz Universitesi (Eastern Mediterranean University, EMU) — Gazimagusa
+
+**Dijital Oyun Tasarimi Lisans Programi (B.A.)**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor of Arts
+- **Süre:** 4 yıl  ·  **ECTS:** 240 ECTS *(Bologna normundan)*
+- **Eğitim dili:** Turkce / Ingilizce secenekleri kurumdan teyit edilmeli
+- **Ücret:** Uluslararasi ogrenci ucretleri EMU tarifesine gore; TRNC/TC vatandasi tarifeleri farkli olabilir — emu.edu.tr den teyit edin.
+
+- **Örnek dersler / müfredat:**
+  - Animasyon ve Oyun Tasarimina Giris
+  - Digital Oyun Tasarimi
+  - 3 Boyutlu Modelleme, Dokulama ve Isiklandirma
+  - Oyun Programlama I
+  - Oyun Motorlari ve Arayuz
+  - Oyun Tema Tasarimi
+  - Oyun Mekanikleri
+
+- **Araştırma laboratuvarı:**
+  - Motion capture (MOCAP) studyosu
+  - Mac / PC laboratuvarlari, yesil ekran ve fotograf studyosu
+
+- **Öğretim kadrosu:** Gorsel Sanatlar ve Gorsel Iletisim Tasarimi Bolumu kadrosu; guncel isimler icin EMU sitesine bakin.
+
+> KUZEY KIBRIS (Turk yonetimi). Dort yillik adanmis Dijital Oyun Tasarimi lisansi. Diploma taninirligi hedef ulkeye gore degisir — basvuru oncesi YOK / hedef ulke denklik kurallarini kontrol edin.
+
+[Program sayfası](https://www.emu.edu.tr/tr/programlar/dijital-oyun-tasarimi-lisans-programi/1467)
+
+**Doğrulama kaynakları:** <https://www.emu.edu.tr/en/programs/digital-game-design-undergraduate-program/1467>
+
+### Uluslararasi Kibris Universitesi (Cyprus International University, CIU) — Lefkosa
+
+**Dijital Oyun Tasarimi (lisans)**  ·  _oyun bölümü_
+
+- **Derece:** Bachelor
+- **Süre:** 4 yıl  ·  **ECTS:** 240 ECTS *(Bologna normundan)*
+- **Eğitim dili:** Turkce / Ingilizce — kurumdan teyit edilmeli
+- **Ücret:** Uluslararasi ogrenci ucretleri CIU tarifesine gore — prospective.ciu.edu.tr den teyit edin.
+
+- **Örnek dersler / müfredat:**
+  - 2D / 3D animasyon
+  - Ses tasarimi
+  - Storyboard ve karakter yaratma
+  - Oyun teknolojileri
+  - Klasik cizim, illustrasyon ve sanat temeli
+
+- **Öğretim kadrosu:** Ogretim kadrosu program sayfasinda ayrintiyla listelenmeyebilir; CIU ile teyit edin.
+
+> KUZEY KIBRIS. Adanmis Dijital Oyun Tasarimi lisansi; animasyon ve oyun uretimine yonelik uygulamali mufredat. Diploma taninirligi icin hedef ulke / YOK kontrolu onerilir.
+
+[Program sayfası](https://prospective.ciu.edu.tr/tr/programlar/lisans/dijital-oyun-tasarimi)
 
 ---
 

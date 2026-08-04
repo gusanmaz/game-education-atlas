@@ -261,11 +261,31 @@ details p { font-size: 13px; margin: 4px 0 0; }
 .sayfa-bağ { margin: 7px 0 0; font-size: 13px; font-weight: 700; font-family: var(--font-d); }
 .boş { text-align: center; padding: 40px 0; color: var(--text-2); font-family: var(--font-d); }
 
+.rehber {
+  margin: 28px 0 8px; border-top: var(--px) solid var(--line); padding-top: 18px;
+}
+.rehber details {
+  background: var(--surface-1); border: var(--px) solid var(--line);
+  box-shadow: 3px 3px 0 var(--shadow); padding: 10px 14px 12px;
+}
+.rehber summary {
+  cursor: pointer; font-family: var(--font-d); font-weight: 700; font-size: 14px;
+  list-style: none; color: var(--text-1);
+}
+.rehber summary::-webkit-details-marker { display: none; }
+.rehber summary::before { content: "+ "; color: var(--accent-2); }
+.rehber details[open] summary::before { content: "− "; }
+.rehber .rehber-gövde {
+  margin-top: 10px; font-size: 13px; line-height: 1.5; color: var(--text-2); max-width: 72ch;
+}
+.rehber .rehber-gövde p { margin: 0 0 10px; }
+.rehber .rehber-gövde a { color: var(--accent); font-weight: 600; }
+
 footer {
   border-top: var(--px) solid var(--line); background: var(--surface-1);
   padding: 18px 0 28px; color: var(--text-2); font-size: 13px;
 }
-footer p { margin: 0 0 6px; max-width: 70ch; }
+footer p { margin: 0 0 6px; max-width: 72ch; }
 [hidden] { display: none !important; }
 
 @media (max-width: 900px) {
@@ -333,10 +353,22 @@ footer p { margin: 0 0 6px; max-width: 70ch; }
 
 <main class="wrap liste" id="liste"></main>
 
+<section class="wrap rehber" aria-label="About this catalogue">
+  <details id="rehber">
+    <summary data-t="rehberBaslik"></summary>
+    <div class="rehber-gövde">
+      <p data-t="rehber1"></p>
+      <p data-t="rehber2"></p>
+      <p data-t="rehber3"></p>
+    </div>
+  </details>
+</section>
+
 <footer>
   <div class="wrap">
     <p data-t="altbilgi1"></p>
     <p data-t="altbilgi2"></p>
+    <p data-t="altbilgi3"></p>
   </div>
 </footer>
 
@@ -364,8 +396,13 @@ const METIN = {
     kadro: "Faculty listing policy", sayfa: "Programme page", kaynak: "Sources",
     bolgeNot: "note",
     bologna: "(Bologna 60 ECTS/yr)",
-    altbilgi1: "Compiled by Güvenç Usanmaz.",
-    altbilgi2: "Content is licensed CC BY 4.0 — reuse it freely with attribution. Corrections and additions are welcome via pull request; see CONTRIBUTING.md."
+    rehberBaslik: "About this guide (read after browsing)",
+    rehber1: "Game Education Atlas is meant as a practical companion for students and professionals who want to study game development abroad — not a rankings table. Opening a record lets you compare how different universities structure the path: sample courses, language of instruction, degree type, tuition notes, labs and named faculty when published.",
+    rehber2: "That side-by-side view is the point: one school may lead with engines and programming, another with art pipelines or business of games, another with XR. Scanning curricula and assessment culture here should make the next deep dive on each institution’s site faster.",
+    rehber3: "AI tools helped research and maintain the catalogue. Accuracy is not guaranteed — fees and programmes change, and gaps remain. Pull requests on GitHub are the best way to fix or extend an entry; contributions keep the guide useful.",
+    altbilgi1: "Compiled by Güvenç Usanmaz · August 2026 · CC BY 4.0.",
+    altbilgi2: "AI-assisted research and drafting; information is not 100% guaranteed accurate or complete. Always verify on the institution’s site.",
+    altbilgi3: "Corrections and additions via pull request are welcome and important — see CONTRIBUTING.md on GitHub."
   },
   tr: {
     marka: "yükseköğretimde oyun programları",
@@ -386,8 +423,13 @@ const METIN = {
     kadro: "Öğretim kadrosu politikası", sayfa: "Program sayfası", kaynak: "Kaynaklar",
     bolgeNot: "not",
     bologna: "(Bologna 60 AKTS/yıl)",
-    altbilgi1: "Güvenç Usanmaz tarafından derlendi.",
-    altbilgi2: "İçerik CC BY 4.0 ile lisanslı — atıf vererek serbestçe kullanabilirsiniz. Düzeltme ve eklemeler pull request ile memnuniyetle karşılanır; CONTRIBUTING.md dosyasına bakın."
+    rehberBaslik: "Bu rehber hakkında (listeyi gezdikten sonra)",
+    rehber1: "Game Education Atlas, yurt dışında oyun geliştirme eğitimi almak isteyen öğrenci ve profesyoneller için pratik bir yol arkadaşı olsun diye derlendi — sıralama tablosu değil. Bir kaydı açınca kurumların eğitim yolunu yan yana görebilirsiniz: örnek dersler, eğitim dili, derece türü, ücret notları, laboratuvarlar ve (yayınlanıyorsa) öğretim üyeleri.",
+    rehber2: "Asıl işe yarayan kısım bu karşılaştırma: biri motor ve programlama ağırlıklı ilerler, biri sanat hattı veya oyun işletmesi, biri XR. Müfredat ve notlandırma/değerlendirme kültürüne dair hızlı bir ön bakış, her kurumun sitesindeki derin araştırmayı kısaltır.",
+    rehber3: "Araştırma ve güncellemede yapay zekâdan yararlanıldı. Doğruluk yüzde yüz garanti edilmez — ücretler ve programlar değişir, eksikler olabilir. GitHub’da pull request ile düzeltme ve ekleme yapmak rehberi canlı tutmanın en iyi yoludur; katkılar gerçekten önemli.",
+    altbilgi1: "Güvenç Usanmaz tarafından derlendi · Ağustos 2026 · CC BY 4.0.",
+    altbilgi2: "Yapay zekâ destekli araştırma ve derleme; bilgilerin yüzde yüz doğruluğu veya eksiksizliği garanti edilmez. Başvuru öncesi kurum sitesinden teyit edin.",
+    altbilgi3: "Düzeltme ve eklemeler pull request ile memnuniyetle karşılanır ve önemlidir — GitHub’daki CONTRIBUTING.md dosyasına bakın."
   }
 };
 
@@ -400,9 +442,10 @@ const BAYRAK = {
   BAE: "🇦🇪", Bahreyn: "🇧🇭", Belcika: "🇧🇪", "Birlesik Krallik": "🇬🇧",
   "Cek Cumhuriyeti": "🇨🇿", Cin: "🇨🇳", Danimarka: "🇩🇰", Ermenistan: "🇦🇲",
   Estonya: "🇪🇪", Finlandiya: "🇫🇮", Fransa: "🇫🇷", Gurcistan: "🇬🇪",
-  "Guney Kore": "🇰🇷", Hirvatistan: "🇭🇷", Hollanda: "🇳🇱", "Hong Kong": "🇭🇰",
+  "Guney Kibris": "🇨🇾", "Guney Kore": "🇰🇷", Hirvatistan: "🇭🇷", Hollanda: "🇳🇱", "Hong Kong": "🇭🇰",
   Irlanda: "🇮🇪", Ispanya: "🇪🇸", Israil: "🇮🇱", Isvec: "🇸🇪", Isvicre: "🇨🇭",
   Italya: "🇮🇹", Izlanda: "🇮🇸", Japonya: "🇯🇵", Kanada: "🇨🇦", Katar: "🇶🇦",
+  "Kuzey Kibris": "🇹🇷",
   Letonya: "🇱🇻", Litvanya: "🇱🇹", Macaristan: "🇭🇺", Malta: "🇲🇹", Norvec: "🇳🇴",
   Polonya: "🇵🇱", Portekiz: "🇵🇹", Romanya: "🇷🇴", Rusya: "🇷🇺", Singapur: "🇸🇬",
   Slovenya: "🇸🇮", "Suudi Arabistan": "🇸🇦", Tayvan: "🇹🇼", Turkiye: "🇹🇷",
