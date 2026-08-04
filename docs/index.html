@@ -234,6 +234,13 @@ header::before {
     linear-gradient(#fff, #fff) 4px 11px / 2px 1px no-repeat,
     linear-gradient(#fff, #fff) 8px 11px / 2px 1px no-repeat;
 }
+.bağ.ix-about::before {
+  background:
+    linear-gradient(#ffe08a, #ffe08a) 2px 0 / 10px 14px no-repeat,
+    linear-gradient(#1b2430, #1b2430) 6px 2px / 2px 2px no-repeat,
+    linear-gradient(#1b2430, #1b2430) 6px 6px / 2px 5px no-repeat,
+    linear-gradient(#1b2430, #1b2430) 6px 12px / 2px 1px no-repeat;
+}
 
 .süzgeç {
   padding: 12px 0 8px; position: sticky; top: 0; z-index: 5;
@@ -336,7 +343,9 @@ details p { font-size: 13px; margin: 4px 0 0; }
 .boş { text-align: center; padding: 40px 0; color: var(--text-2); font-family: var(--font-d); font-size: 15px; }
 
 .rehber {
-  margin: 28px 0 8px; border-top: var(--px) solid var(--line); padding-top: 18px;
+  padding: 10px 0 4px;
+  background: color-mix(in srgb, var(--surface-0) 88%, var(--surface-2));
+  border-bottom: var(--px) solid var(--line);
 }
 .rehber details {
   background: var(--surface-1); border: var(--px) solid var(--line);
@@ -354,12 +363,21 @@ details p { font-size: 13px; margin: 4px 0 0; }
 }
 .rehber .rehber-gövde p { margin: 0 0 10px; }
 .rehber .rehber-gövde a { color: var(--accent); font-weight: 600; }
+.rehber-meta {
+  margin-top: 12px; padding-top: 10px;
+  border-top: 2px dashed var(--line-soft);
+  font-family: var(--font-d); font-size: 13px; line-height: 1.45; color: var(--text-2);
+}
+.rehber-meta p { margin: 0 0 8px; max-width: 72ch; }
+.rehber-meta p:last-child { margin-bottom: 0; }
 
 footer {
   border-top: var(--px) solid var(--line); background: var(--surface-1);
-  padding: 18px 0 28px; color: var(--text-2); font-size: 13px;
+  padding: 18px 0 28px; color: var(--text-2);
+  font-family: var(--font-d); font-size: 13px; line-height: 1.45;
 }
-footer p { margin: 0 0 6px; max-width: 72ch; }
+footer p { margin: 0 0 8px; max-width: 72ch; }
+footer p:last-child { margin-bottom: 0; }
 [hidden] { display: none !important; }
 
 @media (max-width: 720px) {
@@ -397,6 +415,7 @@ footer p { margin: 0 0 6px; max-width: 72ch; }
         <a class="bağ ix-md" id="bag-md" href="https://github.com/gusanmaz/game-education-atlas/blob/main/catalogue/OYUN-PROGRAMLARI.md"><span data-t="md"></span></a>
         <a class="bağ ix-gh" href="https://github.com/gusanmaz/game-education-atlas"><span data-t="repo"></span></a>
         <a class="bağ ix-pr" href="https://github.com/gusanmaz/game-education-atlas/blob/main/CONTRIBUTING.md"><span data-t="katki"></span></a>
+        <a class="bağ ix-about" id="bag-about" href="#rehber"><span data-t="about"></span></a>
       </div>
       <div class="üst-kontroller">
         <div class="dil" role="group" aria-label="Language">
@@ -415,6 +434,25 @@ footer p { margin: 0 0 6px; max-width: 72ch; }
   </section>
 </header>
 
+<section class="rehber" aria-label="About this catalogue">
+  <div class="wrap">
+    <details id="rehber">
+      <summary data-t="rehberBaslik"></summary>
+      <div class="rehber-gövde">
+        <p data-t="rehber0"></p>
+        <p data-t="rehber1"></p>
+        <p data-t="rehber2"></p>
+        <p data-t="rehber3"></p>
+        <div class="rehber-meta">
+          <p data-t="altbilgi1"></p>
+          <p data-t="altbilgi2"></p>
+          <p data-t="altbilgi3"></p>
+        </div>
+      </div>
+    </details>
+  </div>
+</section>
+
 <section class="süzgeç">
   <div class="wrap">
     <input class="ara" id="ara" type="search" autocomplete="off">
@@ -427,18 +465,6 @@ footer p { margin: 0 0 6px; max-width: 72ch; }
 </section>
 
 <main class="wrap liste" id="liste"></main>
-
-<section class="wrap rehber" aria-label="About this catalogue">
-  <details id="rehber">
-    <summary data-t="rehberBaslik"></summary>
-    <div class="rehber-gövde">
-      <p data-t="rehber0"></p>
-      <p data-t="rehber1"></p>
-      <p data-t="rehber2"></p>
-      <p data-t="rehber3"></p>
-    </div>
-  </details>
-</section>
 
 <footer>
   <div class="wrap">
@@ -457,7 +483,7 @@ const METIN = {
     marka: "higher-education game programmes",
     baslik: "Where game development is taught, and by whom",
     ozet: "",
-    pdf: "PDF", md: "Markdown", repo: "GitHub", katki: "Contribute",
+    pdf: "PDF", md: "Markdown", repo: "GitHub", katki: "Contribute", about: "About",
     ara: "Search institution, city, course, professor, lab…",
     ulke: "Country", sinir: "Filter",
     hepsi: "All countries", sinirHepsi: "No filter",
@@ -472,7 +498,7 @@ const METIN = {
     kadro: "Faculty listing policy", sayfa: "Programme page", kaynak: "Sources",
     bolgeNot: "note",
     bologna: "(Bologna 60 ECTS/yr)",
-    rehberBaslik: "About this guide (read after browsing)",
+    rehberBaslik: "About this guide",
     rehber0: "Every record was checked against the institution’s own website; sources sit under each entry. The UI and programme details switch between English and Turkish — use the language toggle anytime. PDF and Markdown downloads follow the active language.",
     rehber1: "Game Education Atlas is meant as a practical companion for students and professionals who want to study game development abroad — not a rankings table. Opening a record lets you compare how different universities structure the path: sample courses, language of instruction, degree type, tuition notes, labs and named faculty when published.",
     rehber2: "That side-by-side view is the point: one school may lead with engines and programming, another with art pipelines or business of games, another with XR. Scanning curricula and assessment culture here should make the next deep dive on each institution’s site faster.",
@@ -485,7 +511,7 @@ const METIN = {
     marka: "yükseköğretimde oyun programları",
     baslik: "Oyun geliştirme nerede, kimler tarafından öğretiliyor",
     ozet: "",
-    pdf: "PDF", md: "Markdown", repo: "GitHub", katki: "Katkı ver",
+    pdf: "PDF", md: "Markdown", repo: "GitHub", katki: "Katkı ver", about: "Hakkında",
     ara: "Kurum, şehir, ders, hoca, laboratuvar ara…",
     ulke: "Ülke", sinir: "Süzgeç",
     hepsi: "Tüm ülkeler", sinirHepsi: "Süzgeç yok",
@@ -500,7 +526,7 @@ const METIN = {
     kadro: "Öğretim kadrosu politikası", sayfa: "Program sayfası", kaynak: "Kaynaklar",
     bolgeNot: "not",
     bologna: "(Bologna 60 AKTS/yıl)",
-    rehberBaslik: "Bu rehber hakkında (listeyi gezdikten sonra)",
+    rehberBaslik: "Bu rehber hakkında",
     rehber0: "Her kayıt kurumun kendi sitesinden kontrol edildi; kaynaklar kaydın altında. Arayüz ve program ayrıntıları İngilizce / Türkçe arasında değişir — dil düğmesini istediğiniz zaman kullanın. PDF ve Markdown indirmeleri de seçili dile göre gelir.",
     rehber1: "Game Education Atlas, yurt dışında oyun geliştirme eğitimi almak isteyen öğrenci ve profesyoneller için pratik bir yol arkadaşı olsun diye derlendi — sıralama tablosu değil. Bir kaydı açınca kurumların eğitim yolunu yan yana görebilirsiniz: örnek dersler, eğitim dili, derece türü, ücret notları, laboratuvarlar ve (yayınlanıyorsa) öğretim üyeleri.",
     rehber2: "Asıl işe yarayan kısım bu karşılaştırma: biri motor ve programlama ağırlıklı ilerler, biri sanat hattı veya oyun işletmesi, biri XR. Müfredat ve notlandırma/değerlendirme kültürüne dair hızlı bir ön bakış, her kurumun sitesindeki derin araştırmayı kısaltır.",
@@ -706,6 +732,14 @@ document.addEventListener("change", e => {
 document.addEventListener("click", e => {
   const d = e.target.closest("[data-dil]");
   if (d) { dil = d.dataset.dil; try { localStorage.setItem("atlas-dil", dil); } catch (_) {} dilUygula(); }
+});
+
+$("#bag-about").addEventListener("click", e => {
+  e.preventDefault();
+  const d = $("#rehber");
+  if (!d) return;
+  d.open = true;
+  d.scrollIntoView({ behavior: "smooth", block: "start" });
 });
 
 $("#tema").addEventListener("click", () => {
